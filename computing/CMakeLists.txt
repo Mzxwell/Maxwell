@@ -1,0 +1,5 @@
+add_executable(6.19 6.19.c)
+add_executable(A+B A+B.c)
+add_executable(delete delete.c)
+add_executable(6.20 6.20.c)
+add_executable(5.7.17 5.7.17.c)

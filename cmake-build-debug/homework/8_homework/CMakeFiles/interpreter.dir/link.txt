@@ -1,0 +1,3 @@
+"C:\CPL\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\interpreter.dir/objects.a
+C:\CPL\CLION2~1.3\bin\mingw\bin\ar.exe qc CMakeFiles\interpreter.dir/objects.a @CMakeFiles\interpreter.dir\objects1.rsp
+C:\CPL\CLION2~1.3\bin\mingw\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\interpreter.dir/objects.a -Wl,--no-whole-archive -o interpreter.exe -Wl,--out-implib,libinterpreter.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\interpreter.dir\linklibs.rsp

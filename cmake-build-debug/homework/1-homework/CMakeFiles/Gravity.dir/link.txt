@@ -1,0 +1,3 @@
+"C:\CPL\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Gravity.dir/objects.a
+C:\CPL\CLION2~1.3\bin\mingw\bin\ar.exe qc CMakeFiles\Gravity.dir/objects.a @CMakeFiles\Gravity.dir\objects1.rsp
+C:\CPL\CLION2~1.3\bin\mingw\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\Gravity.dir/objects.a -Wl,--no-whole-archive -o Gravity.exe -Wl,--out-implib,libGravity.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Gravity.dir\linklibs.rsp

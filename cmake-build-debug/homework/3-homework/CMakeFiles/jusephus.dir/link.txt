@@ -1,0 +1,3 @@
+"C:\CPL\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\jusephus.dir/objects.a
+C:\CPL\CLION2~1.3\bin\mingw\bin\ar.exe qc CMakeFiles\jusephus.dir/objects.a @CMakeFiles\jusephus.dir\objects1.rsp
+C:\CPL\CLION2~1.3\bin\mingw\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\jusephus.dir/objects.a -Wl,--no-whole-archive -o jusephus.exe -Wl,--out-implib,libjusephus.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\jusephus.dir\linklibs.rsp

@@ -1,0 +1,3 @@
+"C:\CPL\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\ASCII.dir/objects.a
+C:\CPL\CLION2~1.3\bin\mingw\bin\ar.exe qc CMakeFiles\ASCII.dir/objects.a @CMakeFiles\ASCII.dir\objects1.rsp
+C:\CPL\CLION2~1.3\bin\mingw\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\ASCII.dir/objects.a -Wl,--no-whole-archive -o ASCII.exe -Wl,--out-implib,libASCII.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ASCII.dir\linklibs.rsp

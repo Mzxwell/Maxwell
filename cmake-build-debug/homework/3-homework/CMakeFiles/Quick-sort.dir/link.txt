@@ -1,0 +1,3 @@
+"C:\CPL\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Quick-sort.dir/objects.a
+C:\CPL\CLION2~1.3\bin\mingw\bin\ar.exe qc CMakeFiles\Quick-sort.dir/objects.a @CMakeFiles\Quick-sort.dir\objects1.rsp
+C:\CPL\CLION2~1.3\bin\mingw\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\Quick-sort.dir/objects.a -Wl,--no-whole-archive -o Quick-sort.exe -Wl,--out-implib,libQuick-sort.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Quick-sort.dir\linklibs.rsp

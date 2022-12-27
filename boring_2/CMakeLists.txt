@@ -1,0 +1,8 @@
+add_executable(hong hong.c)
+add_executable(AppAndPpa AppAndPpa.c)
+add_executable(re re.c)
+add_executable(hg hg.c)
+add_executable(ptr ptr.c)
+add_executable(as as.c)
+add_executable(0 0.c)
+add_executable(4 4.c)
