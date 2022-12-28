@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "4.pdb"
   "CMakeFiles/4.dir/4.c.obj"
   "CMakeFiles/4.dir/4.c.obj.d"
+  "CMakeFiles/4.dir/__/class2/ll/ll.c.obj"
+  "CMakeFiles/4.dir/__/class2/ll/ll.c.obj.d"
   "lib4.dll.a"
 )
 

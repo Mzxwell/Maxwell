@@ -23,9 +23,12 @@ bool IsEmpty(const LinkedList *list);
 bool IsSingleton(const LinkedList *list);
 
 int GetHeadVal(const LinkedList *list);
+Node *Search(const LinkedList *list, int val);
+
 void Print(const LinkedList *list);
 
 void Append(LinkedList *list, int val);
+void Insert(LinkedList *list, Node *prev, int val);
 void Delete(LinkedList *list, Node *prev);
 
 void Free(LinkedList *list);
