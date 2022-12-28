@@ -170,4 +170,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "boring_0/CMakeFiles/stream.dir/DependInfo.cmake"
   "homework/10_homework/CMakeFiles/fifa.dir/DependInfo.cmake"
   "homework/10_homework/CMakeFiles/polynlist.dir/DependInfo.cmake"
+  "homework/10_homework/CMakeFiles/file-management.dir/DependInfo.cmake"
   )

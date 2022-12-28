@@ -143,6 +143,20 @@ polynlist/fast:
 	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\polynlist.dir\build.make homework/10_homework/CMakeFiles/polynlist.dir/build
 .PHONY : polynlist/fast
 
+# Convenience name for target.
+homework/10_homework/CMakeFiles/file-management.dir/rule:
+	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/10_homework/CMakeFiles/file-management.dir/rule
+.PHONY : homework/10_homework/CMakeFiles/file-management.dir/rule
+
+# Convenience name for target.
+file-management: homework/10_homework/CMakeFiles/file-management.dir/rule
+.PHONY : file-management
+
+# fast build rule for target.
+file-management/fast:
+	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\file-management.dir\build.make homework/10_homework/CMakeFiles/file-management.dir/build
+.PHONY : file-management/fast
+
 fifa.obj: fifa.c.obj
 .PHONY : fifa.obj
 
@@ -166,6 +180,30 @@ fifa.s: fifa.c.s
 fifa.c.s:
 	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\fifa.dir\build.make homework/10_homework/CMakeFiles/fifa.dir/fifa.c.s
 .PHONY : fifa.c.s
+
+file-management.obj: file-management.c.obj
+.PHONY : file-management.obj
+
+# target to build an object file
+file-management.c.obj:
+	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\file-management.dir\build.make homework/10_homework/CMakeFiles/file-management.dir/file-management.c.obj
+.PHONY : file-management.c.obj
+
+file-management.i: file-management.c.i
+.PHONY : file-management.i
+
+# target to preprocess a source file
+file-management.c.i:
+	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\file-management.dir\build.make homework/10_homework/CMakeFiles/file-management.dir/file-management.c.i
+.PHONY : file-management.c.i
+
+file-management.s: file-management.c.s
+.PHONY : file-management.s
+
+# target to generate assembly for a file
+file-management.c.s:
+	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\file-management.dir\build.make homework/10_homework/CMakeFiles/file-management.dir/file-management.c.s
+.PHONY : file-management.c.s
 
 polynlist.obj: polynlist.c.obj
 .PHONY : polynlist.obj
@@ -200,10 +238,14 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... fifa
+	@echo ... file-management
 	@echo ... polynlist
 	@echo ... fifa.obj
 	@echo ... fifa.i
 	@echo ... fifa.s
+	@echo ... file-management.obj
+	@echo ... file-management.i
+	@echo ... file-management.s
 	@echo ... polynlist.obj
 	@echo ... polynlist.i
 	@echo ... polynlist.s

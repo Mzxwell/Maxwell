@@ -122,5 +122,6 @@ E:/git/GitCode/Maxwell/cmake-build-debug/boring_0/CMakeFiles/edit_cache.dir
 E:/git/GitCode/Maxwell/cmake-build-debug/boring_0/CMakeFiles/rebuild_cache.dir
 E:/git/GitCode/Maxwell/cmake-build-debug/homework/10_homework/CMakeFiles/fifa.dir
 E:/git/GitCode/Maxwell/cmake-build-debug/homework/10_homework/CMakeFiles/polynlist.dir
+E:/git/GitCode/Maxwell/cmake-build-debug/homework/10_homework/CMakeFiles/file-management.dir
 E:/git/GitCode/Maxwell/cmake-build-debug/homework/10_homework/CMakeFiles/edit_cache.dir
 E:/git/GitCode/Maxwell/cmake-build-debug/homework/10_homework/CMakeFiles/rebuild_cache.dir

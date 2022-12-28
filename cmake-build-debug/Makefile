@@ -1337,6 +1337,19 @@ polynlist/fast:
 	$(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\polynlist.dir\build.make homework/10_homework/CMakeFiles/polynlist.dir/build
 .PHONY : polynlist/fast
 
+#=============================================================================
+# Target rules for targets named file-management
+
+# Build rule for target.
+file-management: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 file-management
+.PHONY : file-management
+
+# fast build rule for target.
+file-management/fast:
+	$(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\file-management.dir\build.make homework/10_homework/CMakeFiles/file-management.dir/build
+.PHONY : file-management/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -1388,6 +1401,7 @@ help:
 	@echo ... experience
 	@echo ... factorial
 	@echo ... fifa
+	@echo ... file-management
 	@echo ... flip
 	@echo ... flip2
 	@echo ... function
