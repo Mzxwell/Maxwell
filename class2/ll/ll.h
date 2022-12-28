@@ -5,6 +5,8 @@
 #ifndef TOKENIZER_C_LL_H
 #define TOKENIZER_C_LL_H
 
+#include <stdbool.h>
+
 typedef struct node{
     int val;
     struct node *next;
@@ -17,7 +19,14 @@ typedef struct ll {
 
 void Init(LinkedList *list);
 
+bool IsEmpty(const LinkedList *list);
+bool IsSingleton(const LinkedList *list);
+
+int GetHeadVal(const LinkedList *list);
+void Print(const LinkedList *list);
+
 void Append(LinkedList *list, int val);
+void Delete(LinkedList *list, Node *prev);
 
 void Free(LinkedList *list);
 

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/CPL/untitled/homework/3-homework/palindrome.c" "homework/3-homework/CMakeFiles/palindrome.dir/palindrome.c.obj" "gcc" "homework/3-homework/CMakeFiles/palindrome.dir/palindrome.c.obj.d"
+  "E:/git/GitCode/Maxwell/homework/3-homework/palindrome.c" "homework/3-homework/CMakeFiles/palindrome.dir/palindrome.c.obj" "gcc" "homework/3-homework/CMakeFiles/palindrome.dir/palindrome.c.obj.d"
   )
 
 # Targets to which this target links.

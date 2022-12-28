@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/CPL/untitled/homework/4_homework/life.c" "homework/4_homework/CMakeFiles/life.dir/life.c.obj" "gcc" "homework/4_homework/CMakeFiles/life.dir/life.c.obj.d"
+  "E:/git/GitCode/Maxwell/homework/4_homework/life.c" "homework/4_homework/CMakeFiles/life.dir/life.c.obj" "gcc" "homework/4_homework/CMakeFiles/life.dir/life.c.obj.d"
   )
 
 # Targets to which this target links.

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/CPL/untitled/boring_2/ptr.c" "boring_2/CMakeFiles/ptr.dir/ptr.c.obj" "gcc" "boring_2/CMakeFiles/ptr.dir/ptr.c.obj.d"
+  "E:/git/GitCode/Maxwell/boring_2/ptr.c" "boring_2/CMakeFiles/ptr.dir/ptr.c.obj" "gcc" "boring_2/CMakeFiles/ptr.dir/ptr.c.obj.d"
   )
 
 # Targets to which this target links.

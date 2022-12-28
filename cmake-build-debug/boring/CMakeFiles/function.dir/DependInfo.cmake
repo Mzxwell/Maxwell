@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/CPL/untitled/boring/function.c" "boring/CMakeFiles/function.dir/function.c.obj" "gcc" "boring/CMakeFiles/function.dir/function.c.obj.d"
+  "E:/git/GitCode/Maxwell/boring/function.c" "boring/CMakeFiles/function.dir/function.c.obj" "gcc" "boring/CMakeFiles/function.dir/function.c.obj.d"
   )
 
 # Targets to which this target links.

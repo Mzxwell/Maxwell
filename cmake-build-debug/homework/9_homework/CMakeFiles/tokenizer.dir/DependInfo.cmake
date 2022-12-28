@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/CPL/untitled/homework/9_homework/tokenizer.c" "homework/9_homework/CMakeFiles/tokenizer.dir/tokenizer.c.obj" "gcc" "homework/9_homework/CMakeFiles/tokenizer.dir/tokenizer.c.obj.d"
+  "E:/git/GitCode/Maxwell/homework/9_homework/tokenizer.c" "homework/9_homework/CMakeFiles/tokenizer.dir/tokenizer.c.obj" "gcc" "homework/9_homework/CMakeFiles/tokenizer.dir/tokenizer.c.obj.d"
   )
 
 # Targets to which this target links.

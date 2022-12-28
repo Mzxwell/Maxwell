@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/CPL/untitled/homework/3-homework/Quick-sort.c" "homework/3-homework/CMakeFiles/Quick-sort.dir/Quick-sort.c.obj" "gcc" "homework/3-homework/CMakeFiles/Quick-sort.dir/Quick-sort.c.obj.d"
+  "E:/git/GitCode/Maxwell/homework/3-homework/Quick-sort.c" "homework/3-homework/CMakeFiles/Quick-sort.dir/Quick-sort.c.obj" "gcc" "homework/3-homework/CMakeFiles/Quick-sort.dir/Quick-sort.c.obj.d"
   )
 
 # Targets to which this target links.

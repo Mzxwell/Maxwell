@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/CPL/untitled/class2/class3.c" "class2/CMakeFiles/class3.dir/class3.c.obj" "gcc" "class2/CMakeFiles/class3.dir/class3.c.obj.d"
+  "E:/git/GitCode/Maxwell/class2/class3.c" "class2/CMakeFiles/class3.dir/class3.c.obj" "gcc" "class2/CMakeFiles/class3.dir/class3.c.obj.d"
   )
 
 # Targets to which this target links.

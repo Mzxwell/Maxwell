@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/CPL/untitled/homework/3-homework/decimal.c" "homework/3-homework/CMakeFiles/decimal.dir/decimal.c.obj" "gcc" "homework/3-homework/CMakeFiles/decimal.dir/decimal.c.obj.d"
+  "E:/git/GitCode/Maxwell/homework/3-homework/decimal.c" "homework/3-homework/CMakeFiles/decimal.dir/decimal.c.obj" "gcc" "homework/3-homework/CMakeFiles/decimal.dir/decimal.c.obj.d"
   )
 
 # Targets to which this target links.

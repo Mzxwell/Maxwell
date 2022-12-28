@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/CPL/untitled/homework/1-homework/Gravity.c" "homework/1-homework/CMakeFiles/Gravity.dir/Gravity.c.obj" "gcc" "homework/1-homework/CMakeFiles/Gravity.dir/Gravity.c.obj.d"
+  "E:/git/GitCode/Maxwell/homework/1-homework/Gravity.c" "homework/1-homework/CMakeFiles/Gravity.dir/Gravity.c.obj" "gcc" "homework/1-homework/CMakeFiles/Gravity.dir/Gravity.c.obj.d"
   )
 
 # Targets to which this target links.
