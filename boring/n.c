@@ -11,7 +11,7 @@ int jsws (int n) {
     return i + 1;
 }
 int main(){
-    printf("%d", jsws(1000));
+    printf("%d", jsws(10000));
 }
 //    int i, j;
 //    int count = 0;
