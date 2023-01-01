@@ -157,6 +157,20 @@ file-management/fast:
 	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\file-management.dir\build.make homework/10_homework/CMakeFiles/file-management.dir/build
 .PHONY : file-management/fast
 
+# Convenience name for target.
+homework/10_homework/CMakeFiles/string-hash.dir/rule:
+	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/10_homework/CMakeFiles/string-hash.dir/rule
+.PHONY : homework/10_homework/CMakeFiles/string-hash.dir/rule
+
+# Convenience name for target.
+string-hash: homework/10_homework/CMakeFiles/string-hash.dir/rule
+.PHONY : string-hash
+
+# fast build rule for target.
+string-hash/fast:
+	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\string-hash.dir\build.make homework/10_homework/CMakeFiles/string-hash.dir/build
+.PHONY : string-hash/fast
+
 fifa.obj: fifa.c.obj
 .PHONY : fifa.obj
 
@@ -229,6 +243,30 @@ polynlist.c.s:
 	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\polynlist.dir\build.make homework/10_homework/CMakeFiles/polynlist.dir/polynlist.c.s
 .PHONY : polynlist.c.s
 
+string-hash.obj: string-hash.c.obj
+.PHONY : string-hash.obj
+
+# target to build an object file
+string-hash.c.obj:
+	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\string-hash.dir\build.make homework/10_homework/CMakeFiles/string-hash.dir/string-hash.c.obj
+.PHONY : string-hash.c.obj
+
+string-hash.i: string-hash.c.i
+.PHONY : string-hash.i
+
+# target to preprocess a source file
+string-hash.c.i:
+	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\string-hash.dir\build.make homework/10_homework/CMakeFiles/string-hash.dir/string-hash.c.i
+.PHONY : string-hash.c.i
+
+string-hash.s: string-hash.c.s
+.PHONY : string-hash.s
+
+# target to generate assembly for a file
+string-hash.c.s:
+	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\string-hash.dir\build.make homework/10_homework/CMakeFiles/string-hash.dir/string-hash.c.s
+.PHONY : string-hash.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -240,6 +278,7 @@ help:
 	@echo ... fifa
 	@echo ... file-management
 	@echo ... polynlist
+	@echo ... string-hash
 	@echo ... fifa.obj
 	@echo ... fifa.i
 	@echo ... fifa.s
@@ -249,6 +288,9 @@ help:
 	@echo ... polynlist.obj
 	@echo ... polynlist.i
 	@echo ... polynlist.s
+	@echo ... string-hash.obj
+	@echo ... string-hash.i
+	@echo ... string-hash.s
 .PHONY : help
 
 

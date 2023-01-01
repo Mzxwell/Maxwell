@@ -1350,6 +1350,19 @@ file-management/fast:
 	$(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\file-management.dir\build.make homework/10_homework/CMakeFiles/file-management.dir/build
 .PHONY : file-management/fast
 
+#=============================================================================
+# Target rules for targets named string-hash
+
+# Build rule for target.
+string-hash: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 string-hash
+.PHONY : string-hash
+
+# fast build rule for target.
+string-hash/fast:
+	$(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\string-hash.dir\build.make homework/10_homework/CMakeFiles/string-hash.dir/build
+.PHONY : string-hash/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -1442,6 +1455,7 @@ help:
 	@echo ... single
 	@echo ... statistics
 	@echo ... stream
+	@echo ... string-hash
 	@echo ... stringcat
 	@echo ... substr
 	@echo ... sudoku
