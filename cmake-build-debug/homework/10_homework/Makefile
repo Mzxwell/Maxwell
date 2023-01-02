@@ -171,6 +171,44 @@ string-hash/fast:
 	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\string-hash.dir\build.make homework/10_homework/CMakeFiles/string-hash.dir/build
 .PHONY : string-hash/fast
 
+# Convenience name for target.
+homework/10_homework/CMakeFiles/buddy0.dir/rule:
+	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/10_homework/CMakeFiles/buddy0.dir/rule
+.PHONY : homework/10_homework/CMakeFiles/buddy0.dir/rule
+
+# Convenience name for target.
+buddy0: homework/10_homework/CMakeFiles/buddy0.dir/rule
+.PHONY : buddy0
+
+# fast build rule for target.
+buddy0/fast:
+	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\buddy0.dir\build.make homework/10_homework/CMakeFiles/buddy0.dir/build
+.PHONY : buddy0/fast
+
+buddy0.obj: buddy0.c.obj
+.PHONY : buddy0.obj
+
+# target to build an object file
+buddy0.c.obj:
+	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\buddy0.dir\build.make homework/10_homework/CMakeFiles/buddy0.dir/buddy0.c.obj
+.PHONY : buddy0.c.obj
+
+buddy0.i: buddy0.c.i
+.PHONY : buddy0.i
+
+# target to preprocess a source file
+buddy0.c.i:
+	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\buddy0.dir\build.make homework/10_homework/CMakeFiles/buddy0.dir/buddy0.c.i
+.PHONY : buddy0.c.i
+
+buddy0.s: buddy0.c.s
+.PHONY : buddy0.s
+
+# target to generate assembly for a file
+buddy0.c.s:
+	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\buddy0.dir\build.make homework/10_homework/CMakeFiles/buddy0.dir/buddy0.c.s
+.PHONY : buddy0.c.s
+
 fifa.obj: fifa.c.obj
 .PHONY : fifa.obj
 
@@ -275,10 +313,14 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... buddy0
 	@echo ... fifa
 	@echo ... file-management
 	@echo ... polynlist
 	@echo ... string-hash
+	@echo ... buddy0.obj
+	@echo ... buddy0.i
+	@echo ... buddy0.s
 	@echo ... fifa.obj
 	@echo ... fifa.i
 	@echo ... fifa.s

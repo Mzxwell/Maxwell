@@ -1363,6 +1363,19 @@ string-hash/fast:
 	$(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\string-hash.dir\build.make homework/10_homework/CMakeFiles/string-hash.dir/build
 .PHONY : string-hash/fast
 
+#=============================================================================
+# Target rules for targets named buddy0
+
+# Build rule for target.
+buddy0: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 buddy0
+.PHONY : buddy0
+
+# fast build rule for target.
+buddy0/fast:
+	$(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\buddy0.dir\build.make homework/10_homework/CMakeFiles/buddy0.dir/build
+.PHONY : buddy0/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -1404,6 +1417,7 @@ help:
 	@echo ... bor
 	@echo ... brackets
 	@echo ... buddy
+	@echo ... buddy0
 	@echo ... class2
 	@echo ... class3
 	@echo ... collatz
