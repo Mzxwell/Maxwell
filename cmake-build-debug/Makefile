@@ -1415,6 +1415,45 @@ polynlist/fast:
 	$(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\polynlist.dir\build.make homework/10_homework/CMakeFiles/polynlist.dir/build
 .PHONY : polynlist/fast
 
+#=============================================================================
+# Target rules for targets named file-management
+
+# Build rule for target.
+file-management: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 file-management
+.PHONY : file-management
+
+# fast build rule for target.
+file-management/fast:
+	$(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\file-management.dir\build.make homework/10_homework/CMakeFiles/file-management.dir/build
+.PHONY : file-management/fast
+
+#=============================================================================
+# Target rules for targets named string-hash
+
+# Build rule for target.
+string-hash: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 string-hash
+.PHONY : string-hash
+
+# fast build rule for target.
+string-hash/fast:
+	$(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\string-hash.dir\build.make homework/10_homework/CMakeFiles/string-hash.dir/build
+.PHONY : string-hash/fast
+
+#=============================================================================
+# Target rules for targets named buddy0
+
+# Build rule for target.
+buddy0: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 buddy0
+.PHONY : buddy0
+
+# fast build rule for target.
+buddy0/fast:
+	$(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\buddy0.dir\build.make homework/10_homework/CMakeFiles/buddy0.dir/build
+.PHONY : buddy0/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -1462,6 +1501,7 @@ help:
 	@echo ... bor
 	@echo ... brackets
 	@echo ... buddy
+	@echo ... buddy0
 	@echo ... class2
 	@echo ... class3
 	@echo ... collatz
@@ -1472,6 +1512,7 @@ help:
 	@echo ... experience
 	@echo ... factorial
 	@echo ... fifa
+	@echo ... file-management
 	@echo ... flip
 	@echo ... flip2
 	@echo ... function
@@ -1512,6 +1553,7 @@ help:
 	@echo ... single
 	@echo ... statistics
 	@echo ... stream
+	@echo ... string-hash
 	@echo ... stringcat
 	@echo ... substr
 	@echo ... sudoku

@@ -14,7 +14,7 @@ SDL_Renderer *Renderer = NULL;
 int SDL_main(int argc, char *argv[]/*两个不重要但必要的参数*/) {
     SDL_Init(SDL_INIT_VIDEO);/*初始化*/
     //创建窗口
-    Window = SDL_CreateShapedWindow("bor", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 600, 800, SDL_WINDOW_SHOWN);
+    Window = SDL_CreateWindow("bor", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 600, 800, SDL_WINDOW_SHOWN);
     //要让画笔能在窗口上画画
     Renderer = SDL_CreateRenderer(Window, -1, SDL_RENDERER_ACCELERATED);
     SDL_Event MainEvent;

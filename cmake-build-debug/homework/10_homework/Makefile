@@ -143,6 +143,72 @@ polynlist/fast:
 	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\polynlist.dir\build.make homework/10_homework/CMakeFiles/polynlist.dir/build
 .PHONY : polynlist/fast
 
+# Convenience name for target.
+homework/10_homework/CMakeFiles/file-management.dir/rule:
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/10_homework/CMakeFiles/file-management.dir/rule
+.PHONY : homework/10_homework/CMakeFiles/file-management.dir/rule
+
+# Convenience name for target.
+file-management: homework/10_homework/CMakeFiles/file-management.dir/rule
+.PHONY : file-management
+
+# fast build rule for target.
+file-management/fast:
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\file-management.dir\build.make homework/10_homework/CMakeFiles/file-management.dir/build
+.PHONY : file-management/fast
+
+# Convenience name for target.
+homework/10_homework/CMakeFiles/string-hash.dir/rule:
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/10_homework/CMakeFiles/string-hash.dir/rule
+.PHONY : homework/10_homework/CMakeFiles/string-hash.dir/rule
+
+# Convenience name for target.
+string-hash: homework/10_homework/CMakeFiles/string-hash.dir/rule
+.PHONY : string-hash
+
+# fast build rule for target.
+string-hash/fast:
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\string-hash.dir\build.make homework/10_homework/CMakeFiles/string-hash.dir/build
+.PHONY : string-hash/fast
+
+# Convenience name for target.
+homework/10_homework/CMakeFiles/buddy0.dir/rule:
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/10_homework/CMakeFiles/buddy0.dir/rule
+.PHONY : homework/10_homework/CMakeFiles/buddy0.dir/rule
+
+# Convenience name for target.
+buddy0: homework/10_homework/CMakeFiles/buddy0.dir/rule
+.PHONY : buddy0
+
+# fast build rule for target.
+buddy0/fast:
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\buddy0.dir\build.make homework/10_homework/CMakeFiles/buddy0.dir/build
+.PHONY : buddy0/fast
+
+buddy0.obj: buddy0.c.obj
+.PHONY : buddy0.obj
+
+# target to build an object file
+buddy0.c.obj:
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\buddy0.dir\build.make homework/10_homework/CMakeFiles/buddy0.dir/buddy0.c.obj
+.PHONY : buddy0.c.obj
+
+buddy0.i: buddy0.c.i
+.PHONY : buddy0.i
+
+# target to preprocess a source file
+buddy0.c.i:
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\buddy0.dir\build.make homework/10_homework/CMakeFiles/buddy0.dir/buddy0.c.i
+.PHONY : buddy0.c.i
+
+buddy0.s: buddy0.c.s
+.PHONY : buddy0.s
+
+# target to generate assembly for a file
+buddy0.c.s:
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\buddy0.dir\build.make homework/10_homework/CMakeFiles/buddy0.dir/buddy0.c.s
+.PHONY : buddy0.c.s
+
 fifa.obj: fifa.c.obj
 .PHONY : fifa.obj
 
@@ -166,6 +232,30 @@ fifa.s: fifa.c.s
 fifa.c.s:
 	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\fifa.dir\build.make homework/10_homework/CMakeFiles/fifa.dir/fifa.c.s
 .PHONY : fifa.c.s
+
+file-management.obj: file-management.c.obj
+.PHONY : file-management.obj
+
+# target to build an object file
+file-management.c.obj:
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\file-management.dir\build.make homework/10_homework/CMakeFiles/file-management.dir/file-management.c.obj
+.PHONY : file-management.c.obj
+
+file-management.i: file-management.c.i
+.PHONY : file-management.i
+
+# target to preprocess a source file
+file-management.c.i:
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\file-management.dir\build.make homework/10_homework/CMakeFiles/file-management.dir/file-management.c.i
+.PHONY : file-management.c.i
+
+file-management.s: file-management.c.s
+.PHONY : file-management.s
+
+# target to generate assembly for a file
+file-management.c.s:
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\file-management.dir\build.make homework/10_homework/CMakeFiles/file-management.dir/file-management.c.s
+.PHONY : file-management.c.s
 
 polynlist.obj: polynlist.c.obj
 .PHONY : polynlist.obj
@@ -191,6 +281,30 @@ polynlist.c.s:
 	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\polynlist.dir\build.make homework/10_homework/CMakeFiles/polynlist.dir/polynlist.c.s
 .PHONY : polynlist.c.s
 
+string-hash.obj: string-hash.c.obj
+.PHONY : string-hash.obj
+
+# target to build an object file
+string-hash.c.obj:
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\string-hash.dir\build.make homework/10_homework/CMakeFiles/string-hash.dir/string-hash.c.obj
+.PHONY : string-hash.c.obj
+
+string-hash.i: string-hash.c.i
+.PHONY : string-hash.i
+
+# target to preprocess a source file
+string-hash.c.i:
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\string-hash.dir\build.make homework/10_homework/CMakeFiles/string-hash.dir/string-hash.c.i
+.PHONY : string-hash.c.i
+
+string-hash.s: string-hash.c.s
+.PHONY : string-hash.s
+
+# target to generate assembly for a file
+string-hash.c.s:
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\string-hash.dir\build.make homework/10_homework/CMakeFiles/string-hash.dir/string-hash.c.s
+.PHONY : string-hash.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -199,14 +313,26 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... buddy0
 	@echo ... fifa
+	@echo ... file-management
 	@echo ... polynlist
+	@echo ... string-hash
+	@echo ... buddy0.obj
+	@echo ... buddy0.i
+	@echo ... buddy0.s
 	@echo ... fifa.obj
 	@echo ... fifa.i
 	@echo ... fifa.s
+	@echo ... file-management.obj
+	@echo ... file-management.i
+	@echo ... file-management.s
 	@echo ... polynlist.obj
 	@echo ... polynlist.i
 	@echo ... polynlist.s
+	@echo ... string-hash.obj
+	@echo ... string-hash.i
+	@echo ... string-hash.s
 .PHONY : help
 
 

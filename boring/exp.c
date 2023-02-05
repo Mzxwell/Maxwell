@@ -4,7 +4,8 @@
 #include<stdio.h>
 #include"forfun.h"
 int main() {
-    int a[2] = {0};
-    a[0] ^= a[1];
-    printf("%d", a[0]);
+    printf("%d", 1<<2);
 }
+//int a[2] = {0};
+//a[0] ^= a[1];
+//printf("%d", a[0]);
