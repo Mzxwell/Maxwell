@@ -185,6 +185,76 @@ Hong/fast:
 	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\Hong.dir\build.make boring_0/CMakeFiles/Hong.dir/build
 .PHONY : Hong/fast
 
+# Convenience name for target.
+boring_0/CMakeFiles/Hong0.dir/rule:
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 boring_0/CMakeFiles/Hong0.dir/rule
+.PHONY : boring_0/CMakeFiles/Hong0.dir/rule
+
+# Convenience name for target.
+Hong0: boring_0/CMakeFiles/Hong0.dir/rule
+.PHONY : Hong0
+
+# fast build rule for target.
+Hong0/fast:
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\Hong0.dir\build.make boring_0/CMakeFiles/Hong0.dir/build
+.PHONY : Hong0/fast
+
+# Convenience name for target.
+boring_0/CMakeFiles/Hong1.dir/rule:
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 boring_0/CMakeFiles/Hong1.dir/rule
+.PHONY : boring_0/CMakeFiles/Hong1.dir/rule
+
+# Convenience name for target.
+Hong1: boring_0/CMakeFiles/Hong1.dir/rule
+.PHONY : Hong1
+
+# fast build rule for target.
+Hong1/fast:
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\Hong1.dir\build.make boring_0/CMakeFiles/Hong1.dir/build
+.PHONY : Hong1/fast
+
+# Convenience name for target.
+boring_0/CMakeFiles/Hong2.dir/rule:
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 boring_0/CMakeFiles/Hong2.dir/rule
+.PHONY : boring_0/CMakeFiles/Hong2.dir/rule
+
+# Convenience name for target.
+Hong2: boring_0/CMakeFiles/Hong2.dir/rule
+.PHONY : Hong2
+
+# fast build rule for target.
+Hong2/fast:
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\Hong2.dir\build.make boring_0/CMakeFiles/Hong2.dir/build
+.PHONY : Hong2/fast
+
+# Convenience name for target.
+boring_0/CMakeFiles/Hong3.dir/rule:
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 boring_0/CMakeFiles/Hong3.dir/rule
+.PHONY : boring_0/CMakeFiles/Hong3.dir/rule
+
+# Convenience name for target.
+Hong3: boring_0/CMakeFiles/Hong3.dir/rule
+.PHONY : Hong3
+
+# fast build rule for target.
+Hong3/fast:
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\Hong3.dir\build.make boring_0/CMakeFiles/Hong3.dir/build
+.PHONY : Hong3/fast
+
+# Convenience name for target.
+boring_0/CMakeFiles/Hong4.dir/rule:
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 boring_0/CMakeFiles/Hong4.dir/rule
+.PHONY : boring_0/CMakeFiles/Hong4.dir/rule
+
+# Convenience name for target.
+Hong4: boring_0/CMakeFiles/Hong4.dir/rule
+.PHONY : Hong4
+
+# fast build rule for target.
+Hong4/fast:
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\Hong4.dir\build.make boring_0/CMakeFiles/Hong4.dir/build
+.PHONY : Hong4/fast
+
 Hong.obj: Hong.c.obj
 .PHONY : Hong.obj
 
@@ -208,6 +278,126 @@ Hong.s: Hong.c.s
 Hong.c.s:
 	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\Hong.dir\build.make boring_0/CMakeFiles/Hong.dir/Hong.c.s
 .PHONY : Hong.c.s
+
+Hong0.obj: Hong0.c.obj
+.PHONY : Hong0.obj
+
+# target to build an object file
+Hong0.c.obj:
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\Hong0.dir\build.make boring_0/CMakeFiles/Hong0.dir/Hong0.c.obj
+.PHONY : Hong0.c.obj
+
+Hong0.i: Hong0.c.i
+.PHONY : Hong0.i
+
+# target to preprocess a source file
+Hong0.c.i:
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\Hong0.dir\build.make boring_0/CMakeFiles/Hong0.dir/Hong0.c.i
+.PHONY : Hong0.c.i
+
+Hong0.s: Hong0.c.s
+.PHONY : Hong0.s
+
+# target to generate assembly for a file
+Hong0.c.s:
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\Hong0.dir\build.make boring_0/CMakeFiles/Hong0.dir/Hong0.c.s
+.PHONY : Hong0.c.s
+
+Hong1.obj: Hong1.c.obj
+.PHONY : Hong1.obj
+
+# target to build an object file
+Hong1.c.obj:
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\Hong1.dir\build.make boring_0/CMakeFiles/Hong1.dir/Hong1.c.obj
+.PHONY : Hong1.c.obj
+
+Hong1.i: Hong1.c.i
+.PHONY : Hong1.i
+
+# target to preprocess a source file
+Hong1.c.i:
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\Hong1.dir\build.make boring_0/CMakeFiles/Hong1.dir/Hong1.c.i
+.PHONY : Hong1.c.i
+
+Hong1.s: Hong1.c.s
+.PHONY : Hong1.s
+
+# target to generate assembly for a file
+Hong1.c.s:
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\Hong1.dir\build.make boring_0/CMakeFiles/Hong1.dir/Hong1.c.s
+.PHONY : Hong1.c.s
+
+Hong2.obj: Hong2.c.obj
+.PHONY : Hong2.obj
+
+# target to build an object file
+Hong2.c.obj:
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\Hong2.dir\build.make boring_0/CMakeFiles/Hong2.dir/Hong2.c.obj
+.PHONY : Hong2.c.obj
+
+Hong2.i: Hong2.c.i
+.PHONY : Hong2.i
+
+# target to preprocess a source file
+Hong2.c.i:
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\Hong2.dir\build.make boring_0/CMakeFiles/Hong2.dir/Hong2.c.i
+.PHONY : Hong2.c.i
+
+Hong2.s: Hong2.c.s
+.PHONY : Hong2.s
+
+# target to generate assembly for a file
+Hong2.c.s:
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\Hong2.dir\build.make boring_0/CMakeFiles/Hong2.dir/Hong2.c.s
+.PHONY : Hong2.c.s
+
+Hong3.obj: Hong3.c.obj
+.PHONY : Hong3.obj
+
+# target to build an object file
+Hong3.c.obj:
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\Hong3.dir\build.make boring_0/CMakeFiles/Hong3.dir/Hong3.c.obj
+.PHONY : Hong3.c.obj
+
+Hong3.i: Hong3.c.i
+.PHONY : Hong3.i
+
+# target to preprocess a source file
+Hong3.c.i:
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\Hong3.dir\build.make boring_0/CMakeFiles/Hong3.dir/Hong3.c.i
+.PHONY : Hong3.c.i
+
+Hong3.s: Hong3.c.s
+.PHONY : Hong3.s
+
+# target to generate assembly for a file
+Hong3.c.s:
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\Hong3.dir\build.make boring_0/CMakeFiles/Hong3.dir/Hong3.c.s
+.PHONY : Hong3.c.s
+
+Hong4.obj: Hong4.c.obj
+.PHONY : Hong4.obj
+
+# target to build an object file
+Hong4.c.obj:
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\Hong4.dir\build.make boring_0/CMakeFiles/Hong4.dir/Hong4.c.obj
+.PHONY : Hong4.c.obj
+
+Hong4.i: Hong4.c.i
+.PHONY : Hong4.i
+
+# target to preprocess a source file
+Hong4.c.i:
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\Hong4.dir\build.make boring_0/CMakeFiles/Hong4.dir/Hong4.c.i
+.PHONY : Hong4.c.i
+
+Hong4.s: Hong4.c.s
+.PHONY : Hong4.s
+
+# target to generate assembly for a file
+Hong4.c.s:
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\Hong4.dir\build.make boring_0/CMakeFiles/Hong4.dir/Hong4.c.s
+.PHONY : Hong4.c.s
 
 bor.obj: bor.c.obj
 .PHONY : bor.obj
@@ -314,6 +504,11 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Hong
+	@echo ... Hong0
+	@echo ... Hong1
+	@echo ... Hong2
+	@echo ... Hong3
+	@echo ... Hong4
 	@echo ... bor
 	@echo ... ptr_0
 	@echo ... random
@@ -321,6 +516,21 @@ help:
 	@echo ... Hong.obj
 	@echo ... Hong.i
 	@echo ... Hong.s
+	@echo ... Hong0.obj
+	@echo ... Hong0.i
+	@echo ... Hong0.s
+	@echo ... Hong1.obj
+	@echo ... Hong1.i
+	@echo ... Hong1.s
+	@echo ... Hong2.obj
+	@echo ... Hong2.i
+	@echo ... Hong2.s
+	@echo ... Hong3.obj
+	@echo ... Hong3.i
+	@echo ... Hong3.s
+	@echo ... Hong4.obj
+	@echo ... Hong4.i
+	@echo ... Hong4.s
 	@echo ... bor.obj
 	@echo ... bor.i
 	@echo ... bor.s

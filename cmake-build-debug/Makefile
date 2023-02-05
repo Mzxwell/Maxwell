@@ -1325,6 +1325,71 @@ Hong/fast:
 .PHONY : Hong/fast
 
 #=============================================================================
+# Target rules for targets named Hong0
+
+# Build rule for target.
+Hong0: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Hong0
+.PHONY : Hong0
+
+# fast build rule for target.
+Hong0/fast:
+	$(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\Hong0.dir\build.make boring_0/CMakeFiles/Hong0.dir/build
+.PHONY : Hong0/fast
+
+#=============================================================================
+# Target rules for targets named Hong1
+
+# Build rule for target.
+Hong1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Hong1
+.PHONY : Hong1
+
+# fast build rule for target.
+Hong1/fast:
+	$(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\Hong1.dir\build.make boring_0/CMakeFiles/Hong1.dir/build
+.PHONY : Hong1/fast
+
+#=============================================================================
+# Target rules for targets named Hong2
+
+# Build rule for target.
+Hong2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Hong2
+.PHONY : Hong2
+
+# fast build rule for target.
+Hong2/fast:
+	$(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\Hong2.dir\build.make boring_0/CMakeFiles/Hong2.dir/build
+.PHONY : Hong2/fast
+
+#=============================================================================
+# Target rules for targets named Hong3
+
+# Build rule for target.
+Hong3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Hong3
+.PHONY : Hong3
+
+# fast build rule for target.
+Hong3/fast:
+	$(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\Hong3.dir\build.make boring_0/CMakeFiles/Hong3.dir/build
+.PHONY : Hong3/fast
+
+#=============================================================================
+# Target rules for targets named Hong4
+
+# Build rule for target.
+Hong4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Hong4
+.PHONY : Hong4
+
+# fast build rule for target.
+Hong4/fast:
+	$(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\Hong4.dir\build.make boring_0/CMakeFiles/Hong4.dir/build
+.PHONY : Hong4/fast
+
+#=============================================================================
 # Target rules for targets named fifa
 
 # Build rule for target.
@@ -1382,6 +1447,11 @@ help:
 	@echo ... Fibonacci
 	@echo ... Gravity
 	@echo ... Hong
+	@echo ... Hong0
+	@echo ... Hong1
+	@echo ... Hong2
+	@echo ... Hong3
+	@echo ... Hong4
 	@echo ... Julian
 	@echo ... NP
 	@echo ... Quick-sort
