@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "E:/git/GitCode/Maxwell/homework/10_homework/polynlist.c" "homework/10_homework/CMakeFiles/polynlist.dir/polynlist.c.obj" "gcc" "homework/10_homework/CMakeFiles/polynlist.dir/polynlist.c.obj.d"
+  "C:/CPL/untitled/homework/10_homework/polynlist.c" "homework/10_homework/CMakeFiles/polynlist.dir/polynlist.c.obj" "gcc" "homework/10_homework/CMakeFiles/polynlist.dir/polynlist.c.obj.d"
   )
 
 # Targets to which this target links.

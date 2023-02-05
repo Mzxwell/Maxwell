@@ -43,19 +43,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe -E rm -f
+RM = C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\git\GitCode\Maxwell
+CMAKE_SOURCE_DIR = C:\CPL\untitled
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\git\GitCode\Maxwell\cmake-build-debug
+CMAKE_BINARY_DIR = C:\CPL\untitled\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include boring_0/CMakeFiles/ptr_0.dir/depend.make
@@ -69,18 +69,18 @@ include boring_0/CMakeFiles/ptr_0.dir/progress.make
 include boring_0/CMakeFiles/ptr_0.dir/flags.make
 
 boring_0/CMakeFiles/ptr_0.dir/ptr_0.c.obj: boring_0/CMakeFiles/ptr_0.dir/flags.make
-boring_0/CMakeFiles/ptr_0.dir/ptr_0.c.obj: E:/git/GitCode/Maxwell/boring_0/ptr_0.c
+boring_0/CMakeFiles/ptr_0.dir/ptr_0.c.obj: C:/CPL/untitled/boring_0/ptr_0.c
 boring_0/CMakeFiles/ptr_0.dir/ptr_0.c.obj: boring_0/CMakeFiles/ptr_0.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object boring_0/CMakeFiles/ptr_0.dir/ptr_0.c.obj"
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug\boring_0 && C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT boring_0/CMakeFiles/ptr_0.dir/ptr_0.c.obj -MF CMakeFiles\ptr_0.dir\ptr_0.c.obj.d -o CMakeFiles\ptr_0.dir\ptr_0.c.obj -c E:\git\GitCode\Maxwell\boring_0\ptr_0.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object boring_0/CMakeFiles/ptr_0.dir/ptr_0.c.obj"
+	cd /d C:\CPL\untitled\cmake-build-debug\boring_0 && C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT boring_0/CMakeFiles/ptr_0.dir/ptr_0.c.obj -MF CMakeFiles\ptr_0.dir\ptr_0.c.obj.d -o CMakeFiles\ptr_0.dir\ptr_0.c.obj -c C:\CPL\untitled\boring_0\ptr_0.c
 
 boring_0/CMakeFiles/ptr_0.dir/ptr_0.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ptr_0.dir/ptr_0.c.i"
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug\boring_0 && C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\git\GitCode\Maxwell\boring_0\ptr_0.c > CMakeFiles\ptr_0.dir\ptr_0.c.i
+	cd /d C:\CPL\untitled\cmake-build-debug\boring_0 && C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\CPL\untitled\boring_0\ptr_0.c > CMakeFiles\ptr_0.dir\ptr_0.c.i
 
 boring_0/CMakeFiles/ptr_0.dir/ptr_0.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ptr_0.dir/ptr_0.c.s"
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug\boring_0 && C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\git\GitCode\Maxwell\boring_0\ptr_0.c -o CMakeFiles\ptr_0.dir\ptr_0.c.s
+	cd /d C:\CPL\untitled\cmake-build-debug\boring_0 && C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\CPL\untitled\boring_0\ptr_0.c -o CMakeFiles\ptr_0.dir\ptr_0.c.s
 
 # Object files for target ptr_0
 ptr_0_OBJECTS = \
@@ -94,18 +94,18 @@ boring_0/ptr_0.exe: boring_0/CMakeFiles/ptr_0.dir/build.make
 boring_0/ptr_0.exe: boring_0/CMakeFiles/ptr_0.dir/linklibs.rsp
 boring_0/ptr_0.exe: boring_0/CMakeFiles/ptr_0.dir/objects1.rsp
 boring_0/ptr_0.exe: boring_0/CMakeFiles/ptr_0.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ptr_0.exe"
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug\boring_0 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ptr_0.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable ptr_0.exe"
+	cd /d C:\CPL\untitled\cmake-build-debug\boring_0 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ptr_0.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 boring_0/CMakeFiles/ptr_0.dir/build: boring_0/ptr_0.exe
 .PHONY : boring_0/CMakeFiles/ptr_0.dir/build
 
 boring_0/CMakeFiles/ptr_0.dir/clean:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug\boring_0 && $(CMAKE_COMMAND) -P CMakeFiles\ptr_0.dir\cmake_clean.cmake
+	cd /d C:\CPL\untitled\cmake-build-debug\boring_0 && $(CMAKE_COMMAND) -P CMakeFiles\ptr_0.dir\cmake_clean.cmake
 .PHONY : boring_0/CMakeFiles/ptr_0.dir/clean
 
 boring_0/CMakeFiles/ptr_0.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\git\GitCode\Maxwell E:\git\GitCode\Maxwell\boring_0 E:\git\GitCode\Maxwell\cmake-build-debug E:\git\GitCode\Maxwell\cmake-build-debug\boring_0 E:\git\GitCode\Maxwell\cmake-build-debug\boring_0\CMakeFiles\ptr_0.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\CPL\untitled C:\CPL\untitled\boring_0 C:\CPL\untitled\cmake-build-debug C:\CPL\untitled\cmake-build-debug\boring_0 C:\CPL\untitled\cmake-build-debug\boring_0\CMakeFiles\ptr_0.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : boring_0/CMakeFiles/ptr_0.dir/depend
 

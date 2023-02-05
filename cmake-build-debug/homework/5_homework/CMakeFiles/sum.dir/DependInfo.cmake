@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "E:/git/GitCode/Maxwell/homework/5_homework/sum.c" "homework/5_homework/CMakeFiles/sum.dir/sum.c.obj" "gcc" "homework/5_homework/CMakeFiles/sum.dir/sum.c.obj.d"
+  "C:/CPL/untitled/homework/5_homework/sum.c" "homework/5_homework/CMakeFiles/sum.dir/sum.c.obj" "gcc" "homework/5_homework/CMakeFiles/sum.dir/sum.c.obj.d"
   )
 
 # Targets to which this target links.

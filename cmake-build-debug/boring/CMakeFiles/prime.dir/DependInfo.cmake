@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "E:/git/GitCode/Maxwell/boring/prime.c" "boring/CMakeFiles/prime.dir/prime.c.obj" "gcc" "boring/CMakeFiles/prime.dir/prime.c.obj.d"
+  "C:/CPL/untitled/boring/prime.c" "boring/CMakeFiles/prime.dir/prime.c.obj" "gcc" "boring/CMakeFiles/prime.dir/prime.c.obj.d"
   )
 
 # Targets to which this target links.

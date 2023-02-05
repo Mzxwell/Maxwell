@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "E:/git/GitCode/Maxwell/homework/6_homework/tiles.c" "homework/6_homework/CMakeFiles/tiles.dir/tiles.c.obj" "gcc" "homework/6_homework/CMakeFiles/tiles.dir/tiles.c.obj.d"
+  "C:/CPL/untitled/homework/6_homework/tiles.c" "homework/6_homework/CMakeFiles/tiles.dir/tiles.c.obj" "gcc" "homework/6_homework/CMakeFiles/tiles.dir/tiles.c.obj.d"
   )
 
 # Targets to which this target links.

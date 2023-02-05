@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "E:/git/GitCode/Maxwell/homework/9_homework/parse.c" "homework/9_homework/CMakeFiles/stringcat.dir/parse.c.obj" "gcc" "homework/9_homework/CMakeFiles/stringcat.dir/parse.c.obj.d"
-  "E:/git/GitCode/Maxwell/homework/9_homework/stringcat.c" "homework/9_homework/CMakeFiles/stringcat.dir/stringcat.c.obj" "gcc" "homework/9_homework/CMakeFiles/stringcat.dir/stringcat.c.obj.d"
+  "C:/CPL/untitled/homework/9_homework/parse.c" "homework/9_homework/CMakeFiles/stringcat.dir/parse.c.obj" "gcc" "homework/9_homework/CMakeFiles/stringcat.dir/parse.c.obj.d"
+  "C:/CPL/untitled/homework/9_homework/stringcat.c" "homework/9_homework/CMakeFiles/stringcat.dir/stringcat.c.obj" "gcc" "homework/9_homework/CMakeFiles/stringcat.dir/stringcat.c.obj.d"
   )
 
 # Targets to which this target links.

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "E:/git/GitCode/Maxwell/homework/1-homework/pi.c" "homework/1-homework/CMakeFiles/pi.dir/pi.c.obj" "gcc" "homework/1-homework/CMakeFiles/pi.dir/pi.c.obj.d"
+  "C:/CPL/untitled/homework/1-homework/pi.c" "homework/1-homework/CMakeFiles/pi.dir/pi.c.obj" "gcc" "homework/1-homework/CMakeFiles/pi.dir/pi.c.obj.d"
   )
 
 # Targets to which this target links.

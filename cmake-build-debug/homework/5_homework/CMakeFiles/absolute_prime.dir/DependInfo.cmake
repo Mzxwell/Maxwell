@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "E:/git/GitCode/Maxwell/homework/5_homework/absolute_prime.c" "homework/5_homework/CMakeFiles/absolute_prime.dir/absolute_prime.c.obj" "gcc" "homework/5_homework/CMakeFiles/absolute_prime.dir/absolute_prime.c.obj.d"
+  "C:/CPL/untitled/homework/5_homework/absolute_prime.c" "homework/5_homework/CMakeFiles/absolute_prime.dir/absolute_prime.c.obj" "gcc" "homework/5_homework/CMakeFiles/absolute_prime.dir/absolute_prime.c.obj.d"
   )
 
 # Targets to which this target links.

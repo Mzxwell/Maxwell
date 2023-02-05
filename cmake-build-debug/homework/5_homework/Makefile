@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe -E rm -f
+RM = C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\git\GitCode\Maxwell
+CMAKE_SOURCE_DIR = C:\CPL\untitled
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\git\GitCode\Maxwell\cmake-build-debug
+CMAKE_BINARY_DIR = C:\CPL\untitled\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = E:\git\GitCode\Maxwell\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
+	C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -77,7 +77,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles E:\git\GitCode\Maxwell\cmake-build-debug\homework\5_homework\\CMakeFiles\progress.marks
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/5_homework/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	cd /d C:\CPL\untitled\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles C:\CPL\untitled\cmake-build-debug\homework\5_homework\\CMakeFiles\progress.marks
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/5_homework/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/5_homework/clean
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/5_homework/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,22 +102,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/5_homework/preinstall
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/5_homework/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/5_homework/preinstall
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/5_homework/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\CPL\untitled\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 homework/5_homework/CMakeFiles/behaviors.dir/rule:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/5_homework/CMakeFiles/behaviors.dir/rule
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/5_homework/CMakeFiles/behaviors.dir/rule
 .PHONY : homework/5_homework/CMakeFiles/behaviors.dir/rule
 
 # Convenience name for target.
@@ -126,12 +126,12 @@ behaviors: homework/5_homework/CMakeFiles/behaviors.dir/rule
 
 # fast build rule for target.
 behaviors/fast:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\behaviors.dir\build.make homework/5_homework/CMakeFiles/behaviors.dir/build
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\behaviors.dir\build.make homework/5_homework/CMakeFiles/behaviors.dir/build
 .PHONY : behaviors/fast
 
 # Convenience name for target.
 homework/5_homework/CMakeFiles/sum.dir/rule:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/5_homework/CMakeFiles/sum.dir/rule
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/5_homework/CMakeFiles/sum.dir/rule
 .PHONY : homework/5_homework/CMakeFiles/sum.dir/rule
 
 # Convenience name for target.
@@ -140,12 +140,12 @@ sum: homework/5_homework/CMakeFiles/sum.dir/rule
 
 # fast build rule for target.
 sum/fast:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\sum.dir\build.make homework/5_homework/CMakeFiles/sum.dir/build
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\sum.dir\build.make homework/5_homework/CMakeFiles/sum.dir/build
 .PHONY : sum/fast
 
 # Convenience name for target.
 homework/5_homework/CMakeFiles/absolute_prime.dir/rule:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/5_homework/CMakeFiles/absolute_prime.dir/rule
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/5_homework/CMakeFiles/absolute_prime.dir/rule
 .PHONY : homework/5_homework/CMakeFiles/absolute_prime.dir/rule
 
 # Convenience name for target.
@@ -154,12 +154,12 @@ absolute_prime: homework/5_homework/CMakeFiles/absolute_prime.dir/rule
 
 # fast build rule for target.
 absolute_prime/fast:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\absolute_prime.dir\build.make homework/5_homework/CMakeFiles/absolute_prime.dir/build
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\absolute_prime.dir\build.make homework/5_homework/CMakeFiles/absolute_prime.dir/build
 .PHONY : absolute_prime/fast
 
 # Convenience name for target.
 homework/5_homework/CMakeFiles/radix.dir/rule:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/5_homework/CMakeFiles/radix.dir/rule
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/5_homework/CMakeFiles/radix.dir/rule
 .PHONY : homework/5_homework/CMakeFiles/radix.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ radix: homework/5_homework/CMakeFiles/radix.dir/rule
 
 # fast build rule for target.
 radix/fast:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\radix.dir\build.make homework/5_homework/CMakeFiles/radix.dir/build
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\radix.dir\build.make homework/5_homework/CMakeFiles/radix.dir/build
 .PHONY : radix/fast
 
 # Convenience name for target.
 homework/5_homework/CMakeFiles/next-permutation.dir/rule:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/5_homework/CMakeFiles/next-permutation.dir/rule
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/5_homework/CMakeFiles/next-permutation.dir/rule
 .PHONY : homework/5_homework/CMakeFiles/next-permutation.dir/rule
 
 # Convenience name for target.
@@ -182,12 +182,12 @@ next-permutation: homework/5_homework/CMakeFiles/next-permutation.dir/rule
 
 # fast build rule for target.
 next-permutation/fast:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\next-permutation.dir\build.make homework/5_homework/CMakeFiles/next-permutation.dir/build
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\next-permutation.dir\build.make homework/5_homework/CMakeFiles/next-permutation.dir/build
 .PHONY : next-permutation/fast
 
 # Convenience name for target.
 homework/5_homework/CMakeFiles/magic-square.dir/rule:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/5_homework/CMakeFiles/magic-square.dir/rule
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/5_homework/CMakeFiles/magic-square.dir/rule
 .PHONY : homework/5_homework/CMakeFiles/magic-square.dir/rule
 
 # Convenience name for target.
@@ -196,7 +196,7 @@ magic-square: homework/5_homework/CMakeFiles/magic-square.dir/rule
 
 # fast build rule for target.
 magic-square/fast:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\magic-square.dir\build.make homework/5_homework/CMakeFiles/magic-square.dir/build
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\magic-square.dir\build.make homework/5_homework/CMakeFiles/magic-square.dir/build
 .PHONY : magic-square/fast
 
 absolute_prime.obj: absolute_prime.c.obj
@@ -204,7 +204,7 @@ absolute_prime.obj: absolute_prime.c.obj
 
 # target to build an object file
 absolute_prime.c.obj:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\absolute_prime.dir\build.make homework/5_homework/CMakeFiles/absolute_prime.dir/absolute_prime.c.obj
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\absolute_prime.dir\build.make homework/5_homework/CMakeFiles/absolute_prime.dir/absolute_prime.c.obj
 .PHONY : absolute_prime.c.obj
 
 absolute_prime.i: absolute_prime.c.i
@@ -212,7 +212,7 @@ absolute_prime.i: absolute_prime.c.i
 
 # target to preprocess a source file
 absolute_prime.c.i:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\absolute_prime.dir\build.make homework/5_homework/CMakeFiles/absolute_prime.dir/absolute_prime.c.i
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\absolute_prime.dir\build.make homework/5_homework/CMakeFiles/absolute_prime.dir/absolute_prime.c.i
 .PHONY : absolute_prime.c.i
 
 absolute_prime.s: absolute_prime.c.s
@@ -220,7 +220,7 @@ absolute_prime.s: absolute_prime.c.s
 
 # target to generate assembly for a file
 absolute_prime.c.s:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\absolute_prime.dir\build.make homework/5_homework/CMakeFiles/absolute_prime.dir/absolute_prime.c.s
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\absolute_prime.dir\build.make homework/5_homework/CMakeFiles/absolute_prime.dir/absolute_prime.c.s
 .PHONY : absolute_prime.c.s
 
 behaviors.obj: behaviors.c.obj
@@ -228,7 +228,7 @@ behaviors.obj: behaviors.c.obj
 
 # target to build an object file
 behaviors.c.obj:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\behaviors.dir\build.make homework/5_homework/CMakeFiles/behaviors.dir/behaviors.c.obj
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\behaviors.dir\build.make homework/5_homework/CMakeFiles/behaviors.dir/behaviors.c.obj
 .PHONY : behaviors.c.obj
 
 behaviors.i: behaviors.c.i
@@ -236,7 +236,7 @@ behaviors.i: behaviors.c.i
 
 # target to preprocess a source file
 behaviors.c.i:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\behaviors.dir\build.make homework/5_homework/CMakeFiles/behaviors.dir/behaviors.c.i
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\behaviors.dir\build.make homework/5_homework/CMakeFiles/behaviors.dir/behaviors.c.i
 .PHONY : behaviors.c.i
 
 behaviors.s: behaviors.c.s
@@ -244,7 +244,7 @@ behaviors.s: behaviors.c.s
 
 # target to generate assembly for a file
 behaviors.c.s:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\behaviors.dir\build.make homework/5_homework/CMakeFiles/behaviors.dir/behaviors.c.s
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\behaviors.dir\build.make homework/5_homework/CMakeFiles/behaviors.dir/behaviors.c.s
 .PHONY : behaviors.c.s
 
 magic-square.obj: magic-square.c.obj
@@ -252,7 +252,7 @@ magic-square.obj: magic-square.c.obj
 
 # target to build an object file
 magic-square.c.obj:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\magic-square.dir\build.make homework/5_homework/CMakeFiles/magic-square.dir/magic-square.c.obj
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\magic-square.dir\build.make homework/5_homework/CMakeFiles/magic-square.dir/magic-square.c.obj
 .PHONY : magic-square.c.obj
 
 magic-square.i: magic-square.c.i
@@ -260,7 +260,7 @@ magic-square.i: magic-square.c.i
 
 # target to preprocess a source file
 magic-square.c.i:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\magic-square.dir\build.make homework/5_homework/CMakeFiles/magic-square.dir/magic-square.c.i
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\magic-square.dir\build.make homework/5_homework/CMakeFiles/magic-square.dir/magic-square.c.i
 .PHONY : magic-square.c.i
 
 magic-square.s: magic-square.c.s
@@ -268,7 +268,7 @@ magic-square.s: magic-square.c.s
 
 # target to generate assembly for a file
 magic-square.c.s:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\magic-square.dir\build.make homework/5_homework/CMakeFiles/magic-square.dir/magic-square.c.s
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\magic-square.dir\build.make homework/5_homework/CMakeFiles/magic-square.dir/magic-square.c.s
 .PHONY : magic-square.c.s
 
 next-permutation.obj: next-permutation.c.obj
@@ -276,7 +276,7 @@ next-permutation.obj: next-permutation.c.obj
 
 # target to build an object file
 next-permutation.c.obj:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\next-permutation.dir\build.make homework/5_homework/CMakeFiles/next-permutation.dir/next-permutation.c.obj
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\next-permutation.dir\build.make homework/5_homework/CMakeFiles/next-permutation.dir/next-permutation.c.obj
 .PHONY : next-permutation.c.obj
 
 next-permutation.i: next-permutation.c.i
@@ -284,7 +284,7 @@ next-permutation.i: next-permutation.c.i
 
 # target to preprocess a source file
 next-permutation.c.i:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\next-permutation.dir\build.make homework/5_homework/CMakeFiles/next-permutation.dir/next-permutation.c.i
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\next-permutation.dir\build.make homework/5_homework/CMakeFiles/next-permutation.dir/next-permutation.c.i
 .PHONY : next-permutation.c.i
 
 next-permutation.s: next-permutation.c.s
@@ -292,7 +292,7 @@ next-permutation.s: next-permutation.c.s
 
 # target to generate assembly for a file
 next-permutation.c.s:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\next-permutation.dir\build.make homework/5_homework/CMakeFiles/next-permutation.dir/next-permutation.c.s
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\next-permutation.dir\build.make homework/5_homework/CMakeFiles/next-permutation.dir/next-permutation.c.s
 .PHONY : next-permutation.c.s
 
 radix.obj: radix.c.obj
@@ -300,7 +300,7 @@ radix.obj: radix.c.obj
 
 # target to build an object file
 radix.c.obj:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\radix.dir\build.make homework/5_homework/CMakeFiles/radix.dir/radix.c.obj
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\radix.dir\build.make homework/5_homework/CMakeFiles/radix.dir/radix.c.obj
 .PHONY : radix.c.obj
 
 radix.i: radix.c.i
@@ -308,7 +308,7 @@ radix.i: radix.c.i
 
 # target to preprocess a source file
 radix.c.i:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\radix.dir\build.make homework/5_homework/CMakeFiles/radix.dir/radix.c.i
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\radix.dir\build.make homework/5_homework/CMakeFiles/radix.dir/radix.c.i
 .PHONY : radix.c.i
 
 radix.s: radix.c.s
@@ -316,7 +316,7 @@ radix.s: radix.c.s
 
 # target to generate assembly for a file
 radix.c.s:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\radix.dir\build.make homework/5_homework/CMakeFiles/radix.dir/radix.c.s
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\radix.dir\build.make homework/5_homework/CMakeFiles/radix.dir/radix.c.s
 .PHONY : radix.c.s
 
 sum.obj: sum.c.obj
@@ -324,7 +324,7 @@ sum.obj: sum.c.obj
 
 # target to build an object file
 sum.c.obj:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\sum.dir\build.make homework/5_homework/CMakeFiles/sum.dir/sum.c.obj
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\sum.dir\build.make homework/5_homework/CMakeFiles/sum.dir/sum.c.obj
 .PHONY : sum.c.obj
 
 sum.i: sum.c.i
@@ -332,7 +332,7 @@ sum.i: sum.c.i
 
 # target to preprocess a source file
 sum.c.i:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\sum.dir\build.make homework/5_homework/CMakeFiles/sum.dir/sum.c.i
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\sum.dir\build.make homework/5_homework/CMakeFiles/sum.dir/sum.c.i
 .PHONY : sum.c.i
 
 sum.s: sum.c.s
@@ -340,7 +340,7 @@ sum.s: sum.c.s
 
 # target to generate assembly for a file
 sum.c.s:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\sum.dir\build.make homework/5_homework/CMakeFiles/sum.dir/sum.c.s
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\sum.dir\build.make homework/5_homework/CMakeFiles/sum.dir/sum.c.s
 .PHONY : sum.c.s
 
 # Help Target
@@ -386,6 +386,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\CPL\untitled\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

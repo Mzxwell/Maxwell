@@ -43,19 +43,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe -E rm -f
+RM = C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\git\GitCode\Maxwell
+CMAKE_SOURCE_DIR = C:\CPL\untitled
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\git\GitCode\Maxwell\cmake-build-debug
+CMAKE_BINARY_DIR = C:\CPL\untitled\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include homework/1-homework/CMakeFiles/Equation.dir/depend.make
@@ -69,18 +69,18 @@ include homework/1-homework/CMakeFiles/Equation.dir/progress.make
 include homework/1-homework/CMakeFiles/Equation.dir/flags.make
 
 homework/1-homework/CMakeFiles/Equation.dir/Equation.c.obj: homework/1-homework/CMakeFiles/Equation.dir/flags.make
-homework/1-homework/CMakeFiles/Equation.dir/Equation.c.obj: E:/git/GitCode/Maxwell/homework/1-homework/Equation.c
+homework/1-homework/CMakeFiles/Equation.dir/Equation.c.obj: C:/CPL/untitled/homework/1-homework/Equation.c
 homework/1-homework/CMakeFiles/Equation.dir/Equation.c.obj: homework/1-homework/CMakeFiles/Equation.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object homework/1-homework/CMakeFiles/Equation.dir/Equation.c.obj"
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug\homework\1-homework && C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT homework/1-homework/CMakeFiles/Equation.dir/Equation.c.obj -MF CMakeFiles\Equation.dir\Equation.c.obj.d -o CMakeFiles\Equation.dir\Equation.c.obj -c E:\git\GitCode\Maxwell\homework\1-homework\Equation.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object homework/1-homework/CMakeFiles/Equation.dir/Equation.c.obj"
+	cd /d C:\CPL\untitled\cmake-build-debug\homework\1-homework && C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT homework/1-homework/CMakeFiles/Equation.dir/Equation.c.obj -MF CMakeFiles\Equation.dir\Equation.c.obj.d -o CMakeFiles\Equation.dir\Equation.c.obj -c C:\CPL\untitled\homework\1-homework\Equation.c
 
 homework/1-homework/CMakeFiles/Equation.dir/Equation.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Equation.dir/Equation.c.i"
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug\homework\1-homework && C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\git\GitCode\Maxwell\homework\1-homework\Equation.c > CMakeFiles\Equation.dir\Equation.c.i
+	cd /d C:\CPL\untitled\cmake-build-debug\homework\1-homework && C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\CPL\untitled\homework\1-homework\Equation.c > CMakeFiles\Equation.dir\Equation.c.i
 
 homework/1-homework/CMakeFiles/Equation.dir/Equation.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Equation.dir/Equation.c.s"
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug\homework\1-homework && C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\git\GitCode\Maxwell\homework\1-homework\Equation.c -o CMakeFiles\Equation.dir\Equation.c.s
+	cd /d C:\CPL\untitled\cmake-build-debug\homework\1-homework && C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\CPL\untitled\homework\1-homework\Equation.c -o CMakeFiles\Equation.dir\Equation.c.s
 
 # Object files for target Equation
 Equation_OBJECTS = \
@@ -94,18 +94,18 @@ homework/1-homework/Equation.exe: homework/1-homework/CMakeFiles/Equation.dir/bu
 homework/1-homework/Equation.exe: homework/1-homework/CMakeFiles/Equation.dir/linklibs.rsp
 homework/1-homework/Equation.exe: homework/1-homework/CMakeFiles/Equation.dir/objects1.rsp
 homework/1-homework/Equation.exe: homework/1-homework/CMakeFiles/Equation.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Equation.exe"
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug\homework\1-homework && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Equation.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable Equation.exe"
+	cd /d C:\CPL\untitled\cmake-build-debug\homework\1-homework && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Equation.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 homework/1-homework/CMakeFiles/Equation.dir/build: homework/1-homework/Equation.exe
 .PHONY : homework/1-homework/CMakeFiles/Equation.dir/build
 
 homework/1-homework/CMakeFiles/Equation.dir/clean:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug\homework\1-homework && $(CMAKE_COMMAND) -P CMakeFiles\Equation.dir\cmake_clean.cmake
+	cd /d C:\CPL\untitled\cmake-build-debug\homework\1-homework && $(CMAKE_COMMAND) -P CMakeFiles\Equation.dir\cmake_clean.cmake
 .PHONY : homework/1-homework/CMakeFiles/Equation.dir/clean
 
 homework/1-homework/CMakeFiles/Equation.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\git\GitCode\Maxwell E:\git\GitCode\Maxwell\homework\1-homework E:\git\GitCode\Maxwell\cmake-build-debug E:\git\GitCode\Maxwell\cmake-build-debug\homework\1-homework E:\git\GitCode\Maxwell\cmake-build-debug\homework\1-homework\CMakeFiles\Equation.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\CPL\untitled C:\CPL\untitled\homework\1-homework C:\CPL\untitled\cmake-build-debug C:\CPL\untitled\cmake-build-debug\homework\1-homework C:\CPL\untitled\cmake-build-debug\homework\1-homework\CMakeFiles\Equation.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : homework/1-homework/CMakeFiles/Equation.dir/depend
 

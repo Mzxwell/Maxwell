@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "E:/git/GitCode/Maxwell/homework/homework2/inverse2.c" "homework/homework2/CMakeFiles/inverse2.dir/inverse2.c.obj" "gcc" "homework/homework2/CMakeFiles/inverse2.dir/inverse2.c.obj.d"
+  "C:/CPL/untitled/homework/homework2/inverse2.c" "homework/homework2/CMakeFiles/inverse2.dir/inverse2.c.obj" "gcc" "homework/homework2/CMakeFiles/inverse2.dir/inverse2.c.obj.d"
   )
 
 # Targets to which this target links.

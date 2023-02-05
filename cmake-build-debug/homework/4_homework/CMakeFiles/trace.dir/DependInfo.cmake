@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "E:/git/GitCode/Maxwell/homework/4_homework/trace.c" "homework/4_homework/CMakeFiles/trace.dir/trace.c.obj" "gcc" "homework/4_homework/CMakeFiles/trace.dir/trace.c.obj.d"
+  "C:/CPL/untitled/homework/4_homework/trace.c" "homework/4_homework/CMakeFiles/trace.dir/trace.c.obj" "gcc" "homework/4_homework/CMakeFiles/trace.dir/trace.c.obj.d"
   )
 
 # Targets to which this target links.

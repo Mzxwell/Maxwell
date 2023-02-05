@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe -E rm -f
+RM = C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\git\GitCode\Maxwell
+CMAKE_SOURCE_DIR = C:\CPL\untitled
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\git\GitCode\Maxwell\cmake-build-debug
+CMAKE_BINARY_DIR = C:\CPL\untitled\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = E:\git\GitCode\Maxwell\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
+	C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -77,7 +77,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles E:\git\GitCode\Maxwell\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles C:\CPL\untitled\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -1312,6 +1312,19 @@ stream/fast:
 .PHONY : stream/fast
 
 #=============================================================================
+# Target rules for targets named Hong
+
+# Build rule for target.
+Hong: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Hong
+.PHONY : Hong
+
+# fast build rule for target.
+Hong/fast:
+	$(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\Hong.dir\build.make boring_0/CMakeFiles/Hong.dir/build
+.PHONY : Hong/fast
+
+#=============================================================================
 # Target rules for targets named fifa
 
 # Build rule for target.
@@ -1368,6 +1381,7 @@ help:
 	@echo ... Equation
 	@echo ... Fibonacci
 	@echo ... Gravity
+	@echo ... Hong
 	@echo ... Julian
 	@echo ... NP
 	@echo ... Quick-sort

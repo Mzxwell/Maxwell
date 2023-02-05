@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "E:/git/GitCode/Maxwell/homework/5_homework/next-permutation.c" "homework/5_homework/CMakeFiles/next-permutation.dir/next-permutation.c.obj" "gcc" "homework/5_homework/CMakeFiles/next-permutation.dir/next-permutation.c.obj.d"
+  "C:/CPL/untitled/homework/5_homework/next-permutation.c" "homework/5_homework/CMakeFiles/next-permutation.dir/next-permutation.c.obj" "gcc" "homework/5_homework/CMakeFiles/next-permutation.dir/next-permutation.c.obj.d"
   )
 
 # Targets to which this target links.

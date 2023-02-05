@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe -E rm -f
+RM = C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\git\GitCode\Maxwell
+CMAKE_SOURCE_DIR = C:\CPL\untitled
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\git\GitCode\Maxwell\cmake-build-debug
+CMAKE_BINARY_DIR = C:\CPL\untitled\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = E:\git\GitCode\Maxwell\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
+	C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -77,7 +77,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles E:\git\GitCode\Maxwell\cmake-build-debug\boring_0\\CMakeFiles\progress.marks
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 boring_0/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	cd /d C:\CPL\untitled\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles C:\CPL\untitled\cmake-build-debug\boring_0\\CMakeFiles\progress.marks
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 boring_0/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 boring_0/clean
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 boring_0/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,22 +102,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 boring_0/preinstall
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 boring_0/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 boring_0/preinstall
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 boring_0/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\CPL\untitled\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 boring_0/CMakeFiles/bor.dir/rule:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 boring_0/CMakeFiles/bor.dir/rule
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 boring_0/CMakeFiles/bor.dir/rule
 .PHONY : boring_0/CMakeFiles/bor.dir/rule
 
 # Convenience name for target.
@@ -126,12 +126,12 @@ bor: boring_0/CMakeFiles/bor.dir/rule
 
 # fast build rule for target.
 bor/fast:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\bor.dir\build.make boring_0/CMakeFiles/bor.dir/build
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\bor.dir\build.make boring_0/CMakeFiles/bor.dir/build
 .PHONY : bor/fast
 
 # Convenience name for target.
 boring_0/CMakeFiles/ptr_0.dir/rule:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 boring_0/CMakeFiles/ptr_0.dir/rule
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 boring_0/CMakeFiles/ptr_0.dir/rule
 .PHONY : boring_0/CMakeFiles/ptr_0.dir/rule
 
 # Convenience name for target.
@@ -140,12 +140,12 @@ ptr_0: boring_0/CMakeFiles/ptr_0.dir/rule
 
 # fast build rule for target.
 ptr_0/fast:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\ptr_0.dir\build.make boring_0/CMakeFiles/ptr_0.dir/build
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\ptr_0.dir\build.make boring_0/CMakeFiles/ptr_0.dir/build
 .PHONY : ptr_0/fast
 
 # Convenience name for target.
 boring_0/CMakeFiles/random.dir/rule:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 boring_0/CMakeFiles/random.dir/rule
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 boring_0/CMakeFiles/random.dir/rule
 .PHONY : boring_0/CMakeFiles/random.dir/rule
 
 # Convenience name for target.
@@ -154,12 +154,12 @@ random: boring_0/CMakeFiles/random.dir/rule
 
 # fast build rule for target.
 random/fast:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\random.dir\build.make boring_0/CMakeFiles/random.dir/build
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\random.dir\build.make boring_0/CMakeFiles/random.dir/build
 .PHONY : random/fast
 
 # Convenience name for target.
 boring_0/CMakeFiles/stream.dir/rule:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 boring_0/CMakeFiles/stream.dir/rule
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 boring_0/CMakeFiles/stream.dir/rule
 .PHONY : boring_0/CMakeFiles/stream.dir/rule
 
 # Convenience name for target.
@@ -168,15 +168,53 @@ stream: boring_0/CMakeFiles/stream.dir/rule
 
 # fast build rule for target.
 stream/fast:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\stream.dir\build.make boring_0/CMakeFiles/stream.dir/build
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\stream.dir\build.make boring_0/CMakeFiles/stream.dir/build
 .PHONY : stream/fast
+
+# Convenience name for target.
+boring_0/CMakeFiles/Hong.dir/rule:
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 boring_0/CMakeFiles/Hong.dir/rule
+.PHONY : boring_0/CMakeFiles/Hong.dir/rule
+
+# Convenience name for target.
+Hong: boring_0/CMakeFiles/Hong.dir/rule
+.PHONY : Hong
+
+# fast build rule for target.
+Hong/fast:
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\Hong.dir\build.make boring_0/CMakeFiles/Hong.dir/build
+.PHONY : Hong/fast
+
+Hong.obj: Hong.c.obj
+.PHONY : Hong.obj
+
+# target to build an object file
+Hong.c.obj:
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\Hong.dir\build.make boring_0/CMakeFiles/Hong.dir/Hong.c.obj
+.PHONY : Hong.c.obj
+
+Hong.i: Hong.c.i
+.PHONY : Hong.i
+
+# target to preprocess a source file
+Hong.c.i:
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\Hong.dir\build.make boring_0/CMakeFiles/Hong.dir/Hong.c.i
+.PHONY : Hong.c.i
+
+Hong.s: Hong.c.s
+.PHONY : Hong.s
+
+# target to generate assembly for a file
+Hong.c.s:
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\Hong.dir\build.make boring_0/CMakeFiles/Hong.dir/Hong.c.s
+.PHONY : Hong.c.s
 
 bor.obj: bor.c.obj
 .PHONY : bor.obj
 
 # target to build an object file
 bor.c.obj:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\bor.dir\build.make boring_0/CMakeFiles/bor.dir/bor.c.obj
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\bor.dir\build.make boring_0/CMakeFiles/bor.dir/bor.c.obj
 .PHONY : bor.c.obj
 
 bor.i: bor.c.i
@@ -184,7 +222,7 @@ bor.i: bor.c.i
 
 # target to preprocess a source file
 bor.c.i:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\bor.dir\build.make boring_0/CMakeFiles/bor.dir/bor.c.i
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\bor.dir\build.make boring_0/CMakeFiles/bor.dir/bor.c.i
 .PHONY : bor.c.i
 
 bor.s: bor.c.s
@@ -192,7 +230,7 @@ bor.s: bor.c.s
 
 # target to generate assembly for a file
 bor.c.s:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\bor.dir\build.make boring_0/CMakeFiles/bor.dir/bor.c.s
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\bor.dir\build.make boring_0/CMakeFiles/bor.dir/bor.c.s
 .PHONY : bor.c.s
 
 ptr_0.obj: ptr_0.c.obj
@@ -200,7 +238,7 @@ ptr_0.obj: ptr_0.c.obj
 
 # target to build an object file
 ptr_0.c.obj:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\ptr_0.dir\build.make boring_0/CMakeFiles/ptr_0.dir/ptr_0.c.obj
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\ptr_0.dir\build.make boring_0/CMakeFiles/ptr_0.dir/ptr_0.c.obj
 .PHONY : ptr_0.c.obj
 
 ptr_0.i: ptr_0.c.i
@@ -208,7 +246,7 @@ ptr_0.i: ptr_0.c.i
 
 # target to preprocess a source file
 ptr_0.c.i:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\ptr_0.dir\build.make boring_0/CMakeFiles/ptr_0.dir/ptr_0.c.i
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\ptr_0.dir\build.make boring_0/CMakeFiles/ptr_0.dir/ptr_0.c.i
 .PHONY : ptr_0.c.i
 
 ptr_0.s: ptr_0.c.s
@@ -216,7 +254,7 @@ ptr_0.s: ptr_0.c.s
 
 # target to generate assembly for a file
 ptr_0.c.s:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\ptr_0.dir\build.make boring_0/CMakeFiles/ptr_0.dir/ptr_0.c.s
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\ptr_0.dir\build.make boring_0/CMakeFiles/ptr_0.dir/ptr_0.c.s
 .PHONY : ptr_0.c.s
 
 random.obj: random.c.obj
@@ -224,7 +262,7 @@ random.obj: random.c.obj
 
 # target to build an object file
 random.c.obj:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\random.dir\build.make boring_0/CMakeFiles/random.dir/random.c.obj
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\random.dir\build.make boring_0/CMakeFiles/random.dir/random.c.obj
 .PHONY : random.c.obj
 
 random.i: random.c.i
@@ -232,7 +270,7 @@ random.i: random.c.i
 
 # target to preprocess a source file
 random.c.i:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\random.dir\build.make boring_0/CMakeFiles/random.dir/random.c.i
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\random.dir\build.make boring_0/CMakeFiles/random.dir/random.c.i
 .PHONY : random.c.i
 
 random.s: random.c.s
@@ -240,7 +278,7 @@ random.s: random.c.s
 
 # target to generate assembly for a file
 random.c.s:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\random.dir\build.make boring_0/CMakeFiles/random.dir/random.c.s
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\random.dir\build.make boring_0/CMakeFiles/random.dir/random.c.s
 .PHONY : random.c.s
 
 stream.obj: stream.c.obj
@@ -248,7 +286,7 @@ stream.obj: stream.c.obj
 
 # target to build an object file
 stream.c.obj:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\stream.dir\build.make boring_0/CMakeFiles/stream.dir/stream.c.obj
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\stream.dir\build.make boring_0/CMakeFiles/stream.dir/stream.c.obj
 .PHONY : stream.c.obj
 
 stream.i: stream.c.i
@@ -256,7 +294,7 @@ stream.i: stream.c.i
 
 # target to preprocess a source file
 stream.c.i:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\stream.dir\build.make boring_0/CMakeFiles/stream.dir/stream.c.i
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\stream.dir\build.make boring_0/CMakeFiles/stream.dir/stream.c.i
 .PHONY : stream.c.i
 
 stream.s: stream.c.s
@@ -264,7 +302,7 @@ stream.s: stream.c.s
 
 # target to generate assembly for a file
 stream.c.s:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\stream.dir\build.make boring_0/CMakeFiles/stream.dir/stream.c.s
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\stream.dir\build.make boring_0/CMakeFiles/stream.dir/stream.c.s
 .PHONY : stream.c.s
 
 # Help Target
@@ -275,10 +313,14 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... Hong
 	@echo ... bor
 	@echo ... ptr_0
 	@echo ... random
 	@echo ... stream
+	@echo ... Hong.obj
+	@echo ... Hong.i
+	@echo ... Hong.s
 	@echo ... bor.obj
 	@echo ... bor.i
 	@echo ... bor.s
@@ -302,6 +344,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\CPL\untitled\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

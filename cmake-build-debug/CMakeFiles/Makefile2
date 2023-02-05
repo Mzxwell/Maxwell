@@ -44,19 +44,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe -E rm -f
+RM = C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\git\GitCode\Maxwell
+CMAKE_SOURCE_DIR = C:\CPL\untitled
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\git\GitCode\Maxwell\cmake-build-debug
+CMAKE_BINARY_DIR = C:\CPL\untitled\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -160,6 +160,7 @@ boring_0/all: boring_0/CMakeFiles/bor.dir/all
 boring_0/all: boring_0/CMakeFiles/ptr_0.dir/all
 boring_0/all: boring_0/CMakeFiles/random.dir/all
 boring_0/all: boring_0/CMakeFiles/stream.dir/all
+boring_0/all: boring_0/CMakeFiles/Hong.dir/all
 .PHONY : boring_0/all
 
 # Recursive "preinstall" directory target.
@@ -171,6 +172,7 @@ boring_0/clean: boring_0/CMakeFiles/bor.dir/clean
 boring_0/clean: boring_0/CMakeFiles/ptr_0.dir/clean
 boring_0/clean: boring_0/CMakeFiles/random.dir/clean
 boring_0/clean: boring_0/CMakeFiles/stream.dir/clean
+boring_0/clean: boring_0/CMakeFiles/Hong.dir/clean
 .PHONY : boring_0/clean
 
 #=============================================================================
@@ -505,14 +507,14 @@ homework/homework2/clean: homework/homework2/CMakeFiles/inverse2.dir/clean
 homework/1-homework/CMakeFiles/ruanmei.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\1-homework\CMakeFiles\ruanmei.dir\build.make homework/1-homework/CMakeFiles/ruanmei.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\1-homework\CMakeFiles\ruanmei.dir\build.make homework/1-homework/CMakeFiles/ruanmei.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=83 "Built target ruanmei"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=83 "Built target ruanmei"
 .PHONY : homework/1-homework/CMakeFiles/ruanmei.dir/all
 
 # Build rule for subdir invocation for target.
 homework/1-homework/CMakeFiles/ruanmei.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/1-homework/CMakeFiles/ruanmei.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : homework/1-homework/CMakeFiles/ruanmei.dir/rule
 
 # Convenience name for target.
@@ -531,14 +533,14 @@ homework/1-homework/CMakeFiles/ruanmei.dir/clean:
 homework/1-homework/CMakeFiles/pi.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\1-homework\CMakeFiles\pi.dir\build.make homework/1-homework/CMakeFiles/pi.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\1-homework\CMakeFiles\pi.dir\build.make homework/1-homework/CMakeFiles/pi.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=70 "Built target pi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=70 "Built target pi"
 .PHONY : homework/1-homework/CMakeFiles/pi.dir/all
 
 # Build rule for subdir invocation for target.
 homework/1-homework/CMakeFiles/pi.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/1-homework/CMakeFiles/pi.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : homework/1-homework/CMakeFiles/pi.dir/rule
 
 # Convenience name for target.
@@ -557,14 +559,14 @@ homework/1-homework/CMakeFiles/pi.dir/clean:
 homework/1-homework/CMakeFiles/pi2.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\1-homework\CMakeFiles\pi2.dir\build.make homework/1-homework/CMakeFiles/pi2.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\1-homework\CMakeFiles\pi2.dir\build.make homework/1-homework/CMakeFiles/pi2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=71 "Built target pi2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=71 "Built target pi2"
 .PHONY : homework/1-homework/CMakeFiles/pi2.dir/all
 
 # Build rule for subdir invocation for target.
 homework/1-homework/CMakeFiles/pi2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/1-homework/CMakeFiles/pi2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : homework/1-homework/CMakeFiles/pi2.dir/rule
 
 # Convenience name for target.
@@ -583,14 +585,14 @@ homework/1-homework/CMakeFiles/pi2.dir/clean:
 homework/1-homework/CMakeFiles/time.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\1-homework\CMakeFiles\time.dir\build.make homework/1-homework/CMakeFiles/time.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\1-homework\CMakeFiles\time.dir\build.make homework/1-homework/CMakeFiles/time.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=94 "Built target time"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=94 "Built target time"
 .PHONY : homework/1-homework/CMakeFiles/time.dir/all
 
 # Build rule for subdir invocation for target.
 homework/1-homework/CMakeFiles/time.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/1-homework/CMakeFiles/time.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : homework/1-homework/CMakeFiles/time.dir/rule
 
 # Convenience name for target.
@@ -609,14 +611,14 @@ homework/1-homework/CMakeFiles/time.dir/clean:
 homework/1-homework/CMakeFiles/ASCII.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\1-homework\CMakeFiles\ASCII.dir\build.make homework/1-homework/CMakeFiles/ASCII.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\1-homework\CMakeFiles\ASCII.dir\build.make homework/1-homework/CMakeFiles/ASCII.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=20 "Built target ASCII"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=20 "Built target ASCII"
 .PHONY : homework/1-homework/CMakeFiles/ASCII.dir/all
 
 # Build rule for subdir invocation for target.
 homework/1-homework/CMakeFiles/ASCII.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/1-homework/CMakeFiles/ASCII.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : homework/1-homework/CMakeFiles/ASCII.dir/rule
 
 # Convenience name for target.
@@ -635,14 +637,14 @@ homework/1-homework/CMakeFiles/ASCII.dir/clean:
 homework/1-homework/CMakeFiles/inverse.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\1-homework\CMakeFiles\inverse.dir\build.make homework/1-homework/CMakeFiles/inverse.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\1-homework\CMakeFiles\inverse.dir\build.make homework/1-homework/CMakeFiles/inverse.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=55 "Built target inverse"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=55 "Built target inverse"
 .PHONY : homework/1-homework/CMakeFiles/inverse.dir/all
 
 # Build rule for subdir invocation for target.
 homework/1-homework/CMakeFiles/inverse.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/1-homework/CMakeFiles/inverse.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : homework/1-homework/CMakeFiles/inverse.dir/rule
 
 # Convenience name for target.
@@ -661,14 +663,14 @@ homework/1-homework/CMakeFiles/inverse.dir/clean:
 homework/1-homework/CMakeFiles/Gravity.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\1-homework\CMakeFiles\Gravity.dir\build.make homework/1-homework/CMakeFiles/Gravity.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\1-homework\CMakeFiles\Gravity.dir\build.make homework/1-homework/CMakeFiles/Gravity.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=25 "Built target Gravity"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=24 "Built target Gravity"
 .PHONY : homework/1-homework/CMakeFiles/Gravity.dir/all
 
 # Build rule for subdir invocation for target.
 homework/1-homework/CMakeFiles/Gravity.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/1-homework/CMakeFiles/Gravity.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : homework/1-homework/CMakeFiles/Gravity.dir/rule
 
 # Convenience name for target.
@@ -687,14 +689,14 @@ homework/1-homework/CMakeFiles/Gravity.dir/clean:
 homework/1-homework/CMakeFiles/Julian.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\1-homework\CMakeFiles\Julian.dir\build.make homework/1-homework/CMakeFiles/Julian.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\1-homework\CMakeFiles\Julian.dir\build.make homework/1-homework/CMakeFiles/Julian.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=26 "Built target Julian"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=26 "Built target Julian"
 .PHONY : homework/1-homework/CMakeFiles/Julian.dir/all
 
 # Build rule for subdir invocation for target.
 homework/1-homework/CMakeFiles/Julian.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/1-homework/CMakeFiles/Julian.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : homework/1-homework/CMakeFiles/Julian.dir/rule
 
 # Convenience name for target.
@@ -713,14 +715,14 @@ homework/1-homework/CMakeFiles/Julian.dir/clean:
 homework/1-homework/CMakeFiles/Equation.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\1-homework\CMakeFiles\Equation.dir\build.make homework/1-homework/CMakeFiles/Equation.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\1-homework\CMakeFiles\Equation.dir\build.make homework/1-homework/CMakeFiles/Equation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=22,23 "Built target Equation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=22 "Built target Equation"
 .PHONY : homework/1-homework/CMakeFiles/Equation.dir/all
 
 # Build rule for subdir invocation for target.
 homework/1-homework/CMakeFiles/Equation.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/1-homework/CMakeFiles/Equation.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : homework/1-homework/CMakeFiles/Equation.dir/rule
 
 # Convenience name for target.
@@ -739,14 +741,14 @@ homework/1-homework/CMakeFiles/Equation.dir/clean:
 class2/CMakeFiles/class2.dir/all:
 	$(MAKE) $(MAKESILENT) -f class2\CMakeFiles\class2.dir\build.make class2/CMakeFiles/class2.dir/depend
 	$(MAKE) $(MAKESILENT) -f class2\CMakeFiles\class2.dir\build.make class2/CMakeFiles/class2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=36 "Built target class2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=37 "Built target class2"
 .PHONY : class2/CMakeFiles/class2.dir/all
 
 # Build rule for subdir invocation for target.
 class2/CMakeFiles/class2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 class2/CMakeFiles/class2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : class2/CMakeFiles/class2.dir/rule
 
 # Convenience name for target.
@@ -765,14 +767,14 @@ class2/CMakeFiles/class2.dir/clean:
 class2/CMakeFiles/class3.dir/all:
 	$(MAKE) $(MAKESILENT) -f class2\CMakeFiles\class3.dir\build.make class2/CMakeFiles/class3.dir/depend
 	$(MAKE) $(MAKESILENT) -f class2\CMakeFiles\class3.dir\build.make class2/CMakeFiles/class3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=37 "Built target class3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=38 "Built target class3"
 .PHONY : class2/CMakeFiles/class3.dir/all
 
 # Build rule for subdir invocation for target.
 class2/CMakeFiles/class3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 class2/CMakeFiles/class3.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : class2/CMakeFiles/class3.dir/rule
 
 # Convenience name for target.
@@ -791,14 +793,14 @@ class2/CMakeFiles/class3.dir/clean:
 class2/CMakeFiles/3-class.dir/all:
 	$(MAKE) $(MAKESILENT) -f class2\CMakeFiles\3-class.dir\build.make class2/CMakeFiles/3-class.dir/depend
 	$(MAKE) $(MAKESILENT) -f class2\CMakeFiles\3-class.dir\build.make class2/CMakeFiles/3-class.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=8 "Built target 3-class"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=8 "Built target 3-class"
 .PHONY : class2/CMakeFiles/3-class.dir/all
 
 # Build rule for subdir invocation for target.
 class2/CMakeFiles/3-class.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 class2/CMakeFiles/3-class.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : class2/CMakeFiles/3-class.dir/rule
 
 # Convenience name for target.
@@ -817,14 +819,14 @@ class2/CMakeFiles/3-class.dir/clean:
 class2/CMakeFiles/4-class.dir/all:
 	$(MAKE) $(MAKESILENT) -f class2\CMakeFiles\4-class.dir\build.make class2/CMakeFiles/4-class.dir/depend
 	$(MAKE) $(MAKESILENT) -f class2\CMakeFiles\4-class.dir\build.make class2/CMakeFiles/4-class.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=10 "Built target 4-class"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=10 "Built target 4-class"
 .PHONY : class2/CMakeFiles/4-class.dir/all
 
 # Build rule for subdir invocation for target.
 class2/CMakeFiles/4-class.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 class2/CMakeFiles/4-class.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : class2/CMakeFiles/4-class.dir/rule
 
 # Convenience name for target.
@@ -843,14 +845,14 @@ class2/CMakeFiles/4-class.dir/clean:
 class2/CMakeFiles/5-class.dir/all:
 	$(MAKE) $(MAKESILENT) -f class2\CMakeFiles\5-class.dir\build.make class2/CMakeFiles/5-class.dir/depend
 	$(MAKE) $(MAKESILENT) -f class2\CMakeFiles\5-class.dir\build.make class2/CMakeFiles/5-class.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=11 "Built target 5-class"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=11 "Built target 5-class"
 .PHONY : class2/CMakeFiles/5-class.dir/all
 
 # Build rule for subdir invocation for target.
 class2/CMakeFiles/5-class.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 class2/CMakeFiles/5-class.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : class2/CMakeFiles/5-class.dir/rule
 
 # Convenience name for target.
@@ -869,14 +871,14 @@ class2/CMakeFiles/5-class.dir/clean:
 class2/CMakeFiles/6-class.dir/all:
 	$(MAKE) $(MAKESILENT) -f class2\CMakeFiles\6-class.dir\build.make class2/CMakeFiles/6-class.dir/depend
 	$(MAKE) $(MAKESILENT) -f class2\CMakeFiles\6-class.dir\build.make class2/CMakeFiles/6-class.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=13 "Built target 6-class"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=13 "Built target 6-class"
 .PHONY : class2/CMakeFiles/6-class.dir/all
 
 # Build rule for subdir invocation for target.
 class2/CMakeFiles/6-class.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 class2/CMakeFiles/6-class.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : class2/CMakeFiles/6-class.dir/rule
 
 # Convenience name for target.
@@ -895,14 +897,14 @@ class2/CMakeFiles/6-class.dir/clean:
 class2/CMakeFiles/7-class.dir/all:
 	$(MAKE) $(MAKESILENT) -f class2\CMakeFiles\7-class.dir\build.make class2/CMakeFiles/7-class.dir/depend
 	$(MAKE) $(MAKESILENT) -f class2\CMakeFiles\7-class.dir\build.make class2/CMakeFiles/7-class.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=16 "Built target 7-class"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=16 "Built target 7-class"
 .PHONY : class2/CMakeFiles/7-class.dir/all
 
 # Build rule for subdir invocation for target.
 class2/CMakeFiles/7-class.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 class2/CMakeFiles/7-class.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : class2/CMakeFiles/7-class.dir/rule
 
 # Convenience name for target.
@@ -921,14 +923,14 @@ class2/CMakeFiles/7-class.dir/clean:
 class2/CMakeFiles/8-class.dir/all:
 	$(MAKE) $(MAKESILENT) -f class2\CMakeFiles\8-class.dir\build.make class2/CMakeFiles/8-class.dir/depend
 	$(MAKE) $(MAKESILENT) -f class2\CMakeFiles\8-class.dir\build.make class2/CMakeFiles/8-class.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=17 "Built target 8-class"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=17 "Built target 8-class"
 .PHONY : class2/CMakeFiles/8-class.dir/all
 
 # Build rule for subdir invocation for target.
 class2/CMakeFiles/8-class.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 class2/CMakeFiles/8-class.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : class2/CMakeFiles/8-class.dir/rule
 
 # Convenience name for target.
@@ -947,14 +949,14 @@ class2/CMakeFiles/8-class.dir/clean:
 class2/CMakeFiles/9-class.dir/all:
 	$(MAKE) $(MAKESILENT) -f class2\CMakeFiles\9-class.dir\build.make class2/CMakeFiles/9-class.dir/depend
 	$(MAKE) $(MAKESILENT) -f class2\CMakeFiles\9-class.dir\build.make class2/CMakeFiles/9-class.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=18 "Built target 9-class"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=18 "Built target 9-class"
 .PHONY : class2/CMakeFiles/9-class.dir/all
 
 # Build rule for subdir invocation for target.
 class2/CMakeFiles/9-class.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 class2/CMakeFiles/9-class.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : class2/CMakeFiles/9-class.dir/rule
 
 # Convenience name for target.
@@ -973,14 +975,14 @@ class2/CMakeFiles/9-class.dir/clean:
 class2/CMakeFiles/10_class.dir/all:
 	$(MAKE) $(MAKESILENT) -f class2\CMakeFiles\10_class.dir\build.make class2/CMakeFiles/10_class.dir/depend
 	$(MAKE) $(MAKESILENT) -f class2\CMakeFiles\10_class.dir\build.make class2/CMakeFiles/10_class.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=3 "Built target 10_class"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=3 "Built target 10_class"
 .PHONY : class2/CMakeFiles/10_class.dir/all
 
 # Build rule for subdir invocation for target.
 class2/CMakeFiles/10_class.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 class2/CMakeFiles/10_class.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : class2/CMakeFiles/10_class.dir/rule
 
 # Convenience name for target.
@@ -999,14 +1001,14 @@ class2/CMakeFiles/10_class.dir/clean:
 class2/CMakeFiles/11_class.dir/all:
 	$(MAKE) $(MAKESILENT) -f class2\CMakeFiles\11_class.dir\build.make class2/CMakeFiles/11_class.dir/depend
 	$(MAKE) $(MAKESILENT) -f class2\CMakeFiles\11_class.dir\build.make class2/CMakeFiles/11_class.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=4,5 "Built target 11_class"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=4,5 "Built target 11_class"
 .PHONY : class2/CMakeFiles/11_class.dir/all
 
 # Build rule for subdir invocation for target.
 class2/CMakeFiles/11_class.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 class2/CMakeFiles/11_class.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : class2/CMakeFiles/11_class.dir/rule
 
 # Convenience name for target.
@@ -1025,14 +1027,14 @@ class2/CMakeFiles/11_class.dir/clean:
 homework/homework2/CMakeFiles/single.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\homework2\CMakeFiles\single.dir\build.make homework/homework2/CMakeFiles/single.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\homework2\CMakeFiles\single.dir\build.make homework/homework2/CMakeFiles/single.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=85 "Built target single"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=85,86 "Built target single"
 .PHONY : homework/homework2/CMakeFiles/single.dir/all
 
 # Build rule for subdir invocation for target.
 homework/homework2/CMakeFiles/single.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/homework2/CMakeFiles/single.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : homework/homework2/CMakeFiles/single.dir/rule
 
 # Convenience name for target.
@@ -1051,14 +1053,14 @@ homework/homework2/CMakeFiles/single.dir/clean:
 homework/homework2/CMakeFiles/factorial.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\homework2\CMakeFiles\factorial.dir\build.make homework/homework2/CMakeFiles/factorial.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\homework2\CMakeFiles\factorial.dir\build.make homework/homework2/CMakeFiles/factorial.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=44,45 "Built target factorial"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=45 "Built target factorial"
 .PHONY : homework/homework2/CMakeFiles/factorial.dir/all
 
 # Build rule for subdir invocation for target.
 homework/homework2/CMakeFiles/factorial.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/homework2/CMakeFiles/factorial.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : homework/homework2/CMakeFiles/factorial.dir/rule
 
 # Convenience name for target.
@@ -1077,14 +1079,14 @@ homework/homework2/CMakeFiles/factorial.dir/clean:
 homework/homework2/CMakeFiles/series.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\homework2\CMakeFiles\series.dir\build.make homework/homework2/CMakeFiles/series.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\homework2\CMakeFiles\series.dir\build.make homework/homework2/CMakeFiles/series.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=84 "Built target series"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=84 "Built target series"
 .PHONY : homework/homework2/CMakeFiles/series.dir/all
 
 # Build rule for subdir invocation for target.
 homework/homework2/CMakeFiles/series.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/homework2/CMakeFiles/series.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : homework/homework2/CMakeFiles/series.dir/rule
 
 # Convenience name for target.
@@ -1103,14 +1105,14 @@ homework/homework2/CMakeFiles/series.dir/clean:
 homework/homework2/CMakeFiles/collatz.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\homework2\CMakeFiles\collatz.dir\build.make homework/homework2/CMakeFiles/collatz.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\homework2\CMakeFiles\collatz.dir\build.make homework/homework2/CMakeFiles/collatz.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=38 "Built target collatz"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=39 "Built target collatz"
 .PHONY : homework/homework2/CMakeFiles/collatz.dir/all
 
 # Build rule for subdir invocation for target.
 homework/homework2/CMakeFiles/collatz.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/homework2/CMakeFiles/collatz.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : homework/homework2/CMakeFiles/collatz.dir/rule
 
 # Convenience name for target.
@@ -1129,14 +1131,14 @@ homework/homework2/CMakeFiles/collatz.dir/clean:
 homework/homework2/CMakeFiles/obstacel.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\homework2\CMakeFiles\obstacel.dir\build.make homework/homework2/CMakeFiles/obstacel.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\homework2\CMakeFiles\obstacel.dir\build.make homework/homework2/CMakeFiles/obstacel.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=65 "Built target obstacel"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=66 "Built target obstacel"
 .PHONY : homework/homework2/CMakeFiles/obstacel.dir/all
 
 # Build rule for subdir invocation for target.
 homework/homework2/CMakeFiles/obstacel.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/homework2/CMakeFiles/obstacel.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : homework/homework2/CMakeFiles/obstacel.dir/rule
 
 # Convenience name for target.
@@ -1155,14 +1157,14 @@ homework/homework2/CMakeFiles/obstacel.dir/clean:
 homework/homework2/CMakeFiles/inverse2.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\homework2\CMakeFiles\inverse2.dir\build.make homework/homework2/CMakeFiles/inverse2.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\homework2\CMakeFiles\inverse2.dir\build.make homework/homework2/CMakeFiles/inverse2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=56 "Built target inverse2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=56 "Built target inverse2"
 .PHONY : homework/homework2/CMakeFiles/inverse2.dir/all
 
 # Build rule for subdir invocation for target.
 homework/homework2/CMakeFiles/inverse2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/homework2/CMakeFiles/inverse2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : homework/homework2/CMakeFiles/inverse2.dir/rule
 
 # Convenience name for target.
@@ -1181,14 +1183,14 @@ homework/homework2/CMakeFiles/inverse2.dir/clean:
 boring/CMakeFiles/n.dir/all:
 	$(MAKE) $(MAKESILENT) -f boring\CMakeFiles\n.dir\build.make boring/CMakeFiles/n.dir/depend
 	$(MAKE) $(MAKESILENT) -f boring\CMakeFiles\n.dir\build.make boring/CMakeFiles/n.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=63 "Built target n"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=64 "Built target n"
 .PHONY : boring/CMakeFiles/n.dir/all
 
 # Build rule for subdir invocation for target.
 boring/CMakeFiles/n.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 boring/CMakeFiles/n.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : boring/CMakeFiles/n.dir/rule
 
 # Convenience name for target.
@@ -1207,14 +1209,14 @@ boring/CMakeFiles/n.dir/clean:
 boring/CMakeFiles/function.dir/all:
 	$(MAKE) $(MAKESILENT) -f boring\CMakeFiles\function.dir\build.make boring/CMakeFiles/function.dir/depend
 	$(MAKE) $(MAKESILENT) -f boring\CMakeFiles\function.dir\build.make boring/CMakeFiles/function.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=49 "Built target function"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=49 "Built target function"
 .PHONY : boring/CMakeFiles/function.dir/all
 
 # Build rule for subdir invocation for target.
 boring/CMakeFiles/function.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 boring/CMakeFiles/function.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : boring/CMakeFiles/function.dir/rule
 
 # Convenience name for target.
@@ -1233,14 +1235,14 @@ boring/CMakeFiles/function.dir/clean:
 boring/CMakeFiles/experience.dir/all:
 	$(MAKE) $(MAKESILENT) -f boring\CMakeFiles\experience.dir\build.make boring/CMakeFiles/experience.dir/depend
 	$(MAKE) $(MAKESILENT) -f boring\CMakeFiles\experience.dir\build.make boring/CMakeFiles/experience.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=43 "Built target experience"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=44 "Built target experience"
 .PHONY : boring/CMakeFiles/experience.dir/all
 
 # Build rule for subdir invocation for target.
 boring/CMakeFiles/experience.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 boring/CMakeFiles/experience.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : boring/CMakeFiles/experience.dir/rule
 
 # Convenience name for target.
@@ -1259,14 +1261,14 @@ boring/CMakeFiles/experience.dir/clean:
 boring/CMakeFiles/prime.dir/all:
 	$(MAKE) $(MAKESILENT) -f boring\CMakeFiles\prime.dir\build.make boring/CMakeFiles/prime.dir/depend
 	$(MAKE) $(MAKESILENT) -f boring\CMakeFiles\prime.dir\build.make boring/CMakeFiles/prime.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=75 "Built target prime"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=75 "Built target prime"
 .PHONY : boring/CMakeFiles/prime.dir/all
 
 # Build rule for subdir invocation for target.
 boring/CMakeFiles/prime.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 boring/CMakeFiles/prime.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : boring/CMakeFiles/prime.dir/rule
 
 # Convenience name for target.
@@ -1285,14 +1287,14 @@ boring/CMakeFiles/prime.dir/clean:
 boring/CMakeFiles/prime_2.dir/all:
 	$(MAKE) $(MAKESILENT) -f boring\CMakeFiles\prime_2.dir\build.make boring/CMakeFiles/prime_2.dir/depend
 	$(MAKE) $(MAKESILENT) -f boring\CMakeFiles\prime_2.dir\build.make boring/CMakeFiles/prime_2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=76 "Built target prime_2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=76 "Built target prime_2"
 .PHONY : boring/CMakeFiles/prime_2.dir/all
 
 # Build rule for subdir invocation for target.
 boring/CMakeFiles/prime_2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 boring/CMakeFiles/prime_2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : boring/CMakeFiles/prime_2.dir/rule
 
 # Convenience name for target.
@@ -1311,14 +1313,14 @@ boring/CMakeFiles/prime_2.dir/clean:
 boring/CMakeFiles/a.dir/all:
 	$(MAKE) $(MAKESILENT) -f boring\CMakeFiles\a.dir\build.make boring/CMakeFiles/a.dir/depend
 	$(MAKE) $(MAKESILENT) -f boring\CMakeFiles\a.dir\build.make boring/CMakeFiles/a.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=29 "Built target a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=30 "Built target a"
 .PHONY : boring/CMakeFiles/a.dir/all
 
 # Build rule for subdir invocation for target.
 boring/CMakeFiles/a.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 boring/CMakeFiles/a.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : boring/CMakeFiles/a.dir/rule
 
 # Convenience name for target.
@@ -1337,14 +1339,14 @@ boring/CMakeFiles/a.dir/clean:
 boring/CMakeFiles/1.dir/all:
 	$(MAKE) $(MAKESILENT) -f boring\CMakeFiles\1.dir\build.make boring/CMakeFiles/1.dir/depend
 	$(MAKE) $(MAKESILENT) -f boring\CMakeFiles\1.dir\build.make boring/CMakeFiles/1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=2 "Built target 1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=2 "Built target 1"
 .PHONY : boring/CMakeFiles/1.dir/all
 
 # Build rule for subdir invocation for target.
 boring/CMakeFiles/1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 boring/CMakeFiles/1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : boring/CMakeFiles/1.dir/rule
 
 # Convenience name for target.
@@ -1363,14 +1365,14 @@ boring/CMakeFiles/1.dir/clean:
 boring/CMakeFiles/NP.dir/all:
 	$(MAKE) $(MAKESILENT) -f boring\CMakeFiles\NP.dir\build.make boring/CMakeFiles/NP.dir/depend
 	$(MAKE) $(MAKESILENT) -f boring\CMakeFiles\NP.dir\build.make boring/CMakeFiles/NP.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=27 "Built target NP"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=27 "Built target NP"
 .PHONY : boring/CMakeFiles/NP.dir/all
 
 # Build rule for subdir invocation for target.
 boring/CMakeFiles/NP.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 boring/CMakeFiles/NP.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : boring/CMakeFiles/NP.dir/rule
 
 # Convenience name for target.
@@ -1389,14 +1391,14 @@ boring/CMakeFiles/NP.dir/clean:
 boring/CMakeFiles/exp.dir/all:
 	$(MAKE) $(MAKESILENT) -f boring\CMakeFiles\exp.dir\build.make boring/CMakeFiles/exp.dir/depend
 	$(MAKE) $(MAKESILENT) -f boring\CMakeFiles\exp.dir\build.make boring/CMakeFiles/exp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=42 "Built target exp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=43 "Built target exp"
 .PHONY : boring/CMakeFiles/exp.dir/all
 
 # Build rule for subdir invocation for target.
 boring/CMakeFiles/exp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 boring/CMakeFiles/exp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : boring/CMakeFiles/exp.dir/rule
 
 # Convenience name for target.
@@ -1415,14 +1417,14 @@ boring/CMakeFiles/exp.dir/clean:
 boring/CMakeFiles/Fibonacci.dir/all:
 	$(MAKE) $(MAKESILENT) -f boring\CMakeFiles\Fibonacci.dir\build.make boring/CMakeFiles/Fibonacci.dir/depend
 	$(MAKE) $(MAKESILENT) -f boring\CMakeFiles\Fibonacci.dir\build.make boring/CMakeFiles/Fibonacci.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=24 "Built target Fibonacci"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=23 "Built target Fibonacci"
 .PHONY : boring/CMakeFiles/Fibonacci.dir/all
 
 # Build rule for subdir invocation for target.
 boring/CMakeFiles/Fibonacci.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 boring/CMakeFiles/Fibonacci.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : boring/CMakeFiles/Fibonacci.dir/rule
 
 # Convenience name for target.
@@ -1441,14 +1443,14 @@ boring/CMakeFiles/Fibonacci.dir/clean:
 boring/CMakeFiles/2.dir/all:
 	$(MAKE) $(MAKESILENT) -f boring\CMakeFiles\2.dir\build.make boring/CMakeFiles/2.dir/depend
 	$(MAKE) $(MAKESILENT) -f boring\CMakeFiles\2.dir\build.make boring/CMakeFiles/2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=6 "Built target 2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=6 "Built target 2"
 .PHONY : boring/CMakeFiles/2.dir/all
 
 # Build rule for subdir invocation for target.
 boring/CMakeFiles/2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 boring/CMakeFiles/2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : boring/CMakeFiles/2.dir/rule
 
 # Convenience name for target.
@@ -1467,14 +1469,14 @@ boring/CMakeFiles/2.dir/clean:
 boring/CMakeFiles/3.dir/all:
 	$(MAKE) $(MAKESILENT) -f boring\CMakeFiles\3.dir\build.make boring/CMakeFiles/3.dir/depend
 	$(MAKE) $(MAKESILENT) -f boring\CMakeFiles\3.dir\build.make boring/CMakeFiles/3.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=7 "Built target 3"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=7 "Built target 3"
 .PHONY : boring/CMakeFiles/3.dir/all
 
 # Build rule for subdir invocation for target.
 boring/CMakeFiles/3.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 boring/CMakeFiles/3.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : boring/CMakeFiles/3.dir/rule
 
 # Convenience name for target.
@@ -1493,14 +1495,14 @@ boring/CMakeFiles/3.dir/clean:
 homework/3-homework/CMakeFiles/flip.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\3-homework\CMakeFiles\flip.dir\build.make homework/3-homework/CMakeFiles/flip.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\3-homework\CMakeFiles\flip.dir\build.make homework/3-homework/CMakeFiles/flip.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=47 "Built target flip"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=47 "Built target flip"
 .PHONY : homework/3-homework/CMakeFiles/flip.dir/all
 
 # Build rule for subdir invocation for target.
 homework/3-homework/CMakeFiles/flip.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/3-homework/CMakeFiles/flip.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : homework/3-homework/CMakeFiles/flip.dir/rule
 
 # Convenience name for target.
@@ -1519,14 +1521,14 @@ homework/3-homework/CMakeFiles/flip.dir/clean:
 homework/3-homework/CMakeFiles/flip2.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\3-homework\CMakeFiles\flip2.dir\build.make homework/3-homework/CMakeFiles/flip2.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\3-homework\CMakeFiles\flip2.dir\build.make homework/3-homework/CMakeFiles/flip2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=48 "Built target flip2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=48 "Built target flip2"
 .PHONY : homework/3-homework/CMakeFiles/flip2.dir/all
 
 # Build rule for subdir invocation for target.
 homework/3-homework/CMakeFiles/flip2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/3-homework/CMakeFiles/flip2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : homework/3-homework/CMakeFiles/flip2.dir/rule
 
 # Convenience name for target.
@@ -1545,14 +1547,14 @@ homework/3-homework/CMakeFiles/flip2.dir/clean:
 homework/3-homework/CMakeFiles/gaoxiao.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\3-homework\CMakeFiles\gaoxiao.dir\build.make homework/3-homework/CMakeFiles/gaoxiao.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\3-homework\CMakeFiles\gaoxiao.dir\build.make homework/3-homework/CMakeFiles/gaoxiao.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=50 "Built target gaoxiao"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=50 "Built target gaoxiao"
 .PHONY : homework/3-homework/CMakeFiles/gaoxiao.dir/all
 
 # Build rule for subdir invocation for target.
 homework/3-homework/CMakeFiles/gaoxiao.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/3-homework/CMakeFiles/gaoxiao.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : homework/3-homework/CMakeFiles/gaoxiao.dir/rule
 
 # Convenience name for target.
@@ -1571,14 +1573,14 @@ homework/3-homework/CMakeFiles/gaoxiao.dir/clean:
 homework/3-homework/CMakeFiles/statistics.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\3-homework\CMakeFiles\statistics.dir\build.make homework/3-homework/CMakeFiles/statistics.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\3-homework\CMakeFiles\statistics.dir\build.make homework/3-homework/CMakeFiles/statistics.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=86 "Built target statistics"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=87 "Built target statistics"
 .PHONY : homework/3-homework/CMakeFiles/statistics.dir/all
 
 # Build rule for subdir invocation for target.
 homework/3-homework/CMakeFiles/statistics.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/3-homework/CMakeFiles/statistics.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : homework/3-homework/CMakeFiles/statistics.dir/rule
 
 # Convenience name for target.
@@ -1597,14 +1599,14 @@ homework/3-homework/CMakeFiles/statistics.dir/clean:
 homework/3-homework/CMakeFiles/jusephus.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\3-homework\CMakeFiles\jusephus.dir\build.make homework/3-homework/CMakeFiles/jusephus.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\3-homework\CMakeFiles\jusephus.dir\build.make homework/3-homework/CMakeFiles/jusephus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=57 "Built target jusephus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=57,58 "Built target jusephus"
 .PHONY : homework/3-homework/CMakeFiles/jusephus.dir/all
 
 # Build rule for subdir invocation for target.
 homework/3-homework/CMakeFiles/jusephus.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/3-homework/CMakeFiles/jusephus.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : homework/3-homework/CMakeFiles/jusephus.dir/rule
 
 # Convenience name for target.
@@ -1623,14 +1625,14 @@ homework/3-homework/CMakeFiles/jusephus.dir/clean:
 homework/3-homework/CMakeFiles/decimal.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\3-homework\CMakeFiles\decimal.dir\build.make homework/3-homework/CMakeFiles/decimal.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\3-homework\CMakeFiles\decimal.dir\build.make homework/3-homework/CMakeFiles/decimal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=40 "Built target decimal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=41 "Built target decimal"
 .PHONY : homework/3-homework/CMakeFiles/decimal.dir/all
 
 # Build rule for subdir invocation for target.
 homework/3-homework/CMakeFiles/decimal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/3-homework/CMakeFiles/decimal.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : homework/3-homework/CMakeFiles/decimal.dir/rule
 
 # Convenience name for target.
@@ -1649,14 +1651,14 @@ homework/3-homework/CMakeFiles/decimal.dir/clean:
 homework/3-homework/CMakeFiles/palindrome.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\3-homework\CMakeFiles\palindrome.dir\build.make homework/3-homework/CMakeFiles/palindrome.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\3-homework\CMakeFiles\palindrome.dir\build.make homework/3-homework/CMakeFiles/palindrome.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=66,67 "Built target palindrome"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=67 "Built target palindrome"
 .PHONY : homework/3-homework/CMakeFiles/palindrome.dir/all
 
 # Build rule for subdir invocation for target.
 homework/3-homework/CMakeFiles/palindrome.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/3-homework/CMakeFiles/palindrome.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : homework/3-homework/CMakeFiles/palindrome.dir/rule
 
 # Convenience name for target.
@@ -1675,14 +1677,14 @@ homework/3-homework/CMakeFiles/palindrome.dir/clean:
 homework/3-homework/CMakeFiles/Quick-sort.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\3-homework\CMakeFiles\Quick-sort.dir\build.make homework/3-homework/CMakeFiles/Quick-sort.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\3-homework\CMakeFiles\Quick-sort.dir\build.make homework/3-homework/CMakeFiles/Quick-sort.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=28 "Built target Quick-sort"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=28,29 "Built target Quick-sort"
 .PHONY : homework/3-homework/CMakeFiles/Quick-sort.dir/all
 
 # Build rule for subdir invocation for target.
 homework/3-homework/CMakeFiles/Quick-sort.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/3-homework/CMakeFiles/Quick-sort.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : homework/3-homework/CMakeFiles/Quick-sort.dir/rule
 
 # Convenience name for target.
@@ -1701,14 +1703,14 @@ homework/3-homework/CMakeFiles/Quick-sort.dir/clean:
 computing/CMakeFiles/6.19.dir/all:
 	$(MAKE) $(MAKESILENT) -f computing\CMakeFiles\6.19.dir\build.make computing/CMakeFiles/6.19.dir/depend
 	$(MAKE) $(MAKESILENT) -f computing\CMakeFiles\6.19.dir\build.make computing/CMakeFiles/6.19.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=14 "Built target 6.19"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=14 "Built target 6.19"
 .PHONY : computing/CMakeFiles/6.19.dir/all
 
 # Build rule for subdir invocation for target.
 computing/CMakeFiles/6.19.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 computing/CMakeFiles/6.19.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : computing/CMakeFiles/6.19.dir/rule
 
 # Convenience name for target.
@@ -1727,14 +1729,14 @@ computing/CMakeFiles/6.19.dir/clean:
 computing/CMakeFiles/A+B.dir/all:
 	$(MAKE) $(MAKESILENT) -f computing\CMakeFiles\A+B.dir\build.make computing/CMakeFiles/A+B.dir/depend
 	$(MAKE) $(MAKESILENT) -f computing\CMakeFiles\A+B.dir\build.make computing/CMakeFiles/A+B.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=19 "Built target A+B"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=19 "Built target A+B"
 .PHONY : computing/CMakeFiles/A+B.dir/all
 
 # Build rule for subdir invocation for target.
 computing/CMakeFiles/A+B.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 computing/CMakeFiles/A+B.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : computing/CMakeFiles/A+B.dir/rule
 
 # Convenience name for target.
@@ -1753,14 +1755,14 @@ computing/CMakeFiles/A+B.dir/clean:
 computing/CMakeFiles/delete.dir/all:
 	$(MAKE) $(MAKESILENT) -f computing\CMakeFiles\delete.dir\build.make computing/CMakeFiles/delete.dir/depend
 	$(MAKE) $(MAKESILENT) -f computing\CMakeFiles\delete.dir\build.make computing/CMakeFiles/delete.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=41 "Built target delete"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=42 "Built target delete"
 .PHONY : computing/CMakeFiles/delete.dir/all
 
 # Build rule for subdir invocation for target.
 computing/CMakeFiles/delete.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 computing/CMakeFiles/delete.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : computing/CMakeFiles/delete.dir/rule
 
 # Convenience name for target.
@@ -1779,14 +1781,14 @@ computing/CMakeFiles/delete.dir/clean:
 computing/CMakeFiles/6.20.dir/all:
 	$(MAKE) $(MAKESILENT) -f computing\CMakeFiles\6.20.dir\build.make computing/CMakeFiles/6.20.dir/depend
 	$(MAKE) $(MAKESILENT) -f computing\CMakeFiles\6.20.dir\build.make computing/CMakeFiles/6.20.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=15 "Built target 6.20"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=15 "Built target 6.20"
 .PHONY : computing/CMakeFiles/6.20.dir/all
 
 # Build rule for subdir invocation for target.
 computing/CMakeFiles/6.20.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 computing/CMakeFiles/6.20.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : computing/CMakeFiles/6.20.dir/rule
 
 # Convenience name for target.
@@ -1805,14 +1807,14 @@ computing/CMakeFiles/6.20.dir/clean:
 computing/CMakeFiles/5.7.17.dir/all:
 	$(MAKE) $(MAKESILENT) -f computing\CMakeFiles\5.7.17.dir\build.make computing/CMakeFiles/5.7.17.dir/depend
 	$(MAKE) $(MAKESILENT) -f computing\CMakeFiles\5.7.17.dir\build.make computing/CMakeFiles/5.7.17.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=12 "Built target 5.7.17"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=12 "Built target 5.7.17"
 .PHONY : computing/CMakeFiles/5.7.17.dir/all
 
 # Build rule for subdir invocation for target.
 computing/CMakeFiles/5.7.17.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 computing/CMakeFiles/5.7.17.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : computing/CMakeFiles/5.7.17.dir/rule
 
 # Convenience name for target.
@@ -1831,14 +1833,14 @@ computing/CMakeFiles/5.7.17.dir/clean:
 homework/4_homework/CMakeFiles/sudoku.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\4_homework\CMakeFiles\sudoku.dir\build.make homework/4_homework/CMakeFiles/sudoku.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\4_homework\CMakeFiles\sudoku.dir\build.make homework/4_homework/CMakeFiles/sudoku.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=91 "Built target sudoku"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=91 "Built target sudoku"
 .PHONY : homework/4_homework/CMakeFiles/sudoku.dir/all
 
 # Build rule for subdir invocation for target.
 homework/4_homework/CMakeFiles/sudoku.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/4_homework/CMakeFiles/sudoku.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : homework/4_homework/CMakeFiles/sudoku.dir/rule
 
 # Convenience name for target.
@@ -1857,14 +1859,14 @@ homework/4_homework/CMakeFiles/sudoku.dir/clean:
 homework/4_homework/CMakeFiles/mines.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\4_homework\CMakeFiles\mines.dir\build.make homework/4_homework/CMakeFiles/mines.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\4_homework\CMakeFiles\mines.dir\build.make homework/4_homework/CMakeFiles/mines.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=62 "Built target mines"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=63 "Built target mines"
 .PHONY : homework/4_homework/CMakeFiles/mines.dir/all
 
 # Build rule for subdir invocation for target.
 homework/4_homework/CMakeFiles/mines.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/4_homework/CMakeFiles/mines.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : homework/4_homework/CMakeFiles/mines.dir/rule
 
 # Convenience name for target.
@@ -1883,14 +1885,14 @@ homework/4_homework/CMakeFiles/mines.dir/clean:
 homework/4_homework/CMakeFiles/trace.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\4_homework\CMakeFiles\trace.dir\build.make homework/4_homework/CMakeFiles/trace.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\4_homework\CMakeFiles\trace.dir\build.make homework/4_homework/CMakeFiles/trace.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=97 "Built target trace"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=97 "Built target trace"
 .PHONY : homework/4_homework/CMakeFiles/trace.dir/all
 
 # Build rule for subdir invocation for target.
 homework/4_homework/CMakeFiles/trace.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/4_homework/CMakeFiles/trace.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : homework/4_homework/CMakeFiles/trace.dir/rule
 
 # Convenience name for target.
@@ -1909,14 +1911,14 @@ homework/4_homework/CMakeFiles/trace.dir/clean:
 homework/4_homework/CMakeFiles/life.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\4_homework\CMakeFiles\life.dir\build.make homework/4_homework/CMakeFiles/life.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\4_homework\CMakeFiles\life.dir\build.make homework/4_homework/CMakeFiles/life.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=58 "Built target life"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=59 "Built target life"
 .PHONY : homework/4_homework/CMakeFiles/life.dir/all
 
 # Build rule for subdir invocation for target.
 homework/4_homework/CMakeFiles/life.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/4_homework/CMakeFiles/life.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : homework/4_homework/CMakeFiles/life.dir/rule
 
 # Convenience name for target.
@@ -1935,14 +1937,14 @@ homework/4_homework/CMakeFiles/life.dir/clean:
 homework/4_homework/CMakeFiles/matrix-mult.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\4_homework\CMakeFiles\matrix-mult.dir\build.make homework/4_homework/CMakeFiles/matrix-mult.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\4_homework\CMakeFiles\matrix-mult.dir\build.make homework/4_homework/CMakeFiles/matrix-mult.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=60 "Built target matrix-mult"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=61 "Built target matrix-mult"
 .PHONY : homework/4_homework/CMakeFiles/matrix-mult.dir/all
 
 # Build rule for subdir invocation for target.
 homework/4_homework/CMakeFiles/matrix-mult.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/4_homework/CMakeFiles/matrix-mult.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : homework/4_homework/CMakeFiles/matrix-mult.dir/rule
 
 # Convenience name for target.
@@ -1961,14 +1963,14 @@ homework/4_homework/CMakeFiles/matrix-mult.dir/clean:
 homework/5_homework/CMakeFiles/behaviors.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\behaviors.dir\build.make homework/5_homework/CMakeFiles/behaviors.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\behaviors.dir\build.make homework/5_homework/CMakeFiles/behaviors.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=32 "Built target behaviors"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=33 "Built target behaviors"
 .PHONY : homework/5_homework/CMakeFiles/behaviors.dir/all
 
 # Build rule for subdir invocation for target.
 homework/5_homework/CMakeFiles/behaviors.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/5_homework/CMakeFiles/behaviors.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : homework/5_homework/CMakeFiles/behaviors.dir/rule
 
 # Convenience name for target.
@@ -1987,14 +1989,14 @@ homework/5_homework/CMakeFiles/behaviors.dir/clean:
 homework/5_homework/CMakeFiles/sum.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\sum.dir\build.make homework/5_homework/CMakeFiles/sum.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\sum.dir\build.make homework/5_homework/CMakeFiles/sum.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=92 "Built target sum"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=92 "Built target sum"
 .PHONY : homework/5_homework/CMakeFiles/sum.dir/all
 
 # Build rule for subdir invocation for target.
 homework/5_homework/CMakeFiles/sum.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/5_homework/CMakeFiles/sum.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : homework/5_homework/CMakeFiles/sum.dir/rule
 
 # Convenience name for target.
@@ -2013,14 +2015,14 @@ homework/5_homework/CMakeFiles/sum.dir/clean:
 homework/5_homework/CMakeFiles/absolute_prime.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\absolute_prime.dir\build.make homework/5_homework/CMakeFiles/absolute_prime.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\absolute_prime.dir\build.make homework/5_homework/CMakeFiles/absolute_prime.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=30 "Built target absolute_prime"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=31 "Built target absolute_prime"
 .PHONY : homework/5_homework/CMakeFiles/absolute_prime.dir/all
 
 # Build rule for subdir invocation for target.
 homework/5_homework/CMakeFiles/absolute_prime.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/5_homework/CMakeFiles/absolute_prime.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : homework/5_homework/CMakeFiles/absolute_prime.dir/rule
 
 # Convenience name for target.
@@ -2039,14 +2041,14 @@ homework/5_homework/CMakeFiles/absolute_prime.dir/clean:
 homework/5_homework/CMakeFiles/radix.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\radix.dir\build.make homework/5_homework/CMakeFiles/radix.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\radix.dir\build.make homework/5_homework/CMakeFiles/radix.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=79 "Built target radix"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=79 "Built target radix"
 .PHONY : homework/5_homework/CMakeFiles/radix.dir/all
 
 # Build rule for subdir invocation for target.
 homework/5_homework/CMakeFiles/radix.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/5_homework/CMakeFiles/radix.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : homework/5_homework/CMakeFiles/radix.dir/rule
 
 # Convenience name for target.
@@ -2065,14 +2067,14 @@ homework/5_homework/CMakeFiles/radix.dir/clean:
 homework/5_homework/CMakeFiles/next-permutation.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\next-permutation.dir\build.make homework/5_homework/CMakeFiles/next-permutation.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\next-permutation.dir\build.make homework/5_homework/CMakeFiles/next-permutation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=64 "Built target next-permutation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=65 "Built target next-permutation"
 .PHONY : homework/5_homework/CMakeFiles/next-permutation.dir/all
 
 # Build rule for subdir invocation for target.
 homework/5_homework/CMakeFiles/next-permutation.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/5_homework/CMakeFiles/next-permutation.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : homework/5_homework/CMakeFiles/next-permutation.dir/rule
 
 # Convenience name for target.
@@ -2091,14 +2093,14 @@ homework/5_homework/CMakeFiles/next-permutation.dir/clean:
 homework/5_homework/CMakeFiles/magic-square.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\magic-square.dir\build.make homework/5_homework/CMakeFiles/magic-square.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\5_homework\CMakeFiles\magic-square.dir\build.make homework/5_homework/CMakeFiles/magic-square.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=59 "Built target magic-square"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=60 "Built target magic-square"
 .PHONY : homework/5_homework/CMakeFiles/magic-square.dir/all
 
 # Build rule for subdir invocation for target.
 homework/5_homework/CMakeFiles/magic-square.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/5_homework/CMakeFiles/magic-square.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : homework/5_homework/CMakeFiles/magic-square.dir/rule
 
 # Convenience name for target.
@@ -2117,14 +2119,14 @@ homework/5_homework/CMakeFiles/magic-square.dir/clean:
 homework/6_homework/CMakeFiles/pascal.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\6_homework\CMakeFiles\pascal.dir\build.make homework/6_homework/CMakeFiles/pascal.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\6_homework\CMakeFiles\pascal.dir\build.make homework/6_homework/CMakeFiles/pascal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=69 "Built target pascal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=69 "Built target pascal"
 .PHONY : homework/6_homework/CMakeFiles/pascal.dir/all
 
 # Build rule for subdir invocation for target.
 homework/6_homework/CMakeFiles/pascal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/6_homework/CMakeFiles/pascal.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : homework/6_homework/CMakeFiles/pascal.dir/rule
 
 # Convenience name for target.
@@ -2143,14 +2145,14 @@ homework/6_homework/CMakeFiles/pascal.dir/clean:
 homework/6_homework/CMakeFiles/tiles.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\6_homework\CMakeFiles\tiles.dir\build.make homework/6_homework/CMakeFiles/tiles.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\6_homework\CMakeFiles\tiles.dir\build.make homework/6_homework/CMakeFiles/tiles.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=93 "Built target tiles"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=93 "Built target tiles"
 .PHONY : homework/6_homework/CMakeFiles/tiles.dir/all
 
 # Build rule for subdir invocation for target.
 homework/6_homework/CMakeFiles/tiles.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/6_homework/CMakeFiles/tiles.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : homework/6_homework/CMakeFiles/tiles.dir/rule
 
 # Convenience name for target.
@@ -2169,14 +2171,14 @@ homework/6_homework/CMakeFiles/tiles.dir/clean:
 homework/6_homework/CMakeFiles/poi.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\6_homework\CMakeFiles\poi.dir\build.make homework/6_homework/CMakeFiles/poi.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\6_homework\CMakeFiles\poi.dir\build.make homework/6_homework/CMakeFiles/poi.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=72 "Built target poi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=72 "Built target poi"
 .PHONY : homework/6_homework/CMakeFiles/poi.dir/all
 
 # Build rule for subdir invocation for target.
 homework/6_homework/CMakeFiles/poi.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/6_homework/CMakeFiles/poi.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : homework/6_homework/CMakeFiles/poi.dir/rule
 
 # Convenience name for target.
@@ -2195,14 +2197,14 @@ homework/6_homework/CMakeFiles/poi.dir/clean:
 homework/6_homework/CMakeFiles/max.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\6_homework\CMakeFiles\max.dir\build.make homework/6_homework/CMakeFiles/max.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\6_homework\CMakeFiles\max.dir\build.make homework/6_homework/CMakeFiles/max.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=61 "Built target max"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=62 "Built target max"
 .PHONY : homework/6_homework/CMakeFiles/max.dir/all
 
 # Build rule for subdir invocation for target.
 homework/6_homework/CMakeFiles/max.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/6_homework/CMakeFiles/max.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : homework/6_homework/CMakeFiles/max.dir/rule
 
 # Convenience name for target.
@@ -2221,14 +2223,14 @@ homework/6_homework/CMakeFiles/max.dir/clean:
 homework/6_homework/CMakeFiles/integrationin.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\6_homework\CMakeFiles\integrationin.dir\build.make homework/6_homework/CMakeFiles/integrationin.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\6_homework\CMakeFiles\integrationin.dir\build.make homework/6_homework/CMakeFiles/integrationin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=53 "Built target integrationin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=53 "Built target integrationin"
 .PHONY : homework/6_homework/CMakeFiles/integrationin.dir/all
 
 # Build rule for subdir invocation for target.
 homework/6_homework/CMakeFiles/integrationin.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/6_homework/CMakeFiles/integrationin.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : homework/6_homework/CMakeFiles/integrationin.dir/rule
 
 # Convenience name for target.
@@ -2247,14 +2249,14 @@ homework/6_homework/CMakeFiles/integrationin.dir/clean:
 homework/6_homework/CMakeFiles/triangle.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\6_homework\CMakeFiles\triangle.dir\build.make homework/6_homework/CMakeFiles/triangle.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\6_homework\CMakeFiles\triangle.dir\build.make homework/6_homework/CMakeFiles/triangle.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=98 "Built target triangle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=98 "Built target triangle"
 .PHONY : homework/6_homework/CMakeFiles/triangle.dir/all
 
 # Build rule for subdir invocation for target.
 homework/6_homework/CMakeFiles/triangle.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/6_homework/CMakeFiles/triangle.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : homework/6_homework/CMakeFiles/triangle.dir/rule
 
 # Convenience name for target.
@@ -2273,14 +2275,14 @@ homework/6_homework/CMakeFiles/triangle.dir/clean:
 homework/7_homework/CMakeFiles/wine.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\wine.dir\build.make homework/7_homework/CMakeFiles/wine.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\wine.dir\build.make homework/7_homework/CMakeFiles/wine.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=99,100 "Built target wine"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=99,100 "Built target wine"
 .PHONY : homework/7_homework/CMakeFiles/wine.dir/all
 
 # Build rule for subdir invocation for target.
 homework/7_homework/CMakeFiles/wine.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/7_homework/CMakeFiles/wine.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : homework/7_homework/CMakeFiles/wine.dir/rule
 
 # Convenience name for target.
@@ -2299,14 +2301,14 @@ homework/7_homework/CMakeFiles/wine.dir/clean:
 homework/7_homework/CMakeFiles/cuboid.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\cuboid.dir\build.make homework/7_homework/CMakeFiles/cuboid.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\cuboid.dir\build.make homework/7_homework/CMakeFiles/cuboid.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=39 "Built target cuboid"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=40 "Built target cuboid"
 .PHONY : homework/7_homework/CMakeFiles/cuboid.dir/all
 
 # Build rule for subdir invocation for target.
 homework/7_homework/CMakeFiles/cuboid.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/7_homework/CMakeFiles/cuboid.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : homework/7_homework/CMakeFiles/cuboid.dir/rule
 
 # Convenience name for target.
@@ -2325,14 +2327,14 @@ homework/7_homework/CMakeFiles/cuboid.dir/clean:
 homework/7_homework/CMakeFiles/pour.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\pour.dir\build.make homework/7_homework/CMakeFiles/pour.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\pour.dir\build.make homework/7_homework/CMakeFiles/pour.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=74 "Built target pour"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=74 "Built target pour"
 .PHONY : homework/7_homework/CMakeFiles/pour.dir/all
 
 # Build rule for subdir invocation for target.
 homework/7_homework/CMakeFiles/pour.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/7_homework/CMakeFiles/pour.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : homework/7_homework/CMakeFiles/pour.dir/rule
 
 # Convenience name for target.
@@ -2351,14 +2353,14 @@ homework/7_homework/CMakeFiles/pour.dir/clean:
 homework/7_homework/CMakeFiles/buddy.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\buddy.dir\build.make homework/7_homework/CMakeFiles/buddy.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\buddy.dir\build.make homework/7_homework/CMakeFiles/buddy.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=35 "Built target buddy"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=36 "Built target buddy"
 .PHONY : homework/7_homework/CMakeFiles/buddy.dir/all
 
 # Build rule for subdir invocation for target.
 homework/7_homework/CMakeFiles/buddy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/7_homework/CMakeFiles/buddy.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : homework/7_homework/CMakeFiles/buddy.dir/rule
 
 # Convenience name for target.
@@ -2377,14 +2379,14 @@ homework/7_homework/CMakeFiles/buddy.dir/clean:
 homework/7_homework/CMakeFiles/brackets.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\brackets.dir\build.make homework/7_homework/CMakeFiles/brackets.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\brackets.dir\build.make homework/7_homework/CMakeFiles/brackets.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=34 "Built target brackets"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=35 "Built target brackets"
 .PHONY : homework/7_homework/CMakeFiles/brackets.dir/all
 
 # Build rule for subdir invocation for target.
 homework/7_homework/CMakeFiles/brackets.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/7_homework/CMakeFiles/brackets.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : homework/7_homework/CMakeFiles/brackets.dir/rule
 
 # Convenience name for target.
@@ -2403,14 +2405,14 @@ homework/7_homework/CMakeFiles/brackets.dir/clean:
 homework/7_homework/CMakeFiles/rotate.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\rotate.dir\build.make homework/7_homework/CMakeFiles/rotate.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\rotate.dir\build.make homework/7_homework/CMakeFiles/rotate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=82 "Built target rotate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=82 "Built target rotate"
 .PHONY : homework/7_homework/CMakeFiles/rotate.dir/all
 
 # Build rule for subdir invocation for target.
 homework/7_homework/CMakeFiles/rotate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/7_homework/CMakeFiles/rotate.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : homework/7_homework/CMakeFiles/rotate.dir/rule
 
 # Convenience name for target.
@@ -2429,14 +2431,14 @@ homework/7_homework/CMakeFiles/rotate.dir/clean:
 homework/8_homework/CMakeFiles/interpreter.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\8_homework\CMakeFiles\interpreter.dir\build.make homework/8_homework/CMakeFiles/interpreter.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\8_homework\CMakeFiles\interpreter.dir\build.make homework/8_homework/CMakeFiles/interpreter.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=54 "Built target interpreter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=54 "Built target interpreter"
 .PHONY : homework/8_homework/CMakeFiles/interpreter.dir/all
 
 # Build rule for subdir invocation for target.
 homework/8_homework/CMakeFiles/interpreter.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/8_homework/CMakeFiles/interpreter.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : homework/8_homework/CMakeFiles/interpreter.dir/rule
 
 # Convenience name for target.
@@ -2455,14 +2457,14 @@ homework/8_homework/CMakeFiles/interpreter.dir/clean:
 homework/8_homework/CMakeFiles/substr.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\8_homework\CMakeFiles\substr.dir\build.make homework/8_homework/CMakeFiles/substr.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\8_homework\CMakeFiles\substr.dir\build.make homework/8_homework/CMakeFiles/substr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=90 "Built target substr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=90 "Built target substr"
 .PHONY : homework/8_homework/CMakeFiles/substr.dir/all
 
 # Build rule for subdir invocation for target.
 homework/8_homework/CMakeFiles/substr.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/8_homework/CMakeFiles/substr.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : homework/8_homework/CMakeFiles/substr.dir/rule
 
 # Convenience name for target.
@@ -2481,14 +2483,14 @@ homework/8_homework/CMakeFiles/substr.dir/clean:
 homework/8_homework/CMakeFiles/title.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\8_homework\CMakeFiles\title.dir\build.make homework/8_homework/CMakeFiles/title.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\8_homework\CMakeFiles\title.dir\build.make homework/8_homework/CMakeFiles/title.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=95 "Built target title"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=95 "Built target title"
 .PHONY : homework/8_homework/CMakeFiles/title.dir/all
 
 # Build rule for subdir invocation for target.
 homework/8_homework/CMakeFiles/title.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/8_homework/CMakeFiles/title.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : homework/8_homework/CMakeFiles/title.dir/rule
 
 # Convenience name for target.
@@ -2507,14 +2509,14 @@ homework/8_homework/CMakeFiles/title.dir/clean:
 homework/9_homework/CMakeFiles/stringcat.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\9_homework\CMakeFiles\stringcat.dir\build.make homework/9_homework/CMakeFiles/stringcat.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\9_homework\CMakeFiles\stringcat.dir\build.make homework/9_homework/CMakeFiles/stringcat.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=88,89 "Built target stringcat"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=89 "Built target stringcat"
 .PHONY : homework/9_homework/CMakeFiles/stringcat.dir/all
 
 # Build rule for subdir invocation for target.
 homework/9_homework/CMakeFiles/stringcat.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/9_homework/CMakeFiles/stringcat.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : homework/9_homework/CMakeFiles/stringcat.dir/rule
 
 # Convenience name for target.
@@ -2533,14 +2535,14 @@ homework/9_homework/CMakeFiles/stringcat.dir/clean:
 homework/9_homework/CMakeFiles/tokenizer.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\9_homework\CMakeFiles\tokenizer.dir\build.make homework/9_homework/CMakeFiles/tokenizer.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\9_homework\CMakeFiles\tokenizer.dir\build.make homework/9_homework/CMakeFiles/tokenizer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=96 "Built target tokenizer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=96 "Built target tokenizer"
 .PHONY : homework/9_homework/CMakeFiles/tokenizer.dir/all
 
 # Build rule for subdir invocation for target.
 homework/9_homework/CMakeFiles/tokenizer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/9_homework/CMakeFiles/tokenizer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : homework/9_homework/CMakeFiles/tokenizer.dir/rule
 
 # Convenience name for target.
@@ -2559,14 +2561,14 @@ homework/9_homework/CMakeFiles/tokenizer.dir/clean:
 homework/9_homework/CMakeFiles/parse.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\9_homework\CMakeFiles\parse.dir\build.make homework/9_homework/CMakeFiles/parse.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\9_homework\CMakeFiles\parse.dir\build.make homework/9_homework/CMakeFiles/parse.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=68 "Built target parse"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=68 "Built target parse"
 .PHONY : homework/9_homework/CMakeFiles/parse.dir/all
 
 # Build rule for subdir invocation for target.
 homework/9_homework/CMakeFiles/parse.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/9_homework/CMakeFiles/parse.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : homework/9_homework/CMakeFiles/parse.dir/rule
 
 # Convenience name for target.
@@ -2585,14 +2587,14 @@ homework/9_homework/CMakeFiles/parse.dir/clean:
 boring_2/CMakeFiles/hong.dir/all:
 	$(MAKE) $(MAKESILENT) -f boring_2\CMakeFiles\hong.dir\build.make boring_2/CMakeFiles/hong.dir/depend
 	$(MAKE) $(MAKESILENT) -f boring_2\CMakeFiles\hong.dir\build.make boring_2/CMakeFiles/hong.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=52 "Built target hong"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=52 "Built target hong"
 .PHONY : boring_2/CMakeFiles/hong.dir/all
 
 # Build rule for subdir invocation for target.
 boring_2/CMakeFiles/hong.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 boring_2/CMakeFiles/hong.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : boring_2/CMakeFiles/hong.dir/rule
 
 # Convenience name for target.
@@ -2611,14 +2613,14 @@ boring_2/CMakeFiles/hong.dir/clean:
 boring_2/CMakeFiles/AppAndPpa.dir/all:
 	$(MAKE) $(MAKESILENT) -f boring_2\CMakeFiles\AppAndPpa.dir\build.make boring_2/CMakeFiles/AppAndPpa.dir/depend
 	$(MAKE) $(MAKESILENT) -f boring_2\CMakeFiles\AppAndPpa.dir\build.make boring_2/CMakeFiles/AppAndPpa.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=21 "Built target AppAndPpa"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=21 "Built target AppAndPpa"
 .PHONY : boring_2/CMakeFiles/AppAndPpa.dir/all
 
 # Build rule for subdir invocation for target.
 boring_2/CMakeFiles/AppAndPpa.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 boring_2/CMakeFiles/AppAndPpa.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : boring_2/CMakeFiles/AppAndPpa.dir/rule
 
 # Convenience name for target.
@@ -2637,14 +2639,14 @@ boring_2/CMakeFiles/AppAndPpa.dir/clean:
 boring_2/CMakeFiles/re.dir/all:
 	$(MAKE) $(MAKESILENT) -f boring_2\CMakeFiles\re.dir\build.make boring_2/CMakeFiles/re.dir/depend
 	$(MAKE) $(MAKESILENT) -f boring_2\CMakeFiles\re.dir\build.make boring_2/CMakeFiles/re.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=81 "Built target re"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=81 "Built target re"
 .PHONY : boring_2/CMakeFiles/re.dir/all
 
 # Build rule for subdir invocation for target.
 boring_2/CMakeFiles/re.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 boring_2/CMakeFiles/re.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : boring_2/CMakeFiles/re.dir/rule
 
 # Convenience name for target.
@@ -2663,14 +2665,14 @@ boring_2/CMakeFiles/re.dir/clean:
 boring_2/CMakeFiles/hg.dir/all:
 	$(MAKE) $(MAKESILENT) -f boring_2\CMakeFiles\hg.dir\build.make boring_2/CMakeFiles/hg.dir/depend
 	$(MAKE) $(MAKESILENT) -f boring_2\CMakeFiles\hg.dir\build.make boring_2/CMakeFiles/hg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=51 "Built target hg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=51 "Built target hg"
 .PHONY : boring_2/CMakeFiles/hg.dir/all
 
 # Build rule for subdir invocation for target.
 boring_2/CMakeFiles/hg.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 boring_2/CMakeFiles/hg.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : boring_2/CMakeFiles/hg.dir/rule
 
 # Convenience name for target.
@@ -2689,14 +2691,14 @@ boring_2/CMakeFiles/hg.dir/clean:
 boring_2/CMakeFiles/ptr.dir/all:
 	$(MAKE) $(MAKESILENT) -f boring_2\CMakeFiles\ptr.dir\build.make boring_2/CMakeFiles/ptr.dir/depend
 	$(MAKE) $(MAKESILENT) -f boring_2\CMakeFiles\ptr.dir\build.make boring_2/CMakeFiles/ptr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=77 "Built target ptr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=77 "Built target ptr"
 .PHONY : boring_2/CMakeFiles/ptr.dir/all
 
 # Build rule for subdir invocation for target.
 boring_2/CMakeFiles/ptr.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 boring_2/CMakeFiles/ptr.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : boring_2/CMakeFiles/ptr.dir/rule
 
 # Convenience name for target.
@@ -2715,14 +2717,14 @@ boring_2/CMakeFiles/ptr.dir/clean:
 boring_2/CMakeFiles/as.dir/all:
 	$(MAKE) $(MAKESILENT) -f boring_2\CMakeFiles\as.dir\build.make boring_2/CMakeFiles/as.dir/depend
 	$(MAKE) $(MAKESILENT) -f boring_2\CMakeFiles\as.dir\build.make boring_2/CMakeFiles/as.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=31 "Built target as"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=32 "Built target as"
 .PHONY : boring_2/CMakeFiles/as.dir/all
 
 # Build rule for subdir invocation for target.
 boring_2/CMakeFiles/as.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 boring_2/CMakeFiles/as.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : boring_2/CMakeFiles/as.dir/rule
 
 # Convenience name for target.
@@ -2741,14 +2743,14 @@ boring_2/CMakeFiles/as.dir/clean:
 boring_2/CMakeFiles/0.dir/all:
 	$(MAKE) $(MAKESILENT) -f boring_2\CMakeFiles\0.dir\build.make boring_2/CMakeFiles/0.dir/depend
 	$(MAKE) $(MAKESILENT) -f boring_2\CMakeFiles\0.dir\build.make boring_2/CMakeFiles/0.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=1 "Built target 0"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=1 "Built target 0"
 .PHONY : boring_2/CMakeFiles/0.dir/all
 
 # Build rule for subdir invocation for target.
 boring_2/CMakeFiles/0.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 boring_2/CMakeFiles/0.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : boring_2/CMakeFiles/0.dir/rule
 
 # Convenience name for target.
@@ -2767,14 +2769,14 @@ boring_2/CMakeFiles/0.dir/clean:
 boring_2/CMakeFiles/4.dir/all:
 	$(MAKE) $(MAKESILENT) -f boring_2\CMakeFiles\4.dir\build.make boring_2/CMakeFiles/4.dir/depend
 	$(MAKE) $(MAKESILENT) -f boring_2\CMakeFiles\4.dir\build.make boring_2/CMakeFiles/4.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=9 "Built target 4"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=9 "Built target 4"
 .PHONY : boring_2/CMakeFiles/4.dir/all
 
 # Build rule for subdir invocation for target.
 boring_2/CMakeFiles/4.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 boring_2/CMakeFiles/4.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : boring_2/CMakeFiles/4.dir/rule
 
 # Convenience name for target.
@@ -2793,14 +2795,14 @@ boring_2/CMakeFiles/4.dir/clean:
 boring_0/CMakeFiles/bor.dir/all:
 	$(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\bor.dir\build.make boring_0/CMakeFiles/bor.dir/depend
 	$(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\bor.dir\build.make boring_0/CMakeFiles/bor.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=33 "Built target bor"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=34 "Built target bor"
 .PHONY : boring_0/CMakeFiles/bor.dir/all
 
 # Build rule for subdir invocation for target.
 boring_0/CMakeFiles/bor.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 boring_0/CMakeFiles/bor.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : boring_0/CMakeFiles/bor.dir/rule
 
 # Convenience name for target.
@@ -2819,14 +2821,14 @@ boring_0/CMakeFiles/bor.dir/clean:
 boring_0/CMakeFiles/ptr_0.dir/all:
 	$(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\ptr_0.dir\build.make boring_0/CMakeFiles/ptr_0.dir/depend
 	$(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\ptr_0.dir\build.make boring_0/CMakeFiles/ptr_0.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=78 "Built target ptr_0"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=78 "Built target ptr_0"
 .PHONY : boring_0/CMakeFiles/ptr_0.dir/all
 
 # Build rule for subdir invocation for target.
 boring_0/CMakeFiles/ptr_0.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 boring_0/CMakeFiles/ptr_0.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : boring_0/CMakeFiles/ptr_0.dir/rule
 
 # Convenience name for target.
@@ -2845,14 +2847,14 @@ boring_0/CMakeFiles/ptr_0.dir/clean:
 boring_0/CMakeFiles/random.dir/all:
 	$(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\random.dir\build.make boring_0/CMakeFiles/random.dir/depend
 	$(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\random.dir\build.make boring_0/CMakeFiles/random.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=80 "Built target random"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=80 "Built target random"
 .PHONY : boring_0/CMakeFiles/random.dir/all
 
 # Build rule for subdir invocation for target.
 boring_0/CMakeFiles/random.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 boring_0/CMakeFiles/random.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : boring_0/CMakeFiles/random.dir/rule
 
 # Convenience name for target.
@@ -2871,14 +2873,14 @@ boring_0/CMakeFiles/random.dir/clean:
 boring_0/CMakeFiles/stream.dir/all:
 	$(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\stream.dir\build.make boring_0/CMakeFiles/stream.dir/depend
 	$(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\stream.dir\build.make boring_0/CMakeFiles/stream.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=87 "Built target stream"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=88 "Built target stream"
 .PHONY : boring_0/CMakeFiles/stream.dir/all
 
 # Build rule for subdir invocation for target.
 boring_0/CMakeFiles/stream.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 boring_0/CMakeFiles/stream.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : boring_0/CMakeFiles/stream.dir/rule
 
 # Convenience name for target.
@@ -2891,20 +2893,46 @@ boring_0/CMakeFiles/stream.dir/clean:
 .PHONY : boring_0/CMakeFiles/stream.dir/clean
 
 #=============================================================================
+# Target rules for target boring_0/CMakeFiles/Hong.dir
+
+# All Build rule for target.
+boring_0/CMakeFiles/Hong.dir/all:
+	$(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\Hong.dir\build.make boring_0/CMakeFiles/Hong.dir/depend
+	$(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\Hong.dir\build.make boring_0/CMakeFiles/Hong.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=25 "Built target Hong"
+.PHONY : boring_0/CMakeFiles/Hong.dir/all
+
+# Build rule for subdir invocation for target.
+boring_0/CMakeFiles/Hong.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 boring_0/CMakeFiles/Hong.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
+.PHONY : boring_0/CMakeFiles/Hong.dir/rule
+
+# Convenience name for target.
+Hong: boring_0/CMakeFiles/Hong.dir/rule
+.PHONY : Hong
+
+# clean rule for target.
+boring_0/CMakeFiles/Hong.dir/clean:
+	$(MAKE) $(MAKESILENT) -f boring_0\CMakeFiles\Hong.dir\build.make boring_0/CMakeFiles/Hong.dir/clean
+.PHONY : boring_0/CMakeFiles/Hong.dir/clean
+
+#=============================================================================
 # Target rules for target homework/10_homework/CMakeFiles/fifa.dir
 
 # All Build rule for target.
 homework/10_homework/CMakeFiles/fifa.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\fifa.dir\build.make homework/10_homework/CMakeFiles/fifa.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\fifa.dir\build.make homework/10_homework/CMakeFiles/fifa.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=46 "Built target fifa"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=46 "Built target fifa"
 .PHONY : homework/10_homework/CMakeFiles/fifa.dir/all
 
 # Build rule for subdir invocation for target.
 homework/10_homework/CMakeFiles/fifa.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/10_homework/CMakeFiles/fifa.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : homework/10_homework/CMakeFiles/fifa.dir/rule
 
 # Convenience name for target.
@@ -2923,14 +2951,14 @@ homework/10_homework/CMakeFiles/fifa.dir/clean:
 homework/10_homework/CMakeFiles/polynlist.dir/all:
 	$(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\polynlist.dir\build.make homework/10_homework/CMakeFiles/polynlist.dir/depend
 	$(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\polynlist.dir\build.make homework/10_homework/CMakeFiles/polynlist.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=73 "Built target polynlist"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=73 "Built target polynlist"
 .PHONY : homework/10_homework/CMakeFiles/polynlist.dir/all
 
 # Build rule for subdir invocation for target.
 homework/10_homework/CMakeFiles/polynlist.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/10_homework/CMakeFiles/polynlist.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : homework/10_homework/CMakeFiles/polynlist.dir/rule
 
 # Convenience name for target.

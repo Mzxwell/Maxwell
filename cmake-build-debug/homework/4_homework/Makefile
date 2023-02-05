@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe -E rm -f
+RM = C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\git\GitCode\Maxwell
+CMAKE_SOURCE_DIR = C:\CPL\untitled
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\git\GitCode\Maxwell\cmake-build-debug
+CMAKE_BINARY_DIR = C:\CPL\untitled\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = E:\git\GitCode\Maxwell\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
+	C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -77,7 +77,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles E:\git\GitCode\Maxwell\cmake-build-debug\homework\4_homework\\CMakeFiles\progress.marks
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/4_homework/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	cd /d C:\CPL\untitled\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles C:\CPL\untitled\cmake-build-debug\homework\4_homework\\CMakeFiles\progress.marks
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/4_homework/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/4_homework/clean
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/4_homework/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,22 +102,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/4_homework/preinstall
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/4_homework/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/4_homework/preinstall
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/4_homework/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\CPL\untitled\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 homework/4_homework/CMakeFiles/sudoku.dir/rule:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/4_homework/CMakeFiles/sudoku.dir/rule
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/4_homework/CMakeFiles/sudoku.dir/rule
 .PHONY : homework/4_homework/CMakeFiles/sudoku.dir/rule
 
 # Convenience name for target.
@@ -126,12 +126,12 @@ sudoku: homework/4_homework/CMakeFiles/sudoku.dir/rule
 
 # fast build rule for target.
 sudoku/fast:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\4_homework\CMakeFiles\sudoku.dir\build.make homework/4_homework/CMakeFiles/sudoku.dir/build
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\4_homework\CMakeFiles\sudoku.dir\build.make homework/4_homework/CMakeFiles/sudoku.dir/build
 .PHONY : sudoku/fast
 
 # Convenience name for target.
 homework/4_homework/CMakeFiles/mines.dir/rule:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/4_homework/CMakeFiles/mines.dir/rule
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/4_homework/CMakeFiles/mines.dir/rule
 .PHONY : homework/4_homework/CMakeFiles/mines.dir/rule
 
 # Convenience name for target.
@@ -140,12 +140,12 @@ mines: homework/4_homework/CMakeFiles/mines.dir/rule
 
 # fast build rule for target.
 mines/fast:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\4_homework\CMakeFiles\mines.dir\build.make homework/4_homework/CMakeFiles/mines.dir/build
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\4_homework\CMakeFiles\mines.dir\build.make homework/4_homework/CMakeFiles/mines.dir/build
 .PHONY : mines/fast
 
 # Convenience name for target.
 homework/4_homework/CMakeFiles/trace.dir/rule:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/4_homework/CMakeFiles/trace.dir/rule
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/4_homework/CMakeFiles/trace.dir/rule
 .PHONY : homework/4_homework/CMakeFiles/trace.dir/rule
 
 # Convenience name for target.
@@ -154,12 +154,12 @@ trace: homework/4_homework/CMakeFiles/trace.dir/rule
 
 # fast build rule for target.
 trace/fast:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\4_homework\CMakeFiles\trace.dir\build.make homework/4_homework/CMakeFiles/trace.dir/build
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\4_homework\CMakeFiles\trace.dir\build.make homework/4_homework/CMakeFiles/trace.dir/build
 .PHONY : trace/fast
 
 # Convenience name for target.
 homework/4_homework/CMakeFiles/life.dir/rule:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/4_homework/CMakeFiles/life.dir/rule
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/4_homework/CMakeFiles/life.dir/rule
 .PHONY : homework/4_homework/CMakeFiles/life.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ life: homework/4_homework/CMakeFiles/life.dir/rule
 
 # fast build rule for target.
 life/fast:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\4_homework\CMakeFiles\life.dir\build.make homework/4_homework/CMakeFiles/life.dir/build
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\4_homework\CMakeFiles\life.dir\build.make homework/4_homework/CMakeFiles/life.dir/build
 .PHONY : life/fast
 
 # Convenience name for target.
 homework/4_homework/CMakeFiles/matrix-mult.dir/rule:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/4_homework/CMakeFiles/matrix-mult.dir/rule
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/4_homework/CMakeFiles/matrix-mult.dir/rule
 .PHONY : homework/4_homework/CMakeFiles/matrix-mult.dir/rule
 
 # Convenience name for target.
@@ -182,7 +182,7 @@ matrix-mult: homework/4_homework/CMakeFiles/matrix-mult.dir/rule
 
 # fast build rule for target.
 matrix-mult/fast:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\4_homework\CMakeFiles\matrix-mult.dir\build.make homework/4_homework/CMakeFiles/matrix-mult.dir/build
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\4_homework\CMakeFiles\matrix-mult.dir\build.make homework/4_homework/CMakeFiles/matrix-mult.dir/build
 .PHONY : matrix-mult/fast
 
 life.obj: life.c.obj
@@ -190,7 +190,7 @@ life.obj: life.c.obj
 
 # target to build an object file
 life.c.obj:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\4_homework\CMakeFiles\life.dir\build.make homework/4_homework/CMakeFiles/life.dir/life.c.obj
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\4_homework\CMakeFiles\life.dir\build.make homework/4_homework/CMakeFiles/life.dir/life.c.obj
 .PHONY : life.c.obj
 
 life.i: life.c.i
@@ -198,7 +198,7 @@ life.i: life.c.i
 
 # target to preprocess a source file
 life.c.i:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\4_homework\CMakeFiles\life.dir\build.make homework/4_homework/CMakeFiles/life.dir/life.c.i
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\4_homework\CMakeFiles\life.dir\build.make homework/4_homework/CMakeFiles/life.dir/life.c.i
 .PHONY : life.c.i
 
 life.s: life.c.s
@@ -206,7 +206,7 @@ life.s: life.c.s
 
 # target to generate assembly for a file
 life.c.s:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\4_homework\CMakeFiles\life.dir\build.make homework/4_homework/CMakeFiles/life.dir/life.c.s
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\4_homework\CMakeFiles\life.dir\build.make homework/4_homework/CMakeFiles/life.dir/life.c.s
 .PHONY : life.c.s
 
 matrix-mult.obj: matrix-mult.c.obj
@@ -214,7 +214,7 @@ matrix-mult.obj: matrix-mult.c.obj
 
 # target to build an object file
 matrix-mult.c.obj:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\4_homework\CMakeFiles\matrix-mult.dir\build.make homework/4_homework/CMakeFiles/matrix-mult.dir/matrix-mult.c.obj
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\4_homework\CMakeFiles\matrix-mult.dir\build.make homework/4_homework/CMakeFiles/matrix-mult.dir/matrix-mult.c.obj
 .PHONY : matrix-mult.c.obj
 
 matrix-mult.i: matrix-mult.c.i
@@ -222,7 +222,7 @@ matrix-mult.i: matrix-mult.c.i
 
 # target to preprocess a source file
 matrix-mult.c.i:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\4_homework\CMakeFiles\matrix-mult.dir\build.make homework/4_homework/CMakeFiles/matrix-mult.dir/matrix-mult.c.i
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\4_homework\CMakeFiles\matrix-mult.dir\build.make homework/4_homework/CMakeFiles/matrix-mult.dir/matrix-mult.c.i
 .PHONY : matrix-mult.c.i
 
 matrix-mult.s: matrix-mult.c.s
@@ -230,7 +230,7 @@ matrix-mult.s: matrix-mult.c.s
 
 # target to generate assembly for a file
 matrix-mult.c.s:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\4_homework\CMakeFiles\matrix-mult.dir\build.make homework/4_homework/CMakeFiles/matrix-mult.dir/matrix-mult.c.s
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\4_homework\CMakeFiles\matrix-mult.dir\build.make homework/4_homework/CMakeFiles/matrix-mult.dir/matrix-mult.c.s
 .PHONY : matrix-mult.c.s
 
 mines.obj: mines.c.obj
@@ -238,7 +238,7 @@ mines.obj: mines.c.obj
 
 # target to build an object file
 mines.c.obj:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\4_homework\CMakeFiles\mines.dir\build.make homework/4_homework/CMakeFiles/mines.dir/mines.c.obj
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\4_homework\CMakeFiles\mines.dir\build.make homework/4_homework/CMakeFiles/mines.dir/mines.c.obj
 .PHONY : mines.c.obj
 
 mines.i: mines.c.i
@@ -246,7 +246,7 @@ mines.i: mines.c.i
 
 # target to preprocess a source file
 mines.c.i:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\4_homework\CMakeFiles\mines.dir\build.make homework/4_homework/CMakeFiles/mines.dir/mines.c.i
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\4_homework\CMakeFiles\mines.dir\build.make homework/4_homework/CMakeFiles/mines.dir/mines.c.i
 .PHONY : mines.c.i
 
 mines.s: mines.c.s
@@ -254,7 +254,7 @@ mines.s: mines.c.s
 
 # target to generate assembly for a file
 mines.c.s:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\4_homework\CMakeFiles\mines.dir\build.make homework/4_homework/CMakeFiles/mines.dir/mines.c.s
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\4_homework\CMakeFiles\mines.dir\build.make homework/4_homework/CMakeFiles/mines.dir/mines.c.s
 .PHONY : mines.c.s
 
 sudoku.obj: sudoku.c.obj
@@ -262,7 +262,7 @@ sudoku.obj: sudoku.c.obj
 
 # target to build an object file
 sudoku.c.obj:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\4_homework\CMakeFiles\sudoku.dir\build.make homework/4_homework/CMakeFiles/sudoku.dir/sudoku.c.obj
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\4_homework\CMakeFiles\sudoku.dir\build.make homework/4_homework/CMakeFiles/sudoku.dir/sudoku.c.obj
 .PHONY : sudoku.c.obj
 
 sudoku.i: sudoku.c.i
@@ -270,7 +270,7 @@ sudoku.i: sudoku.c.i
 
 # target to preprocess a source file
 sudoku.c.i:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\4_homework\CMakeFiles\sudoku.dir\build.make homework/4_homework/CMakeFiles/sudoku.dir/sudoku.c.i
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\4_homework\CMakeFiles\sudoku.dir\build.make homework/4_homework/CMakeFiles/sudoku.dir/sudoku.c.i
 .PHONY : sudoku.c.i
 
 sudoku.s: sudoku.c.s
@@ -278,7 +278,7 @@ sudoku.s: sudoku.c.s
 
 # target to generate assembly for a file
 sudoku.c.s:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\4_homework\CMakeFiles\sudoku.dir\build.make homework/4_homework/CMakeFiles/sudoku.dir/sudoku.c.s
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\4_homework\CMakeFiles\sudoku.dir\build.make homework/4_homework/CMakeFiles/sudoku.dir/sudoku.c.s
 .PHONY : sudoku.c.s
 
 trace.obj: trace.c.obj
@@ -286,7 +286,7 @@ trace.obj: trace.c.obj
 
 # target to build an object file
 trace.c.obj:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\4_homework\CMakeFiles\trace.dir\build.make homework/4_homework/CMakeFiles/trace.dir/trace.c.obj
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\4_homework\CMakeFiles\trace.dir\build.make homework/4_homework/CMakeFiles/trace.dir/trace.c.obj
 .PHONY : trace.c.obj
 
 trace.i: trace.c.i
@@ -294,7 +294,7 @@ trace.i: trace.c.i
 
 # target to preprocess a source file
 trace.c.i:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\4_homework\CMakeFiles\trace.dir\build.make homework/4_homework/CMakeFiles/trace.dir/trace.c.i
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\4_homework\CMakeFiles\trace.dir\build.make homework/4_homework/CMakeFiles/trace.dir/trace.c.i
 .PHONY : trace.c.i
 
 trace.s: trace.c.s
@@ -302,7 +302,7 @@ trace.s: trace.c.s
 
 # target to generate assembly for a file
 trace.c.s:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\4_homework\CMakeFiles\trace.dir\build.make homework/4_homework/CMakeFiles/trace.dir/trace.c.s
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\4_homework\CMakeFiles\trace.dir\build.make homework/4_homework/CMakeFiles/trace.dir/trace.c.s
 .PHONY : trace.c.s
 
 # Help Target
@@ -344,6 +344,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\CPL\untitled\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

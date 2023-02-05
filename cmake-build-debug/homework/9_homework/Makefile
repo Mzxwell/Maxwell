@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe -E rm -f
+RM = C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\git\GitCode\Maxwell
+CMAKE_SOURCE_DIR = C:\CPL\untitled
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\git\GitCode\Maxwell\cmake-build-debug
+CMAKE_BINARY_DIR = C:\CPL\untitled\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = E:\git\GitCode\Maxwell\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
+	C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -77,7 +77,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles E:\git\GitCode\Maxwell\cmake-build-debug\homework\9_homework\\CMakeFiles\progress.marks
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/9_homework/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	cd /d C:\CPL\untitled\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles C:\CPL\untitled\cmake-build-debug\homework\9_homework\\CMakeFiles\progress.marks
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/9_homework/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/9_homework/clean
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/9_homework/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,22 +102,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/9_homework/preinstall
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/9_homework/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/9_homework/preinstall
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/9_homework/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\CPL\untitled\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 homework/9_homework/CMakeFiles/stringcat.dir/rule:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/9_homework/CMakeFiles/stringcat.dir/rule
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/9_homework/CMakeFiles/stringcat.dir/rule
 .PHONY : homework/9_homework/CMakeFiles/stringcat.dir/rule
 
 # Convenience name for target.
@@ -126,12 +126,12 @@ stringcat: homework/9_homework/CMakeFiles/stringcat.dir/rule
 
 # fast build rule for target.
 stringcat/fast:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\9_homework\CMakeFiles\stringcat.dir\build.make homework/9_homework/CMakeFiles/stringcat.dir/build
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\9_homework\CMakeFiles\stringcat.dir\build.make homework/9_homework/CMakeFiles/stringcat.dir/build
 .PHONY : stringcat/fast
 
 # Convenience name for target.
 homework/9_homework/CMakeFiles/tokenizer.dir/rule:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/9_homework/CMakeFiles/tokenizer.dir/rule
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/9_homework/CMakeFiles/tokenizer.dir/rule
 .PHONY : homework/9_homework/CMakeFiles/tokenizer.dir/rule
 
 # Convenience name for target.
@@ -140,12 +140,12 @@ tokenizer: homework/9_homework/CMakeFiles/tokenizer.dir/rule
 
 # fast build rule for target.
 tokenizer/fast:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\9_homework\CMakeFiles\tokenizer.dir\build.make homework/9_homework/CMakeFiles/tokenizer.dir/build
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\9_homework\CMakeFiles\tokenizer.dir\build.make homework/9_homework/CMakeFiles/tokenizer.dir/build
 .PHONY : tokenizer/fast
 
 # Convenience name for target.
 homework/9_homework/CMakeFiles/parse.dir/rule:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/9_homework/CMakeFiles/parse.dir/rule
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/9_homework/CMakeFiles/parse.dir/rule
 .PHONY : homework/9_homework/CMakeFiles/parse.dir/rule
 
 # Convenience name for target.
@@ -154,7 +154,7 @@ parse: homework/9_homework/CMakeFiles/parse.dir/rule
 
 # fast build rule for target.
 parse/fast:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\9_homework\CMakeFiles\parse.dir\build.make homework/9_homework/CMakeFiles/parse.dir/build
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\9_homework\CMakeFiles\parse.dir\build.make homework/9_homework/CMakeFiles/parse.dir/build
 .PHONY : parse/fast
 
 parse.obj: parse.c.obj
@@ -162,8 +162,8 @@ parse.obj: parse.c.obj
 
 # target to build an object file
 parse.c.obj:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\9_homework\CMakeFiles\stringcat.dir\build.make homework/9_homework/CMakeFiles/stringcat.dir/parse.c.obj
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\9_homework\CMakeFiles\parse.dir\build.make homework/9_homework/CMakeFiles/parse.dir/parse.c.obj
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\9_homework\CMakeFiles\stringcat.dir\build.make homework/9_homework/CMakeFiles/stringcat.dir/parse.c.obj
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\9_homework\CMakeFiles\parse.dir\build.make homework/9_homework/CMakeFiles/parse.dir/parse.c.obj
 .PHONY : parse.c.obj
 
 parse.i: parse.c.i
@@ -171,8 +171,8 @@ parse.i: parse.c.i
 
 # target to preprocess a source file
 parse.c.i:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\9_homework\CMakeFiles\stringcat.dir\build.make homework/9_homework/CMakeFiles/stringcat.dir/parse.c.i
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\9_homework\CMakeFiles\parse.dir\build.make homework/9_homework/CMakeFiles/parse.dir/parse.c.i
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\9_homework\CMakeFiles\stringcat.dir\build.make homework/9_homework/CMakeFiles/stringcat.dir/parse.c.i
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\9_homework\CMakeFiles\parse.dir\build.make homework/9_homework/CMakeFiles/parse.dir/parse.c.i
 .PHONY : parse.c.i
 
 parse.s: parse.c.s
@@ -180,8 +180,8 @@ parse.s: parse.c.s
 
 # target to generate assembly for a file
 parse.c.s:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\9_homework\CMakeFiles\stringcat.dir\build.make homework/9_homework/CMakeFiles/stringcat.dir/parse.c.s
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\9_homework\CMakeFiles\parse.dir\build.make homework/9_homework/CMakeFiles/parse.dir/parse.c.s
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\9_homework\CMakeFiles\stringcat.dir\build.make homework/9_homework/CMakeFiles/stringcat.dir/parse.c.s
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\9_homework\CMakeFiles\parse.dir\build.make homework/9_homework/CMakeFiles/parse.dir/parse.c.s
 .PHONY : parse.c.s
 
 stringcat.obj: stringcat.c.obj
@@ -189,7 +189,7 @@ stringcat.obj: stringcat.c.obj
 
 # target to build an object file
 stringcat.c.obj:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\9_homework\CMakeFiles\stringcat.dir\build.make homework/9_homework/CMakeFiles/stringcat.dir/stringcat.c.obj
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\9_homework\CMakeFiles\stringcat.dir\build.make homework/9_homework/CMakeFiles/stringcat.dir/stringcat.c.obj
 .PHONY : stringcat.c.obj
 
 stringcat.i: stringcat.c.i
@@ -197,7 +197,7 @@ stringcat.i: stringcat.c.i
 
 # target to preprocess a source file
 stringcat.c.i:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\9_homework\CMakeFiles\stringcat.dir\build.make homework/9_homework/CMakeFiles/stringcat.dir/stringcat.c.i
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\9_homework\CMakeFiles\stringcat.dir\build.make homework/9_homework/CMakeFiles/stringcat.dir/stringcat.c.i
 .PHONY : stringcat.c.i
 
 stringcat.s: stringcat.c.s
@@ -205,7 +205,7 @@ stringcat.s: stringcat.c.s
 
 # target to generate assembly for a file
 stringcat.c.s:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\9_homework\CMakeFiles\stringcat.dir\build.make homework/9_homework/CMakeFiles/stringcat.dir/stringcat.c.s
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\9_homework\CMakeFiles\stringcat.dir\build.make homework/9_homework/CMakeFiles/stringcat.dir/stringcat.c.s
 .PHONY : stringcat.c.s
 
 tokenizer.obj: tokenizer.c.obj
@@ -213,7 +213,7 @@ tokenizer.obj: tokenizer.c.obj
 
 # target to build an object file
 tokenizer.c.obj:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\9_homework\CMakeFiles\tokenizer.dir\build.make homework/9_homework/CMakeFiles/tokenizer.dir/tokenizer.c.obj
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\9_homework\CMakeFiles\tokenizer.dir\build.make homework/9_homework/CMakeFiles/tokenizer.dir/tokenizer.c.obj
 .PHONY : tokenizer.c.obj
 
 tokenizer.i: tokenizer.c.i
@@ -221,7 +221,7 @@ tokenizer.i: tokenizer.c.i
 
 # target to preprocess a source file
 tokenizer.c.i:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\9_homework\CMakeFiles\tokenizer.dir\build.make homework/9_homework/CMakeFiles/tokenizer.dir/tokenizer.c.i
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\9_homework\CMakeFiles\tokenizer.dir\build.make homework/9_homework/CMakeFiles/tokenizer.dir/tokenizer.c.i
 .PHONY : tokenizer.c.i
 
 tokenizer.s: tokenizer.c.s
@@ -229,7 +229,7 @@ tokenizer.s: tokenizer.c.s
 
 # target to generate assembly for a file
 tokenizer.c.s:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\9_homework\CMakeFiles\tokenizer.dir\build.make homework/9_homework/CMakeFiles/tokenizer.dir/tokenizer.c.s
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\9_homework\CMakeFiles\tokenizer.dir\build.make homework/9_homework/CMakeFiles/tokenizer.dir/tokenizer.c.s
 .PHONY : tokenizer.c.s
 
 # Help Target
@@ -263,6 +263,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\CPL\untitled\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

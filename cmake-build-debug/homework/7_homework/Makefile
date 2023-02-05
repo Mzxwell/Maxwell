@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe -E rm -f
+RM = C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\git\GitCode\Maxwell
+CMAKE_SOURCE_DIR = C:\CPL\untitled
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\git\GitCode\Maxwell\cmake-build-debug
+CMAKE_BINARY_DIR = C:\CPL\untitled\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = E:\git\GitCode\Maxwell\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
+	C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -77,7 +77,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles E:\git\GitCode\Maxwell\cmake-build-debug\homework\7_homework\\CMakeFiles\progress.marks
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/7_homework/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	cd /d C:\CPL\untitled\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles C:\CPL\untitled\cmake-build-debug\homework\7_homework\\CMakeFiles\progress.marks
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/7_homework/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/7_homework/clean
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/7_homework/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,22 +102,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/7_homework/preinstall
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/7_homework/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/7_homework/preinstall
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/7_homework/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\CPL\untitled\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 homework/7_homework/CMakeFiles/wine.dir/rule:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/7_homework/CMakeFiles/wine.dir/rule
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/7_homework/CMakeFiles/wine.dir/rule
 .PHONY : homework/7_homework/CMakeFiles/wine.dir/rule
 
 # Convenience name for target.
@@ -126,12 +126,12 @@ wine: homework/7_homework/CMakeFiles/wine.dir/rule
 
 # fast build rule for target.
 wine/fast:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\wine.dir\build.make homework/7_homework/CMakeFiles/wine.dir/build
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\wine.dir\build.make homework/7_homework/CMakeFiles/wine.dir/build
 .PHONY : wine/fast
 
 # Convenience name for target.
 homework/7_homework/CMakeFiles/cuboid.dir/rule:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/7_homework/CMakeFiles/cuboid.dir/rule
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/7_homework/CMakeFiles/cuboid.dir/rule
 .PHONY : homework/7_homework/CMakeFiles/cuboid.dir/rule
 
 # Convenience name for target.
@@ -140,12 +140,12 @@ cuboid: homework/7_homework/CMakeFiles/cuboid.dir/rule
 
 # fast build rule for target.
 cuboid/fast:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\cuboid.dir\build.make homework/7_homework/CMakeFiles/cuboid.dir/build
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\cuboid.dir\build.make homework/7_homework/CMakeFiles/cuboid.dir/build
 .PHONY : cuboid/fast
 
 # Convenience name for target.
 homework/7_homework/CMakeFiles/pour.dir/rule:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/7_homework/CMakeFiles/pour.dir/rule
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/7_homework/CMakeFiles/pour.dir/rule
 .PHONY : homework/7_homework/CMakeFiles/pour.dir/rule
 
 # Convenience name for target.
@@ -154,12 +154,12 @@ pour: homework/7_homework/CMakeFiles/pour.dir/rule
 
 # fast build rule for target.
 pour/fast:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\pour.dir\build.make homework/7_homework/CMakeFiles/pour.dir/build
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\pour.dir\build.make homework/7_homework/CMakeFiles/pour.dir/build
 .PHONY : pour/fast
 
 # Convenience name for target.
 homework/7_homework/CMakeFiles/buddy.dir/rule:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/7_homework/CMakeFiles/buddy.dir/rule
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/7_homework/CMakeFiles/buddy.dir/rule
 .PHONY : homework/7_homework/CMakeFiles/buddy.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ buddy: homework/7_homework/CMakeFiles/buddy.dir/rule
 
 # fast build rule for target.
 buddy/fast:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\buddy.dir\build.make homework/7_homework/CMakeFiles/buddy.dir/build
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\buddy.dir\build.make homework/7_homework/CMakeFiles/buddy.dir/build
 .PHONY : buddy/fast
 
 # Convenience name for target.
 homework/7_homework/CMakeFiles/brackets.dir/rule:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/7_homework/CMakeFiles/brackets.dir/rule
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/7_homework/CMakeFiles/brackets.dir/rule
 .PHONY : homework/7_homework/CMakeFiles/brackets.dir/rule
 
 # Convenience name for target.
@@ -182,12 +182,12 @@ brackets: homework/7_homework/CMakeFiles/brackets.dir/rule
 
 # fast build rule for target.
 brackets/fast:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\brackets.dir\build.make homework/7_homework/CMakeFiles/brackets.dir/build
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\brackets.dir\build.make homework/7_homework/CMakeFiles/brackets.dir/build
 .PHONY : brackets/fast
 
 # Convenience name for target.
 homework/7_homework/CMakeFiles/rotate.dir/rule:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/7_homework/CMakeFiles/rotate.dir/rule
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/7_homework/CMakeFiles/rotate.dir/rule
 .PHONY : homework/7_homework/CMakeFiles/rotate.dir/rule
 
 # Convenience name for target.
@@ -196,7 +196,7 @@ rotate: homework/7_homework/CMakeFiles/rotate.dir/rule
 
 # fast build rule for target.
 rotate/fast:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\rotate.dir\build.make homework/7_homework/CMakeFiles/rotate.dir/build
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\rotate.dir\build.make homework/7_homework/CMakeFiles/rotate.dir/build
 .PHONY : rotate/fast
 
 brackets.obj: brackets.c.obj
@@ -204,7 +204,7 @@ brackets.obj: brackets.c.obj
 
 # target to build an object file
 brackets.c.obj:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\brackets.dir\build.make homework/7_homework/CMakeFiles/brackets.dir/brackets.c.obj
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\brackets.dir\build.make homework/7_homework/CMakeFiles/brackets.dir/brackets.c.obj
 .PHONY : brackets.c.obj
 
 brackets.i: brackets.c.i
@@ -212,7 +212,7 @@ brackets.i: brackets.c.i
 
 # target to preprocess a source file
 brackets.c.i:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\brackets.dir\build.make homework/7_homework/CMakeFiles/brackets.dir/brackets.c.i
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\brackets.dir\build.make homework/7_homework/CMakeFiles/brackets.dir/brackets.c.i
 .PHONY : brackets.c.i
 
 brackets.s: brackets.c.s
@@ -220,7 +220,7 @@ brackets.s: brackets.c.s
 
 # target to generate assembly for a file
 brackets.c.s:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\brackets.dir\build.make homework/7_homework/CMakeFiles/brackets.dir/brackets.c.s
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\brackets.dir\build.make homework/7_homework/CMakeFiles/brackets.dir/brackets.c.s
 .PHONY : brackets.c.s
 
 buddy.obj: buddy.c.obj
@@ -228,7 +228,7 @@ buddy.obj: buddy.c.obj
 
 # target to build an object file
 buddy.c.obj:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\buddy.dir\build.make homework/7_homework/CMakeFiles/buddy.dir/buddy.c.obj
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\buddy.dir\build.make homework/7_homework/CMakeFiles/buddy.dir/buddy.c.obj
 .PHONY : buddy.c.obj
 
 buddy.i: buddy.c.i
@@ -236,7 +236,7 @@ buddy.i: buddy.c.i
 
 # target to preprocess a source file
 buddy.c.i:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\buddy.dir\build.make homework/7_homework/CMakeFiles/buddy.dir/buddy.c.i
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\buddy.dir\build.make homework/7_homework/CMakeFiles/buddy.dir/buddy.c.i
 .PHONY : buddy.c.i
 
 buddy.s: buddy.c.s
@@ -244,7 +244,7 @@ buddy.s: buddy.c.s
 
 # target to generate assembly for a file
 buddy.c.s:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\buddy.dir\build.make homework/7_homework/CMakeFiles/buddy.dir/buddy.c.s
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\buddy.dir\build.make homework/7_homework/CMakeFiles/buddy.dir/buddy.c.s
 .PHONY : buddy.c.s
 
 cuboid.obj: cuboid.c.obj
@@ -252,7 +252,7 @@ cuboid.obj: cuboid.c.obj
 
 # target to build an object file
 cuboid.c.obj:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\cuboid.dir\build.make homework/7_homework/CMakeFiles/cuboid.dir/cuboid.c.obj
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\cuboid.dir\build.make homework/7_homework/CMakeFiles/cuboid.dir/cuboid.c.obj
 .PHONY : cuboid.c.obj
 
 cuboid.i: cuboid.c.i
@@ -260,7 +260,7 @@ cuboid.i: cuboid.c.i
 
 # target to preprocess a source file
 cuboid.c.i:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\cuboid.dir\build.make homework/7_homework/CMakeFiles/cuboid.dir/cuboid.c.i
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\cuboid.dir\build.make homework/7_homework/CMakeFiles/cuboid.dir/cuboid.c.i
 .PHONY : cuboid.c.i
 
 cuboid.s: cuboid.c.s
@@ -268,7 +268,7 @@ cuboid.s: cuboid.c.s
 
 # target to generate assembly for a file
 cuboid.c.s:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\cuboid.dir\build.make homework/7_homework/CMakeFiles/cuboid.dir/cuboid.c.s
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\cuboid.dir\build.make homework/7_homework/CMakeFiles/cuboid.dir/cuboid.c.s
 .PHONY : cuboid.c.s
 
 pour.obj: pour.c.obj
@@ -276,7 +276,7 @@ pour.obj: pour.c.obj
 
 # target to build an object file
 pour.c.obj:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\pour.dir\build.make homework/7_homework/CMakeFiles/pour.dir/pour.c.obj
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\pour.dir\build.make homework/7_homework/CMakeFiles/pour.dir/pour.c.obj
 .PHONY : pour.c.obj
 
 pour.i: pour.c.i
@@ -284,7 +284,7 @@ pour.i: pour.c.i
 
 # target to preprocess a source file
 pour.c.i:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\pour.dir\build.make homework/7_homework/CMakeFiles/pour.dir/pour.c.i
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\pour.dir\build.make homework/7_homework/CMakeFiles/pour.dir/pour.c.i
 .PHONY : pour.c.i
 
 pour.s: pour.c.s
@@ -292,7 +292,7 @@ pour.s: pour.c.s
 
 # target to generate assembly for a file
 pour.c.s:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\pour.dir\build.make homework/7_homework/CMakeFiles/pour.dir/pour.c.s
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\pour.dir\build.make homework/7_homework/CMakeFiles/pour.dir/pour.c.s
 .PHONY : pour.c.s
 
 rotate.obj: rotate.c.obj
@@ -300,7 +300,7 @@ rotate.obj: rotate.c.obj
 
 # target to build an object file
 rotate.c.obj:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\rotate.dir\build.make homework/7_homework/CMakeFiles/rotate.dir/rotate.c.obj
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\rotate.dir\build.make homework/7_homework/CMakeFiles/rotate.dir/rotate.c.obj
 .PHONY : rotate.c.obj
 
 rotate.i: rotate.c.i
@@ -308,7 +308,7 @@ rotate.i: rotate.c.i
 
 # target to preprocess a source file
 rotate.c.i:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\rotate.dir\build.make homework/7_homework/CMakeFiles/rotate.dir/rotate.c.i
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\rotate.dir\build.make homework/7_homework/CMakeFiles/rotate.dir/rotate.c.i
 .PHONY : rotate.c.i
 
 rotate.s: rotate.c.s
@@ -316,7 +316,7 @@ rotate.s: rotate.c.s
 
 # target to generate assembly for a file
 rotate.c.s:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\rotate.dir\build.make homework/7_homework/CMakeFiles/rotate.dir/rotate.c.s
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\rotate.dir\build.make homework/7_homework/CMakeFiles/rotate.dir/rotate.c.s
 .PHONY : rotate.c.s
 
 wine.obj: wine.c.obj
@@ -324,7 +324,7 @@ wine.obj: wine.c.obj
 
 # target to build an object file
 wine.c.obj:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\wine.dir\build.make homework/7_homework/CMakeFiles/wine.dir/wine.c.obj
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\wine.dir\build.make homework/7_homework/CMakeFiles/wine.dir/wine.c.obj
 .PHONY : wine.c.obj
 
 wine.i: wine.c.i
@@ -332,7 +332,7 @@ wine.i: wine.c.i
 
 # target to preprocess a source file
 wine.c.i:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\wine.dir\build.make homework/7_homework/CMakeFiles/wine.dir/wine.c.i
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\wine.dir\build.make homework/7_homework/CMakeFiles/wine.dir/wine.c.i
 .PHONY : wine.c.i
 
 wine.s: wine.c.s
@@ -340,7 +340,7 @@ wine.s: wine.c.s
 
 # target to generate assembly for a file
 wine.c.s:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\wine.dir\build.make homework/7_homework/CMakeFiles/wine.dir/wine.c.s
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\7_homework\CMakeFiles\wine.dir\build.make homework/7_homework/CMakeFiles/wine.dir/wine.c.s
 .PHONY : wine.c.s
 
 # Help Target
@@ -386,6 +386,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\CPL\untitled\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

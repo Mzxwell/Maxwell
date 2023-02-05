@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "E:/git/GitCode/Maxwell/homework/7_homework/pour.c" "homework/7_homework/CMakeFiles/pour.dir/pour.c.obj" "gcc" "homework/7_homework/CMakeFiles/pour.dir/pour.c.obj.d"
+  "C:/CPL/untitled/homework/7_homework/pour.c" "homework/7_homework/CMakeFiles/pour.dir/pour.c.obj" "gcc" "homework/7_homework/CMakeFiles/pour.dir/pour.c.obj.d"
   )
 
 # Targets to which this target links.

@@ -43,19 +43,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe -E rm -f
+RM = C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\git\GitCode\Maxwell
+CMAKE_SOURCE_DIR = C:\CPL\untitled
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\git\GitCode\Maxwell\cmake-build-debug
+CMAKE_BINARY_DIR = C:\CPL\untitled\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include homework/7_homework/CMakeFiles/cuboid.dir/depend.make
@@ -69,18 +69,18 @@ include homework/7_homework/CMakeFiles/cuboid.dir/progress.make
 include homework/7_homework/CMakeFiles/cuboid.dir/flags.make
 
 homework/7_homework/CMakeFiles/cuboid.dir/cuboid.c.obj: homework/7_homework/CMakeFiles/cuboid.dir/flags.make
-homework/7_homework/CMakeFiles/cuboid.dir/cuboid.c.obj: E:/git/GitCode/Maxwell/homework/7_homework/cuboid.c
+homework/7_homework/CMakeFiles/cuboid.dir/cuboid.c.obj: C:/CPL/untitled/homework/7_homework/cuboid.c
 homework/7_homework/CMakeFiles/cuboid.dir/cuboid.c.obj: homework/7_homework/CMakeFiles/cuboid.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object homework/7_homework/CMakeFiles/cuboid.dir/cuboid.c.obj"
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug\homework\7_homework && C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT homework/7_homework/CMakeFiles/cuboid.dir/cuboid.c.obj -MF CMakeFiles\cuboid.dir\cuboid.c.obj.d -o CMakeFiles\cuboid.dir\cuboid.c.obj -c E:\git\GitCode\Maxwell\homework\7_homework\cuboid.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object homework/7_homework/CMakeFiles/cuboid.dir/cuboid.c.obj"
+	cd /d C:\CPL\untitled\cmake-build-debug\homework\7_homework && C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT homework/7_homework/CMakeFiles/cuboid.dir/cuboid.c.obj -MF CMakeFiles\cuboid.dir\cuboid.c.obj.d -o CMakeFiles\cuboid.dir\cuboid.c.obj -c C:\CPL\untitled\homework\7_homework\cuboid.c
 
 homework/7_homework/CMakeFiles/cuboid.dir/cuboid.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cuboid.dir/cuboid.c.i"
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug\homework\7_homework && C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\git\GitCode\Maxwell\homework\7_homework\cuboid.c > CMakeFiles\cuboid.dir\cuboid.c.i
+	cd /d C:\CPL\untitled\cmake-build-debug\homework\7_homework && C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\CPL\untitled\homework\7_homework\cuboid.c > CMakeFiles\cuboid.dir\cuboid.c.i
 
 homework/7_homework/CMakeFiles/cuboid.dir/cuboid.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cuboid.dir/cuboid.c.s"
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug\homework\7_homework && C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\git\GitCode\Maxwell\homework\7_homework\cuboid.c -o CMakeFiles\cuboid.dir\cuboid.c.s
+	cd /d C:\CPL\untitled\cmake-build-debug\homework\7_homework && C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\CPL\untitled\homework\7_homework\cuboid.c -o CMakeFiles\cuboid.dir\cuboid.c.s
 
 # Object files for target cuboid
 cuboid_OBJECTS = \
@@ -94,18 +94,18 @@ homework/7_homework/cuboid.exe: homework/7_homework/CMakeFiles/cuboid.dir/build.
 homework/7_homework/cuboid.exe: homework/7_homework/CMakeFiles/cuboid.dir/linklibs.rsp
 homework/7_homework/cuboid.exe: homework/7_homework/CMakeFiles/cuboid.dir/objects1.rsp
 homework/7_homework/cuboid.exe: homework/7_homework/CMakeFiles/cuboid.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable cuboid.exe"
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug\homework\7_homework && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\cuboid.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable cuboid.exe"
+	cd /d C:\CPL\untitled\cmake-build-debug\homework\7_homework && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\cuboid.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 homework/7_homework/CMakeFiles/cuboid.dir/build: homework/7_homework/cuboid.exe
 .PHONY : homework/7_homework/CMakeFiles/cuboid.dir/build
 
 homework/7_homework/CMakeFiles/cuboid.dir/clean:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug\homework\7_homework && $(CMAKE_COMMAND) -P CMakeFiles\cuboid.dir\cmake_clean.cmake
+	cd /d C:\CPL\untitled\cmake-build-debug\homework\7_homework && $(CMAKE_COMMAND) -P CMakeFiles\cuboid.dir\cmake_clean.cmake
 .PHONY : homework/7_homework/CMakeFiles/cuboid.dir/clean
 
 homework/7_homework/CMakeFiles/cuboid.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\git\GitCode\Maxwell E:\git\GitCode\Maxwell\homework\7_homework E:\git\GitCode\Maxwell\cmake-build-debug E:\git\GitCode\Maxwell\cmake-build-debug\homework\7_homework E:\git\GitCode\Maxwell\cmake-build-debug\homework\7_homework\CMakeFiles\cuboid.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\CPL\untitled C:\CPL\untitled\homework\7_homework C:\CPL\untitled\cmake-build-debug C:\CPL\untitled\cmake-build-debug\homework\7_homework C:\CPL\untitled\cmake-build-debug\homework\7_homework\CMakeFiles\cuboid.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : homework/7_homework/CMakeFiles/cuboid.dir/depend
 

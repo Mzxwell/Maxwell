@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "E:/git/GitCode/Maxwell/homework/8_homework/interpreter.c" "homework/8_homework/CMakeFiles/interpreter.dir/interpreter.c.obj" "gcc" "homework/8_homework/CMakeFiles/interpreter.dir/interpreter.c.obj.d"
+  "C:/CPL/untitled/homework/8_homework/interpreter.c" "homework/8_homework/CMakeFiles/interpreter.dir/interpreter.c.obj" "gcc" "homework/8_homework/CMakeFiles/interpreter.dir/interpreter.c.obj.d"
   )
 
 # Targets to which this target links.

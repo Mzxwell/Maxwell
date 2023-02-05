@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "E:/git/GitCode/Maxwell/homework/3-homework/flip2.c" "homework/3-homework/CMakeFiles/flip2.dir/flip2.c.obj" "gcc" "homework/3-homework/CMakeFiles/flip2.dir/flip2.c.obj.d"
+  "C:/CPL/untitled/homework/3-homework/flip2.c" "homework/3-homework/CMakeFiles/flip2.dir/flip2.c.obj" "gcc" "homework/3-homework/CMakeFiles/flip2.dir/flip2.c.obj.d"
   )
 
 # Targets to which this target links.

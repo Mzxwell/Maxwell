@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "E:/git/GitCode/Maxwell/homework/5_homework/magic-square.c" "homework/5_homework/CMakeFiles/magic-square.dir/magic-square.c.obj" "gcc" "homework/5_homework/CMakeFiles/magic-square.dir/magic-square.c.obj.d"
+  "C:/CPL/untitled/homework/5_homework/magic-square.c" "homework/5_homework/CMakeFiles/magic-square.dir/magic-square.c.obj" "gcc" "homework/5_homework/CMakeFiles/magic-square.dir/magic-square.c.obj.d"
   )
 
 # Targets to which this target links.

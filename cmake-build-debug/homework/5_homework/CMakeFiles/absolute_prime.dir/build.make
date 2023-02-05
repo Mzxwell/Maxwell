@@ -43,19 +43,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe -E rm -f
+RM = C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\git\GitCode\Maxwell
+CMAKE_SOURCE_DIR = C:\CPL\untitled
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\git\GitCode\Maxwell\cmake-build-debug
+CMAKE_BINARY_DIR = C:\CPL\untitled\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include homework/5_homework/CMakeFiles/absolute_prime.dir/depend.make
@@ -69,18 +69,18 @@ include homework/5_homework/CMakeFiles/absolute_prime.dir/progress.make
 include homework/5_homework/CMakeFiles/absolute_prime.dir/flags.make
 
 homework/5_homework/CMakeFiles/absolute_prime.dir/absolute_prime.c.obj: homework/5_homework/CMakeFiles/absolute_prime.dir/flags.make
-homework/5_homework/CMakeFiles/absolute_prime.dir/absolute_prime.c.obj: E:/git/GitCode/Maxwell/homework/5_homework/absolute_prime.c
+homework/5_homework/CMakeFiles/absolute_prime.dir/absolute_prime.c.obj: C:/CPL/untitled/homework/5_homework/absolute_prime.c
 homework/5_homework/CMakeFiles/absolute_prime.dir/absolute_prime.c.obj: homework/5_homework/CMakeFiles/absolute_prime.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object homework/5_homework/CMakeFiles/absolute_prime.dir/absolute_prime.c.obj"
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug\homework\5_homework && C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT homework/5_homework/CMakeFiles/absolute_prime.dir/absolute_prime.c.obj -MF CMakeFiles\absolute_prime.dir\absolute_prime.c.obj.d -o CMakeFiles\absolute_prime.dir\absolute_prime.c.obj -c E:\git\GitCode\Maxwell\homework\5_homework\absolute_prime.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object homework/5_homework/CMakeFiles/absolute_prime.dir/absolute_prime.c.obj"
+	cd /d C:\CPL\untitled\cmake-build-debug\homework\5_homework && C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT homework/5_homework/CMakeFiles/absolute_prime.dir/absolute_prime.c.obj -MF CMakeFiles\absolute_prime.dir\absolute_prime.c.obj.d -o CMakeFiles\absolute_prime.dir\absolute_prime.c.obj -c C:\CPL\untitled\homework\5_homework\absolute_prime.c
 
 homework/5_homework/CMakeFiles/absolute_prime.dir/absolute_prime.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/absolute_prime.dir/absolute_prime.c.i"
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug\homework\5_homework && C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\git\GitCode\Maxwell\homework\5_homework\absolute_prime.c > CMakeFiles\absolute_prime.dir\absolute_prime.c.i
+	cd /d C:\CPL\untitled\cmake-build-debug\homework\5_homework && C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\CPL\untitled\homework\5_homework\absolute_prime.c > CMakeFiles\absolute_prime.dir\absolute_prime.c.i
 
 homework/5_homework/CMakeFiles/absolute_prime.dir/absolute_prime.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/absolute_prime.dir/absolute_prime.c.s"
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug\homework\5_homework && C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\git\GitCode\Maxwell\homework\5_homework\absolute_prime.c -o CMakeFiles\absolute_prime.dir\absolute_prime.c.s
+	cd /d C:\CPL\untitled\cmake-build-debug\homework\5_homework && C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\CPL\untitled\homework\5_homework\absolute_prime.c -o CMakeFiles\absolute_prime.dir\absolute_prime.c.s
 
 # Object files for target absolute_prime
 absolute_prime_OBJECTS = \
@@ -94,18 +94,18 @@ homework/5_homework/absolute_prime.exe: homework/5_homework/CMakeFiles/absolute_
 homework/5_homework/absolute_prime.exe: homework/5_homework/CMakeFiles/absolute_prime.dir/linklibs.rsp
 homework/5_homework/absolute_prime.exe: homework/5_homework/CMakeFiles/absolute_prime.dir/objects1.rsp
 homework/5_homework/absolute_prime.exe: homework/5_homework/CMakeFiles/absolute_prime.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable absolute_prime.exe"
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug\homework\5_homework && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\absolute_prime.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable absolute_prime.exe"
+	cd /d C:\CPL\untitled\cmake-build-debug\homework\5_homework && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\absolute_prime.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 homework/5_homework/CMakeFiles/absolute_prime.dir/build: homework/5_homework/absolute_prime.exe
 .PHONY : homework/5_homework/CMakeFiles/absolute_prime.dir/build
 
 homework/5_homework/CMakeFiles/absolute_prime.dir/clean:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug\homework\5_homework && $(CMAKE_COMMAND) -P CMakeFiles\absolute_prime.dir\cmake_clean.cmake
+	cd /d C:\CPL\untitled\cmake-build-debug\homework\5_homework && $(CMAKE_COMMAND) -P CMakeFiles\absolute_prime.dir\cmake_clean.cmake
 .PHONY : homework/5_homework/CMakeFiles/absolute_prime.dir/clean
 
 homework/5_homework/CMakeFiles/absolute_prime.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\git\GitCode\Maxwell E:\git\GitCode\Maxwell\homework\5_homework E:\git\GitCode\Maxwell\cmake-build-debug E:\git\GitCode\Maxwell\cmake-build-debug\homework\5_homework E:\git\GitCode\Maxwell\cmake-build-debug\homework\5_homework\CMakeFiles\absolute_prime.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\CPL\untitled C:\CPL\untitled\homework\5_homework C:\CPL\untitled\cmake-build-debug C:\CPL\untitled\cmake-build-debug\homework\5_homework C:\CPL\untitled\cmake-build-debug\homework\5_homework\CMakeFiles\absolute_prime.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : homework/5_homework/CMakeFiles/absolute_prime.dir/depend
 

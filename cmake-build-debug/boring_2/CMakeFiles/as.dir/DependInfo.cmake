@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "E:/git/GitCode/Maxwell/boring_2/as.c" "boring_2/CMakeFiles/as.dir/as.c.obj" "gcc" "boring_2/CMakeFiles/as.dir/as.c.obj.d"
+  "C:/CPL/untitled/boring_2/as.c" "boring_2/CMakeFiles/as.dir/as.c.obj" "gcc" "boring_2/CMakeFiles/as.dir/as.c.obj.d"
   )
 
 # Targets to which this target links.

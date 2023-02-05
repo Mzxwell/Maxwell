@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "E:/git/GitCode/Maxwell/computing/delete.c" "computing/CMakeFiles/delete.dir/delete.c.obj" "gcc" "computing/CMakeFiles/delete.dir/delete.c.obj.d"
+  "C:/CPL/untitled/computing/delete.c" "computing/CMakeFiles/delete.dir/delete.c.obj" "gcc" "computing/CMakeFiles/delete.dir/delete.c.obj.d"
   )
 
 # Targets to which this target links.

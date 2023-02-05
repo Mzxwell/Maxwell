@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe -E rm -f
+RM = C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\git\GitCode\Maxwell
+CMAKE_SOURCE_DIR = C:\CPL\untitled
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\git\GitCode\Maxwell\cmake-build-debug
+CMAKE_BINARY_DIR = C:\CPL\untitled\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = E:\git\GitCode\Maxwell\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe -E echo "No interactive CMake dialog available."
+	C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -77,7 +77,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles E:\git\GitCode\Maxwell\cmake-build-debug\homework\10_homework\\CMakeFiles\progress.marks
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/10_homework/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles 0
+	cd /d C:\CPL\untitled\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles C:\CPL\untitled\cmake-build-debug\homework\10_homework\\CMakeFiles\progress.marks
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/10_homework/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\CPL\untitled\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/10_homework/clean
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/10_homework/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,22 +102,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/10_homework/preinstall
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/10_homework/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/10_homework/preinstall
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/10_homework/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\CPL\untitled\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 homework/10_homework/CMakeFiles/fifa.dir/rule:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/10_homework/CMakeFiles/fifa.dir/rule
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/10_homework/CMakeFiles/fifa.dir/rule
 .PHONY : homework/10_homework/CMakeFiles/fifa.dir/rule
 
 # Convenience name for target.
@@ -126,12 +126,12 @@ fifa: homework/10_homework/CMakeFiles/fifa.dir/rule
 
 # fast build rule for target.
 fifa/fast:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\fifa.dir\build.make homework/10_homework/CMakeFiles/fifa.dir/build
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\fifa.dir\build.make homework/10_homework/CMakeFiles/fifa.dir/build
 .PHONY : fifa/fast
 
 # Convenience name for target.
 homework/10_homework/CMakeFiles/polynlist.dir/rule:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/10_homework/CMakeFiles/polynlist.dir/rule
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 homework/10_homework/CMakeFiles/polynlist.dir/rule
 .PHONY : homework/10_homework/CMakeFiles/polynlist.dir/rule
 
 # Convenience name for target.
@@ -140,7 +140,7 @@ polynlist: homework/10_homework/CMakeFiles/polynlist.dir/rule
 
 # fast build rule for target.
 polynlist/fast:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\polynlist.dir\build.make homework/10_homework/CMakeFiles/polynlist.dir/build
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\polynlist.dir\build.make homework/10_homework/CMakeFiles/polynlist.dir/build
 .PHONY : polynlist/fast
 
 fifa.obj: fifa.c.obj
@@ -148,7 +148,7 @@ fifa.obj: fifa.c.obj
 
 # target to build an object file
 fifa.c.obj:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\fifa.dir\build.make homework/10_homework/CMakeFiles/fifa.dir/fifa.c.obj
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\fifa.dir\build.make homework/10_homework/CMakeFiles/fifa.dir/fifa.c.obj
 .PHONY : fifa.c.obj
 
 fifa.i: fifa.c.i
@@ -156,7 +156,7 @@ fifa.i: fifa.c.i
 
 # target to preprocess a source file
 fifa.c.i:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\fifa.dir\build.make homework/10_homework/CMakeFiles/fifa.dir/fifa.c.i
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\fifa.dir\build.make homework/10_homework/CMakeFiles/fifa.dir/fifa.c.i
 .PHONY : fifa.c.i
 
 fifa.s: fifa.c.s
@@ -164,7 +164,7 @@ fifa.s: fifa.c.s
 
 # target to generate assembly for a file
 fifa.c.s:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\fifa.dir\build.make homework/10_homework/CMakeFiles/fifa.dir/fifa.c.s
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\fifa.dir\build.make homework/10_homework/CMakeFiles/fifa.dir/fifa.c.s
 .PHONY : fifa.c.s
 
 polynlist.obj: polynlist.c.obj
@@ -172,7 +172,7 @@ polynlist.obj: polynlist.c.obj
 
 # target to build an object file
 polynlist.c.obj:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\polynlist.dir\build.make homework/10_homework/CMakeFiles/polynlist.dir/polynlist.c.obj
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\polynlist.dir\build.make homework/10_homework/CMakeFiles/polynlist.dir/polynlist.c.obj
 .PHONY : polynlist.c.obj
 
 polynlist.i: polynlist.c.i
@@ -180,7 +180,7 @@ polynlist.i: polynlist.c.i
 
 # target to preprocess a source file
 polynlist.c.i:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\polynlist.dir\build.make homework/10_homework/CMakeFiles/polynlist.dir/polynlist.c.i
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\polynlist.dir\build.make homework/10_homework/CMakeFiles/polynlist.dir/polynlist.c.i
 .PHONY : polynlist.c.i
 
 polynlist.s: polynlist.c.s
@@ -188,7 +188,7 @@ polynlist.s: polynlist.c.s
 
 # target to generate assembly for a file
 polynlist.c.s:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\polynlist.dir\build.make homework/10_homework/CMakeFiles/polynlist.dir/polynlist.c.s
+	cd /d C:\CPL\untitled\cmake-build-debug && $(MAKE) $(MAKESILENT) -f homework\10_homework\CMakeFiles\polynlist.dir\build.make homework/10_homework/CMakeFiles/polynlist.dir/polynlist.c.s
 .PHONY : polynlist.c.s
 
 # Help Target
@@ -218,6 +218,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\CPL\untitled\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

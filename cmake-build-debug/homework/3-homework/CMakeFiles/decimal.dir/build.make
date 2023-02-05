@@ -43,19 +43,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe
 
 # The command to remove a file.
-RM = C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\cmake\win\bin\cmake.exe -E rm -f
+RM = C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\git\GitCode\Maxwell
+CMAKE_SOURCE_DIR = C:\CPL\untitled
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\git\GitCode\Maxwell\cmake-build-debug
+CMAKE_BINARY_DIR = C:\CPL\untitled\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include homework/3-homework/CMakeFiles/decimal.dir/depend.make
@@ -69,18 +69,18 @@ include homework/3-homework/CMakeFiles/decimal.dir/progress.make
 include homework/3-homework/CMakeFiles/decimal.dir/flags.make
 
 homework/3-homework/CMakeFiles/decimal.dir/decimal.c.obj: homework/3-homework/CMakeFiles/decimal.dir/flags.make
-homework/3-homework/CMakeFiles/decimal.dir/decimal.c.obj: E:/git/GitCode/Maxwell/homework/3-homework/decimal.c
+homework/3-homework/CMakeFiles/decimal.dir/decimal.c.obj: C:/CPL/untitled/homework/3-homework/decimal.c
 homework/3-homework/CMakeFiles/decimal.dir/decimal.c.obj: homework/3-homework/CMakeFiles/decimal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object homework/3-homework/CMakeFiles/decimal.dir/decimal.c.obj"
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug\homework\3-homework && C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT homework/3-homework/CMakeFiles/decimal.dir/decimal.c.obj -MF CMakeFiles\decimal.dir\decimal.c.obj.d -o CMakeFiles\decimal.dir\decimal.c.obj -c E:\git\GitCode\Maxwell\homework\3-homework\decimal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object homework/3-homework/CMakeFiles/decimal.dir/decimal.c.obj"
+	cd /d C:\CPL\untitled\cmake-build-debug\homework\3-homework && C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT homework/3-homework/CMakeFiles/decimal.dir/decimal.c.obj -MF CMakeFiles\decimal.dir\decimal.c.obj.d -o CMakeFiles\decimal.dir\decimal.c.obj -c C:\CPL\untitled\homework\3-homework\decimal.c
 
 homework/3-homework/CMakeFiles/decimal.dir/decimal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/decimal.dir/decimal.c.i"
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug\homework\3-homework && C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E E:\git\GitCode\Maxwell\homework\3-homework\decimal.c > CMakeFiles\decimal.dir\decimal.c.i
+	cd /d C:\CPL\untitled\cmake-build-debug\homework\3-homework && C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\CPL\untitled\homework\3-homework\decimal.c > CMakeFiles\decimal.dir\decimal.c.i
 
 homework/3-homework/CMakeFiles/decimal.dir/decimal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/decimal.dir/decimal.c.s"
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug\homework\3-homework && C:\Users\Administrator\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\223.8214.51\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S E:\git\GitCode\Maxwell\homework\3-homework\decimal.c -o CMakeFiles\decimal.dir\decimal.c.s
+	cd /d C:\CPL\untitled\cmake-build-debug\homework\3-homework && C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\CPL\untitled\homework\3-homework\decimal.c -o CMakeFiles\decimal.dir\decimal.c.s
 
 # Object files for target decimal
 decimal_OBJECTS = \
@@ -94,18 +94,18 @@ homework/3-homework/decimal.exe: homework/3-homework/CMakeFiles/decimal.dir/buil
 homework/3-homework/decimal.exe: homework/3-homework/CMakeFiles/decimal.dir/linklibs.rsp
 homework/3-homework/decimal.exe: homework/3-homework/CMakeFiles/decimal.dir/objects1.rsp
 homework/3-homework/decimal.exe: homework/3-homework/CMakeFiles/decimal.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\git\GitCode\Maxwell\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable decimal.exe"
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug\homework\3-homework && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\decimal.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\CPL\untitled\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable decimal.exe"
+	cd /d C:\CPL\untitled\cmake-build-debug\homework\3-homework && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\decimal.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 homework/3-homework/CMakeFiles/decimal.dir/build: homework/3-homework/decimal.exe
 .PHONY : homework/3-homework/CMakeFiles/decimal.dir/build
 
 homework/3-homework/CMakeFiles/decimal.dir/clean:
-	cd /d E:\git\GitCode\Maxwell\cmake-build-debug\homework\3-homework && $(CMAKE_COMMAND) -P CMakeFiles\decimal.dir\cmake_clean.cmake
+	cd /d C:\CPL\untitled\cmake-build-debug\homework\3-homework && $(CMAKE_COMMAND) -P CMakeFiles\decimal.dir\cmake_clean.cmake
 .PHONY : homework/3-homework/CMakeFiles/decimal.dir/clean
 
 homework/3-homework/CMakeFiles/decimal.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\git\GitCode\Maxwell E:\git\GitCode\Maxwell\homework\3-homework E:\git\GitCode\Maxwell\cmake-build-debug E:\git\GitCode\Maxwell\cmake-build-debug\homework\3-homework E:\git\GitCode\Maxwell\cmake-build-debug\homework\3-homework\CMakeFiles\decimal.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\CPL\untitled C:\CPL\untitled\homework\3-homework C:\CPL\untitled\cmake-build-debug C:\CPL\untitled\cmake-build-debug\homework\3-homework C:\CPL\untitled\cmake-build-debug\homework\3-homework\CMakeFiles\decimal.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : homework/3-homework/CMakeFiles/decimal.dir/depend
 
