@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.23)
+cmake_minimum_required(VERSION 3.22.1)
 project(untitled C)
 add_subdirectory(homework/1-homework)
 add_subdirectory(class2)
