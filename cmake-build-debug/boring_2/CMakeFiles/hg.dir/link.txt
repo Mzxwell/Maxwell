@@ -1,3 +1,0 @@
-C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\hg.dir/objects.a
-C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\ar.exe qc CMakeFiles\hg.dir/objects.a @CMakeFiles\hg.dir\objects1.rsp
-C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\hg.dir/objects.a -Wl,--no-whole-archive -o hg.exe -Wl,--out-implib,libhg.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\hg.dir\linklibs.rsp

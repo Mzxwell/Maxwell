@@ -1,3 +1,0 @@
-C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\re.dir/objects.a
-C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\ar.exe qc CMakeFiles\re.dir/objects.a @CMakeFiles\re.dir\objects1.rsp
-C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\re.dir/objects.a -Wl,--no-whole-archive -o re.exe -Wl,--out-implib,libre.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\re.dir\linklibs.rsp

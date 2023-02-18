@@ -1,3 +1,0 @@
-C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\cmake\win\x64\bin\cmake.exe -E rm -f CMakeFiles\series.dir/objects.a
-C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\ar.exe qc CMakeFiles\series.dir/objects.a @CMakeFiles\series.dir\objects1.rsp
-C:\CPL\codes\apps\CLion\ch-0\223.8617.54\bin\mingw\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\series.dir/objects.a -Wl,--no-whole-archive -o series.exe -Wl,--out-implib,libseries.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\series.dir\linklibs.rsp
