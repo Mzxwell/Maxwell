@@ -2,6 +2,7 @@
 // Created by Jinx on 2022/11/7.
 //
 #include<stdio.h>
+#include "time.h"
 
 int jsws(long long n);
 
@@ -15,7 +16,7 @@ int main() {
     scanf("%d", &n);
     if (!n)
         printf("fib(0) = 1");
-
+    clock_t beg = clock();
     if (n) {
         while (i < n) {
             if (num[1][0] < 7000000000000000000) {
@@ -58,7 +59,7 @@ int main() {
                         goto done0;
                     }
 
-                    if (num[1][0] > 3500000000000000000 && j == 84999){
+                    if (num[1][0] > 3500000000000000000 && j == 84999) {
                         printf("ERROR");
                         goto done0;
                     }
@@ -86,6 +87,8 @@ int main() {
         }
     }
     done0:;
+    clock_t end = clock();
+    printf("\n%ld", end - beg);
 }
 
 int jsws(long long n) {
