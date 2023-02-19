@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 3.22.1)
 project(untitled C)
+add_executable(main main.c)
 add_subdirectory(homework/1-homework)
 add_subdirectory(class2)
 add_subdirectory(homework/homework2)
