@@ -8,5 +8,5 @@ int main(){
 //    fgets(a, 2, (FILE *) 3);
 //    printf("%s", a);
 int a = 0;
-    printf("%d", ~a);
+    printf("%d", INT_MIN);
 }
