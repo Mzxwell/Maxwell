@@ -3,13 +3,14 @@
 //
 #include <stdio.h>
 #include <stdbool.h>
-
+#include "sys/time.h"
 int main () {
     int n;
     int count = 1;
     int prime[348514] = {2};
+    struct timeval start,end;
     scanf("%d", &n);
-
+    gettimeofday(&start,NULL);
     if (n == 2) {
         printf("1");
     } else {
@@ -27,6 +28,8 @@ int main () {
                 count++;
             }
         }
-        printf("%d", count);
+        printf("%d\n", count);
     }
+    gettimeofday(&end,NULL);
+    printf("%f",(double)(end.tv_sec - start.tv_sec) + (double)(end.tv_usec - start.tv_usec) / 1000000.0);
 }

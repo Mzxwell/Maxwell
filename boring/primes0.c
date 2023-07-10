@@ -3,7 +3,7 @@
 //
 #include <stdio.h>
 #include <stdlib.h>
-
+#include "sys/time.h"
 int countPrimes(int n) {
     if (n <= 1) {
         return 0;
@@ -40,10 +40,12 @@ int countPrimes(int n) {
 
 int main() {
     int n;
+    struct timeval start,end;
     scanf("%d", &n);
-
+    gettimeofday(&start,NULL);
     int primeCount = countPrimes(n);
-    printf("%d",primeCount);
-
+    printf("%d\n",primeCount);
+    gettimeofday(&end,NULL);
+    printf("%f",(double)(end.tv_sec - start.tv_sec) + (double)(end.tv_usec - start.tv_usec) / 1000000.0);
     return 0;
 }
