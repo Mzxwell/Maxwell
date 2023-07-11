@@ -11,7 +11,7 @@ int main() {
     memset(a, '\0', 10);
     memset(b, '\0', 10);
     a = "sdffs";
-//    printf("%c", *(a + 1));
+//    printf("%c", *(a0 + 1));
     while ((*++c = *++a));
     printf("%s", b + 1);
 }

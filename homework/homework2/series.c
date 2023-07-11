@@ -16,5 +16,5 @@ int main(){
 
     return 0;
 }
-//double a=pow(-1,3);
-//printf("%lf",a);
+//double a0=pow(-1,3);
+//printf("%lf",a0);

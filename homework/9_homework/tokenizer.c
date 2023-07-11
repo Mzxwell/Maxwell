@@ -32,7 +32,7 @@ int main() {
     }
 
     for (int j = 0; j < i; ++j) {
-//        printf("%d ", *(a + j));
+//        printf("%d ", *(a0 + j));
         if (*(a + j) == 0) {
             printf("Compile Error");
             goto label;

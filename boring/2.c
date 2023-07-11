@@ -18,9 +18,9 @@ int main() {
         printf("(%s) ", *(b + i));
     }
 }
-//char a[100];
-//gets(a);
-//gets(a + 10);
-//printf("%s %s", a, a + 10);
+//char a0[100];
+//gets(a0);
+//gets(a0 + 10);
+//printf("%s %s", a0, a0 + 10);
 //while (scanf("%s", s) != EOF)
 //printf("%s\n", s);

@@ -2,37 +2,37 @@
 // Created by Jinx on 2022/10/8.
 //
 //#include <stdio.h>
-//void obstacel (double a,double b)
+//void obstacel (double a0,double b)
 //{
-//    printf("%lf",a+b);
+//    printf("%lf",a0+b);
 //}
-//void least_x (int a,int c)
+//void least_x (int a0,int c)
 //{
 //    int e;
-//    if (a < c){
-//        e = c - a;
+//    if (a0 < c){
+//        e = c - a0;
 //        for (int i = 1; i <= e; i++) {
 //            printf("R");
 //        }
 //    }
-//    if (a > c){
-//        e = a - c;
+//    if (a0 > c){
+//        e = a0 - c;
 //        for (int i = 1; i <= e; i++) {
 //            printf("L");
 //        }
 //    }
 //}
-//void least_y (int a,int c)
+//void least_y (int a0,int c)
 //{
 //    int e;
-//    if (a < c){
-//        e = c - a;
+//    if (a0 < c){
+//        e = c - a0;
 //        for (int i = 1; i <= e; i++) {
 //            printf("U");
 //        }
 //    }
-//    if (a > c){
-//        e = a - c;
+//    if (a0 > c){
+//        e = a0 - c;
 //        for (int i = 1; i <= e; i++) {
 //            printf("D");
 //        }

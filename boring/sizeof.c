@@ -9,6 +9,6 @@
 int main(){
     char *a = (char *)malloc(50000000);
     a[49999999]=50;
-    printf("%llu", sizeof (bool));
+    printf("%llu ", sizeof (char *));
     printf("%c", a[49999999]);
 }

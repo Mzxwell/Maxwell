@@ -7,7 +7,7 @@
 int jsws(long long n);
 
 int main() {
-    printf("Enter a number n to calculate fib(n):\n");
+    printf("Enter a0 number n to calculate fib(n):\n");
     int n, i = 0, j = 0, b = 0;
     long long num[3][85000] = {{1},
                                {1},

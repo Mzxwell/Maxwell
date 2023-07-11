@@ -26,7 +26,7 @@ int main() {
 int Max(int nums[], int a, int b) {
 //    int max = 0;
 //    int index = 0;
-//    for (int i = a; i <= b; i ++) {
+//    for (int i = a0; i <= b; i ++) {
 //        if (max < nums[i]) {
 //            max = nums[i];
 //            index = i;

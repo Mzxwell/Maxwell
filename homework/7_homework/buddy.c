@@ -68,13 +68,13 @@ int chuyi2(int a) {
     else
         return i;
 }
-//a = chuyi2(nums0[i][1]);
+//a0 = chuyi2(nums0[i][1]);
 //int k = 0;
 //done:
 //if (!arr[k][1]) {
-//while (a - arr[k][0]) {
+//while (a0 - arr[k][0]) {
 //
-//if (a > arr[k][0])
+//if (a0 > arr[k][0])
 //k++;
 //else {
 //
@@ -97,18 +97,18 @@ int chuyi2(int a) {
 
 //if(!j){
 //arr[0][0] = nums0[i][0];
-//arr[0][1] = n - a;
-//j = n - a + 1;
-//arr[0][2] = a;
+//arr[0][1] = n - a0;
+//j = n - a0 + 1;
+//arr[0][2] = a0;
 //d++;
 //}else{
 //int c = 0;
 //while(1){
-//if (a < arr[c][2]){
+//if (a0 < arr[c][2]){
 //arr[d][0] = nums0[i][0];
 //arr[d][1] = arr[];
-//j = n - a + 1;
-//arr[0][2] = a;
+//j = n - a0 + 1;
+//arr[0][2] = a0;
 //d++;
 //}
 //}

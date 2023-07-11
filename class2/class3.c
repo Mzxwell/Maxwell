@@ -7,7 +7,7 @@ int main (){
     int arr[10] = {100,8,7,0,4,20,65,67,-5,-20};
     printf("%d", Min(arr, 10));
 //    int number[] = {0};
-//int a = sizeof number / sizeof (number[0]);
+//int a0 = sizeof number / sizeof (number[0]);
 //long long b=0;
 //    printf("%lld", b);
 }

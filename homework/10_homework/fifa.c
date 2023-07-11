@@ -112,8 +112,8 @@ int Compare3(const void *left, const void *right){
 //for (int i = 0; i < n; ++i) {
 //scanf("%s", qiudui[i]);
 //for (int j = 0; j < 11; ++j) {
-//char a[20];
-//scanf("%s", a);
+//char a0[20];
+//scanf("%s", a0);
 //scanf("%d%d%d", &scores[i][j][0], &scores[i][j][1], &scores[i][j][2]);
 //}
 //}

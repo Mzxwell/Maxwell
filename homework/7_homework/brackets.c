@@ -48,19 +48,19 @@ int main() {
 
 //for(int i = 0; i < T; i ++)
 //{
-//int j = 0, a = 0;
+//int j = 0, a0 = 0;
 //while (kuohao[i][j] != '\0')
 //{
 //c = kuohao[i][j];
-//while (kuohao[i][a] != '\0')
+//while (kuohao[i][a0] != '\0')
 //{
-//if (c == kuohao[i][a] + 1 || c == kuohao[i][a] + 2)
+//if (c == kuohao[i][a0] + 1 || c == kuohao[i][a0] + 2)
 //{
-//kuohao[i][a] = '\0';
+//kuohao[i][a0] = '\0';
 //kuohao[i][j] = '\0';
 //break;
 //}
-//a++;
+//a0++;
 //}
 //}
 //}

@@ -27,8 +27,8 @@ int main(){
 //    printf("%d\n", count);
 //}
 //    int n = 10001;
-//    int a;
-//    a = n / 2;
+//    int a0;
+//    a0 = n / 2;
 //    scanf("%n",&n);
 //    n=n+1;
 //    printf("%d",n);

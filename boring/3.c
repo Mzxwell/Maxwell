@@ -4,9 +4,9 @@
 #include "stdio.h"
 #include "stdlib.h"
 int main(){
-//    char *a = malloc(100 * sizeof (*a));
-//    fgets(a, 2, (FILE *) 3);
-//    printf("%s", a);
+//    char *a0 = malloc(100 * sizeof (*a0));
+//    fgets(a0, 2, (FILE *) 3);
+//    printf("%s", a0);
 int a = 0;
     printf("%d", INT_MIN);
 }

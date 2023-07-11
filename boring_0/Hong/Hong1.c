@@ -4,14 +4,14 @@
 
 #include "stdio.h"
 
-//#define A(a) a
+//#define A(a0) a0
 //
-//#if (A(a) > 1)
-//#define B() printf("%d > 1", A(a))
-//#elif (A(a) == 1)
-//#define B() printf("%d = 1", A(a))
+//#if (A(a0) > 1)
+//#define B() printf("%d > 1", A(a0))
+//#elif (A(a0) == 1)
+//#define B() printf("%d = 1", A(a0))
 //#else
-//#define B() printf("%d < 1", A(a))
+//#define B() printf("%d < 1", A(a0))
 //#endif
 
 #define A SEGMENTATION_FAULT
@@ -25,9 +25,9 @@
 #endif
 
 int main(){
-//    int a;
-//    scanf("%d", &a);
-//    A(a);
+//    int a0;
+//    scanf("%d", &a0);
+//    A(a0);
 //    B();
     B();
 }

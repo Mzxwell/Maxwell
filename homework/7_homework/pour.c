@@ -34,27 +34,27 @@ int PourOnce(int a, int b, int V) {
     return ((a + b) > V) ? V : (a + b);
 }
 
-//if (nums[a][1] + nums[a][2] > VA){
-//nums[a][1] = VA;
-//nums[a][2] = 0;
+//if (nums[a0][1] + nums[a0][2] > VA){
+//nums[a0][1] = VA;
+//nums[a0][2] = 0;
 //}else{
-//nums[a][1] += nums[a][2];
+//nums[a0][1] += nums[a0][2];
 //
 //}
 //int pour(int nums[][12000][4], int i, int j){
 //    if(!i)
 //        return 1;
 //    int b = pour(nums, i - 1, p);
-//    for(int a = 0; a < b; a ++){
-//        nums[i][a][0] =
+//    for(int a0 = 0; a0 < b; a0 ++){
+//        nums[i][a0][0] =
 //    }
 //}
-//if(a + nums[a][2] > VB)
-//nums[a + 1][2] = VB;
+//if(a0 + nums[a0][2] > VB)
+//nums[a0 + 1][2] = VB;
 //else
-//nums[a + 1][2] = nums[a][1] + nums[a][2];
+//nums[a0 + 1][2] = nums[a0][1] + nums[a0][2];
 //
-//if(nums[a][1] + nums[a][3] > VC)
-//nums[a + 1][2] = VB;
+//if(nums[a0][1] + nums[a0][3] > VC)
+//nums[a0 + 1][2] = VB;
 //else
-//nums[a + 1][2] = nums[a][1] + nums[a][2];
+//nums[a0 + 1][2] = nums[a0][1] + nums[a0][2];

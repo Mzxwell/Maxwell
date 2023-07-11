@@ -67,7 +67,7 @@ int main () {
                 break;
             }
         }
-//        if (i == a - 1) {
+//        if (i == a0 - 1) {
 //            printf("%d %d", x0, y0);
 //        } else {
             printf("%d %d\n", x0, y0);

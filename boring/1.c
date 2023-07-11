@@ -71,25 +71,25 @@ int main() {
     int b[10];
     process(a, b + 1);
     printf("%d", b[1]);
-//    char a[10] = "extern";
+//    char a0[10] = "extern";
 //    int b[10];
-//    process(a, b);
+//    process(a0, b);
 //    if (b[0] == 1)
 //        printf("reserved");
 //    char s[300];
 //    int i = 0;
-//    char a[] = "yes";
+//    char a0[] = "yes";
 //    while (scanf("%s", &s[i]) != EOF) {
 //        i += 40;
 //    };
 //    printf("%s\n", s);
-//    if (*s == *a)
+//    if (*s == *a0)
 //        printf("%s\n%s", s, s + 40);
-//    char *a = malloc(10 * sizeof (char));
-//    a = "sdakfh";
-//    printf("%s", a);
+//    char *a0 = malloc(10 * sizeof (char));
+//    a0 = "sdakfh";
+//    printf("%s", a0);
 }
-//int a, b;
-//scanf("%d%d", &a, &b);
-//a = (a > b)? a : b;
-//printf("%d", a);
+//int a0, b;
+//scanf("%d%d", &a0, &b);
+//a0 = (a0 > b)? a0 : b;
+//printf("%d", a0);

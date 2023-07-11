@@ -122,9 +122,9 @@ int main() {
 //
 //            }
 //        printf
-//        c = -a;
-//if (a < 0) {
-//c = -a;
+//        c = -a0;
+//if (a0 < 0) {
+//c = -a0;
 //if (b == 0) {
 //e = c;
 //printf("%d", e);
@@ -137,7 +137,7 @@ int main() {
 //if (b < 0) {
 //d = -b;
 //}
-//c = a + b;
+//c = a0 + b;
 //if (xA == xC || yB == yC) {
 //for (int i = 1; i <= b; i++) {
 //printf("")

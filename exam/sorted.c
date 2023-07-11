@@ -28,7 +28,7 @@ int main() {
     for (int i = 0; i < T; ++i) {
         for (int j = 0; j < n[i] - 1; ++j) {
             if(n_arr[i][j] > n_arr[i][j + 1]){
-                printf("mayi is a good teacher\n");
+                printf("mayi is a0 good teacher\n");
                 break;
             }
             if(j == n[i] - 2){
