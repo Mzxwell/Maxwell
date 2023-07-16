@@ -9,7 +9,7 @@
 int main(){
     char *a = (char *)malloc(50000000);
     a[49999999]=50;
-    printf("%llu %llu %llu %llu %llu ", sizeof (char ***),sizeof (int ***), sizeof(double **), sizeof(double *),
-           sizeof(double ));
+    printf("%llu %llu %llu %llu %llu %llu ", sizeof (char ***),sizeof (int ***), sizeof(double **), sizeof(double *),
+           sizeof(double ),sizeof (int*));
     printf("%c", a[49999999]);
 }
